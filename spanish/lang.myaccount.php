@@ -1,575 +1,584 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"delete_member" =>
-"Borra miembro",
+'delete_member' => 
+'Borrar Miembro',
 
-"disallowed_screen_chars" =>
-"El Nombre de Pantalla contiene caracteres inválidos",
+'disallowed_screen_chars' => 
+'Nombre de Pantalla contiene caracteres ilegales',
 
-"notify_of_pm" =>
-"Notifícame por email cuando alguien me envíe un mensaje privado",
+'notify_of_pm' => 
+'Notificarme por correo cuando alguien me envia un mensaje privado',
 
-"weblog_preferences" =>
-"Ajustes del Weblog",
+'channel_preferences' => 
+'Configuración de Canal',
 
-"forum_post" =>
-"Tema de Foro",
+'forum_post' => 
+'Tema de Foro',
 
-"existing_password_exp" =>
-"Debes introducir tu contraseña para poder actualizar esta página",
+'existing_password_exp' => 
+'Debes enviar la contraseña actual para actualizar esta página',
 
-"password_change_exp" =>
-"Déjalo en blanco si no quieres cambiarlo",
+'password_change_exp' => 
+'Dejar vacio si no deseas cambiarla',
 
-"language" =>
-"Selecciona un idioma",
+'language' => 
+'Seleccionar Lenguaje',
 
-"notepad_blurb" =>
-"Usa este formulario para guardar notas e información personal",
+'notepad_blurb' => 
+'Utiliza este formulario para guardar notas personales e información',
 
-"subscriptions" =>
-"Administrador de subscripción",
+'subscriptions' => 
+'Gestor de Suscripciones',
 
-"utilities" =>
-"Utilidades",
+'utilities' => 
+'Utilidades',
 
-"total_forum_topics" =>
-"Total temas de Foro",
+'total_forum_topics' => 
+'Total de Temas de Foro',
 
-"total_forum_posts" =>
-"Total posts de Foro",
+'total_forum_posts' => 
+'Total de Mensajes de Foro',
 
-"total_forum_replies" =>
-"Total respuestas de foro",
+'total_forum_replies' => 
+'Total de Respuestas de Foro',
 
-"last_forum_post_date" =>
-"Post de foro más reciente",
+'last_forum_post_date' => 
+'Mensajes de Foro Mas Reciente',
 
-"tab_manager" =>
-"Administrador de pestañas",
+'tab_manager' => 
+'Gestor de Fichas',
 
-"only_self_tab_manager_access" =>
-"No tienes permisos necesario para acceder al administrador de pestañas de otro miembro",
+'only_self_tab_manager_access' => 
+'No puedes accesar el gestor de fichas de otro miembro',
 
-"tab_manager_updated" =>
-"El administrador de pestañas ha sido actualizado",
+'tab_manager_updated' => 
+'Gestor de Ficha ha sido actualizado',
 
-"tab_manager_description" =>
-"Esta página te permite añadir tus propias pestañas en el menú principal del Panel de Control. Las pestañas que añadas serán visible sólo para ti.",
+'tab_manager_description' => 
+'Esta página te permite gestionar tus fichas en la navegación principal del panel de control. Las fichas solo pueden ser vistas por ti.',
 
-"tab_manager_description_more" =>
-"Nota: No puedes crear una pestaña para páginas de primer nivel ya que estas ya existen.",
+'tab_manager_description_more' => 
+'Nota: No puedes crear fichas para páginas de primer nivel ya que una ficha para ellas ya existe.',
 
-"tab_manager_instructions" =>
-"Para añadir una pestaña nueva, primero visita la página de destino y luego clicka en el enlace &quot;Nueva Pestaña&quot; a la esquina superior derecha de la página.
-",
+'tab_manager_instructions' => 
+'Para agregar una ficha, primero visita la página de destino, luego haz click en &quot;Agregar Ficha&quot; en la parte superior derecha de la página.',
 
-"tab_manager_newlink" =>
-"Añadir nueva pestaña",
+'tab_manager_newlink' => 
+'Agregar una Ficha nueva',
 
-"tab_manager_existing" =>
-"Pestañas personalizadas actuales",
+'tab_manager_existing' => 
+'Fichas Personalizadas Actuales',
 
-"tab_manager_newlink_title" =>
-"Nombre de tu nueva pestaña",
+'tab_manager_newlink_title' => 
+'Nombre de tu Ficha nueva',
 
-"tab_title" =>
-"Pestañas actuales",
+'tab_title' => 
+'Fichas Actuales',
 
-"tab_manager_create_new" =>
-"Crea una pestaña nueva",
+'tab_manager_create_new' => 
+'Crear una Ficha Nueva',
 
-"new_tab_title" =>
-"Título de la pestaña nueva",
+'new_tab_title' => 
+'Nombre de Ficha Nueva',
 
-"tab_url" =>
-"Pestaña URL",
+'tab_url' => 
+'URL de Ficha',
 
-"can_not_edit" =>
-"(no se puede cambiar)",
+'can_not_edit' => 
+'(no puede ser alterado)',
 
-"new_tab_url" =>
-"URL Nueva Pestaña",
+'new_tab_url' => 
+'URL de Ficha Nueva',
 
-"tab_order" =>
-"Ordenar",
+'tab_order' => 
+'Orden',
 
-"member_preferences" =>
-"Preferencias de miembros",
+'member_preferences' => 
+'Preferencias de Miembro',
 
-"member_email" =>
-"Enviar email a un miembro",
+'member_email' => 
+'Enviar Correo a Miembro',
 
-"image_gallery" =>
-"Galería de fotos",
+'image_gallery' => 
+'Galeria de Fotos',
 
-"no_subscriptions" =>
-"No tienes ninguna subscripción",
+'no_subscriptions' => 
+'Actualmente no tienes suscripciones',
 
-"type" =>
-"Tipo",
+'type' => 
+'Tipo',
 
-"title" =>
-"Título",
+'title' => 
+'Título',
 
-"unsubscribe" =>
-"Borra subscripción",
+'unsubscribe' => 
+'Descuscribir',
 
-"subscriptions_removed" =>
-"Las subscripciones han sido eliminadas",
+'subscriptions_removed' => 
+'Suscripciones han sido removidas',
 
-"comment" =>
-"Comentar",
+'comment' => 
+'Comentario',
 
-"localization_is_site_default" =>
-"¿Usar los parámetros de localización de este miembro como los parámetros por defecto del sitio maestro?",
+'localization_is_site_default' => 
+'Utilizar la configuración de localización de este miembro como la predeterminada?',
 
-"preferences_updated" =>
-"Preferencias actualizadas",
+'preferences_updated' => 
+'Preferencias Actualizadas',
 
-"homepage_preferences" =>
-"Preferencias de la página de inicio",
+'homepage_preferences' => 
+'Preferencias de Página de Inicio',
 
-"set_display_order" =>
-"Orden de visualización",
+'set_display_order' => 
+'Establecer Orden de Presentación',
 
-"please_update_order" =>
-"Por favor ajusta el orden de visualización",
+'please_update_order' => 
+'Por favor establece el orden de presentación de los artículos',
 
-"left_column" =>
-"Columna de la izquierda",
+'left_column' => 
+'Columna Izquierda',
 
-"right_column" =>
-"Columna de la derecha",
+'right_column' => 
+'Columna Derecha',
 
-"do_not_show" =>
-"No mostrar",
+'do_not_show' => 
+'No Mostrar',
 
-"recent_entries" =>
-"Entradas al weblog más recientes",
+'recent_entries' => 
+'Entras de canal mas recientes',
 
-"recent_comments" =>
-"Comentarios más recientes",
+'recent_comments' => 
+'Comentarios mas recientes',
 
-"recent_members" =>
-"Los 10 miembros registrados más recientemente",
+'recent_members' => 
+'Las diez registraciones de miembros mas nuevas',
 
-"new_release_indicator" =>
-"Indicador de nueva versión de software",
+'new_release_indicator' => 
+'Indicador de nueva version de software',
 
-"site_statistics" =>
-"Estadísticas del sitio",
+'site_statistics' => 
+'Estadísticas del Sitio',
 
-"member_search_form" =>
-"Búsqueda de miembro",
+'member_search_form' => 
+'Formulario de búsqueda de miembro',
 
-"validating_members" =>
-"Miembros que esperan la activación",
+'validating_members' => 
+'Miembros esperando activación',
 
-"php_sql_versions" =>
-"Versiones PHP/SQL",
+'php_sql_versions' => 
+'Version de PHP/SQL',
 
-"system_offline_indicator" =>
-"Indicador de sistema offline",
+'system_offline_indicator' => 
+'Indicador de sistema apagado',
 
-"personal_settings" =>
-"Ajustes personales",
+'personal_settings' => 
+'Configuraciones Personales',
 
-"control_panel_settings" =>
-"Personalización del Panel de Control",
+'control_panel_settings' => 
+'Personalización de Panel de Control',
 
-"administrative_settings" =>
-"Ajustes de Administrador",
+'administrative_settings' => 
+'Configuración de Admin',
 
-"current_member" =>
-"Miembro:",
+'current_member' => 
+'Miembro:',
 
-"member_stats" =>
-"Estadísticas de cuenta para:",
+'member_stats' => 
+'Estadísticas de Cuenta Para:',
 
-"join_date" =>
-"Fecha de inicio",
+'join_date' => 
+'Fecha de Registración',
 
-"last_visit" =>
-"Última visita",
+'last_visit' => 
+'Ultima Visita',
 
-"total_entries" =>
-"Total entradas de weblog",
+'total_entries' => 
+'Total de Entradas de Canal',
 
-"last_entry_date" =>
-"Fecha de la entrada más reciente",
+'last_entry_date' => 
+'Fecha de Entrada Mas Reciente',
 
-"total_comments" =>
-"Total comentarios",
+'total_comments' => 
+'Total de Comentarios',
 
-"last_comment_date" =>
-"Fecha del comentario más reciente",
+'last_comment_date' => 
+'Fecha de Comentario Mas Reciente',
 
-"notepad" =>
-"Bloc de notas",
+'can_not_view_superadmin_profile' => 
+'No puedes ver el perfil de un Super Admin',
 
-"can_not_view_superadmin_profile" =>
-"No puedes ver el perfil de un Super Admin",
+'only_self_notpad_access' => 
+'No puedes accesar el block de notas de otros miembros',
 
-"only_self_notpad_access" =>
-"No tienes acceso al bloc de notas de otro miembro",
+'notepad_size' => 
+'Tamaño del Block de Notas',
 
-"notepad_size" =>
-"Tamaño del bloc de notas",
+'notepad_updated' => 
+'Block de Notas Actualizado',
 
-"notepad_updated" =>
-"Bloc de notas actualizado",
+'localization_settings' => 
+'Configuración de Localización',
 
-"localization_settings" =>
-"Ajustes de localización",
+'localization_updated' => 
+'Localization Actualizada',
 
-"localization_updated" =>
-"Localización actualizada",
+'daylight_savings_time' => 
+'Horario de Verano',
 
-"daylight_savings_time" =>
-"Horario de verano",
+'timezone' => 
+'Selecciona la Zona Horario',
 
-"timezone" =>
-"Selecciona franja horaria",
+'username_and_password' => 
+'Usuario y Contraseña',
 
-"username_and_password" =>
-"Nombre de usuario y contraseña",
+'extras' => 
+'Extras',
 
-"extras" =>
-"Extras",
+'edit_profile' => 
+'Editar Perfil',
 
-"edit_profile" =>
-"Editar perfil",
+'profile_form' => 
+'Formulario de Perfil',
 
-"profile_form" =>
-"Editar perfil",
+'base_profile' => 
+'Perfil Base',
 
-"base_profile" =>
-"Perfil base",
+'extended_profile' => 
+'Perfil Extendido',
 
-"extended_profile" =>
-"Perfil extendido",
+'localization' => 
+'Configuración de Localización',
 
-"localization" =>
-"Ajustes de localización",
+'time_format' => 
+'Formato de Tiempo',
 
-"time_format" =>
-"Formato horario",
+'united_states' => 
+'Estados Unidos',
 
-"united_states" =>
-"United States",
+'european' => 
+'Europeo',
 
-"european" =>
-"Europeo",
+'your_ping_servers' => 
+'Servidores de Ping',
 
-"your_ping_servers" =>
-"Servidores Ping",
+'your_html_buttons' => 
+'Botones de Formato HTML',
 
-"your_html_buttons" =>
-"Botones de formato HTML",
+'change_password' => 
+'Cambiar Contraseña',
 
-"change_password" =>
-"Cambiar contraseña",
+'email_settings' => 
+'Configuración de Correo',
 
-"email_settings" =>
-"Ajustes de email",
+'email_options' => 
+'Opciones',
 
-"edit_subscriptions" =>
-"Ver subscripciones",
+'edit_subscriptions' => 
+'Ver Suscripciones',
 
-"customize_homepage" =>
-"Personalizar la página de inicio del Panel de Control",
+'customize_homepage' => 
+'Personalizar Página de Inicio de Panel de Control',
 
-"customize_cp" =>
-"Personalizar el Panel de Control",
+'customize_cp' => 
+'Personalizar Panel de Control',
 
-"cp_homepage" =>
-"Página de inicio del Panel de Control",
+'cp_homepage' => 
+'Página de Inicio de Panel de Control',
 
-"cp_theme" =>
-"Tema del Panel de Control",
+'cp_theme' => 
+'Tema de Panel de Control',
 
-"choose_theme" =>
-"Selecciona tema del Panel de Control",
+'myaccount_cp_theme' => 
+'Tema de Panel de Control',
 
-"administrative_options" =>
-"Administración de Miembros",
+'choose_theme' => 
+'Escoge Tema de Panel de Control',
 
-"administrative_options_updated" =>
-"Opciones administrativs actualizadas",
+'administrative_options' => 
+'Administración de Miembros',
 
-"screen_name" =>
-"Nombre de Pantalla",
+'administrative_options_updated' => 
+'Opciones Administrativas Actualizadas',
 
-"email" =>
-"Dirección de correo",
+'screen_name' => 
+'Nombre de Pantalla',
 
-"url" =>
-"URL",
+'email' => 
+'Dirección de Correo Electrónico',
 
-"bio" =>
-"Bio",
+'email_confirm' => 
+'Confirmar Dirección de Correo Electrónico',
 
-"birthday" =>
-"Fecha de nacimiento",
+'url' => 
+'URL',
 
-"year" =>
-"Año",
+'bio' => 
+'Bio',
 
-"month" =>
-"Mes",
+'birthday' => 
+'Fecha de Nacimiento',
 
-"day" =>
-"Día",
+'year' => 
+'Año',
 
-"accept_admin_email" =>
-"Aceptar emails de los administradores",
+'month' => 
+'Mes',
 
-"accept_user_email" =>
-"Aceptar emails de otros miembros de este sitio",
+'day' => 
+'Dia',
 
-"notify_by_default" =>
-"Activar las notificaciones por email por defecto cuando cuelgas un mensaje",
+'accept_admin_email' => 
+'Aceptar correos de administradores del sitio',
 
-"location" =>
-"Localización",
+'accept_user_email' => 
+'Aceptar correos de otros miembros del sitio',
 
-"occupation" =>
-"Ocupación",
+'notify_by_default' => 
+'Habilitar notificiaciones por correo como predeterminado cuando envias mensajes',
 
-"interests" =>
-"Interés",
+'location' => 
+'Ubicación',
 
-"icq" =>
-"ICQ",
+'occupation' => 
+'Ocupación',
 
-"aol_im" =>
-"AOL IM",
+'interests' => 
+'Intereses',
 
-"yahoo_im" =>
-"Yahoo IM",
+'icq' => 
+'ICQ',
 
-"msn_im" =>
-"MSN IM",
+'aol_im' => 
+'AOL IM',
 
-"user_ip_address" =>
-"Dirección IP:",
+'yahoo_im' => 
+'Yahoo IM',
 
-"member_group_assignment" =>
-"Asignación de Grupo de miembros",
+'msn_im' => 
+'MSN IM',
 
-"member_group_warning" =>
-"Ten cuidado asignando esto",
+'user_ip_address' => 
+'Dirección IP',
 
-"include_in_multiauthor_list" =>
-"¿Incluir el usuario en la lista multi-autor de la página PUBLICAR?",
+'member_group_assignment' => 
+'Asignación de Grupo de Miembro',
 
-"profile_updated" =>
-"Perfil Actualizado",
+'member_group_warning' => 
+'Ten mucho cuidado asignando esto',
 
-"super_admin_demotion_alert" =>
-"Como Super Admin, no tienes permisos para cambiar las asignaciones de grupos de miembros",
+'include_in_multiauthor_list' => 
+'Incluir usuario en lista de multi-autor en página PUBLICAR',
 
-"username" =>
-"Nombre de usuario",
+'profile_updated' => 
+'Perfil Actualizado',
 
-"username_change_not_allowed" =>
-"Los administradores no permiten cambios de nombre de usuarios",
+'super_admin_demotion_alert' => 
+'Como un Super Admin, no tienes permitido cambiar tu asignación de gurpo de miembro',
 
-"password" =>
-"Contraseña",
+'username' => 
+'Nombre de Usuario',
 
-"password_change" =>
-"Cambio de contraseña",
+'username_change_not_allowed' => 
+'Los administradores no permiten cambios de nombre de usuario',
 
-"new_password" =>
-"Contraseña nueva",
+'password' => 
+'Contraseña',
 
-"password_confirm" =>
-"Confirmar contraseña",
+'password_change' => 
+'Formulario de Cambio de Contraseña',
 
-"new_password_confirm" =>
-"Confirmar contraseña nueva",
+'new_password' => 
+'Contraseña Nueva',
 
-"existing_password" =>
-"Contraseña actual",
+'password_confirm' => 
+'Confirmar Contraseña',
 
-"invalid_email_address" =>
-"La dirección de correo introducida no es válida",
+'new_password_confirm' => 
+'Confirmar Contraseña Nueva',
 
-"missing_username" =>
-"Debes introducir un nombre de usuario",
+'existing_password' => 
+'Contraseña Actual',
 
-"invalid_characters_in_username" =>
-"El nombre de usuario contiene caracteres no válidos.",
+'invalid_email_address' => 
+'El correo que has enviado no es valido',
 
-"missing_password" =>
-"Debes introducir una contraseña",
+'missing_username' => 
+'Debes enviar un nombre de usuario',
 
-"missing_current_password" =>
-"Para poder hacer cambio debes introducir tu contraseña actual",
+'invalid_characters_in_username' => 
+'Nombre de usuario contiene caracteres ilegales.',
 
-"password_in_dictionary" =>
-"No se pueden usar palabras de diccionario como contraseña",
+'missing_password' => 
+'Debes enviar una contraseña',
 
-"not_secure_password" =>
-"La contraseña debe contener por lo menos, una mayúscula, una minúscula y un número",
+'missing_current_password' => 
+'Para poder hacer cambios debes enviar tu contraseña',
 
-"invalid_password" =>
-"La contraseña introducida no es correcta",
+'password_in_dictionary' => 
+'No tienes permitido utilizar una palabra que se encuentra en el dictionario como contraseña',
 
-"missing_email" =>
-"Debes introducir una dirección de email",
+'not_secure_password' => 
+'Contraseña debe contener al menos un caracter en mayúscula, uno minúscula y un número',
 
-"banned_email" =>
-"Tu dirección de email ha sido excluida",
+'invalid_password' => 
+'La contraseña que has enviado no es correcta',
 
-"missmatched_passwords" =>
-"Tu contraseña y la confirmación de la contraseña no son iguales",
+'missing_email' => 
+'Debes enviar una dirección de correo electrónico',
 
-"username_too_short" =>
-"El nombre de usuario debe tener por lo menos %x caracteres",
+'banned_email' => 
+'La dirección de correo electrónico que has enviado esta blokeada',
 
-"password_too_short" =>
-"La contraseña debe tener por lo menos %x caracteres",
+'missmatched_passwords' => 
+'La constraseña y confirmación de contraseña no coinciden',
 
-"username_password_too_long" =>
-"Los nombres de usuario y contraseñas no pueden tener más de 32 caracteres",
+'username_too_short' => 
+'El usuario que has enviado debe tener al menos %x caracteres',
 
-"username_taken" =>
-"El nombre de usuario que has elegido no está disponible",
+'password_too_short' => 
+'La contraseña que has enviado debe tener al menos %x caracteres',
 
-"screen_name_taken" =>
-"El nombre de pantalla que has elegido no está disponible",
+'username_password_too_long' => 
+'Usuario y contraseñas no pueden tener mas de 32 caracteres',
 
-"email_taken" =>
-"La dirección de correo que no es elegido no está disponible",
+'username_taken' => 
+'El nombre de usuario que has elegido no está disponible',
 
-"password_based_on_username" =>
-"La contraseña no puede estar basada en el nombre de usuario",
+'screen_name_taken' => 
+'El nombre de pantalla que has escogido no está disponible',
 
-"username_changed" =>
-"El nombre de usuario ha sido cambiado a:",
+'email_taken' => 
+'El correo que has elegido no está disponible',
 
-"screen_name_changed" =>
-"El nombre de pantalla ha sido cambiado a:",
+'valid_user_email' => 
+'El correo que has elegido no es valido',
 
-"email_changed" =>
-"La dirección de correo se cambió a:",
+'password_based_on_username' => 
+'La contraseña no puede ser basada en el nombre de usuario',
 
-"password_change_requires_login" =>
-"Nota: Si cambias tu contraseña tendrás que volver a iniciar sesión",
+'username_changed' => 
+'Nombre de usuario cambiado a:',
 
-"settings_updated" =>
-"Los ajustes han sido actualizados ",
+'screen_name_changed' => 
+'Nombre de pantalla cambiado a:',
 
-"new_member_added" =>
-"Perfil de miembro creado:",
+'email_changed' => 
+'Correo cambiado a:',
 
-"password_change_warning" =>
-"Nota: Has cambiado tu contraseña, así que tendrás que volver a iniciar la sesión",
+'password_change_requires_login' => 
+'Nota: Si cambias tu contraseña deberas acceder de nuevo',
 
-"ping_servers" =>
-"Servidores Ping",
+'settings_updated' => 
+'La Configuración Ha Sido Actualizada',
 
-"pingservers_updated" =>
-"Servidores Ping actualizados",
+'new_member_added' => 
+'Perfil de miembro creado:',
 
-"html_buttons" =>
-"Botones de Formato THML",
+'password_change_warning' => 
+'Nota: Has cambiado tu contraseña entonces debes acceder de nuevo.',
 
-"html_buttons_updated" =>
-"Botones HTML actualizados",
+'ping_servers' => 
+'Ping Servers',
 
-"quick_links" =>
-"Enlaces Rápidos",
+'pingservers_updated' => 
+'Ping Servers Updated',
 
-"only_self_qucklink_access" =>
-"No tienes permisos para acceder a los Enlaces Rápidos de otro miembro",
+'html_buttons' => 
+'Botones de Formato HTML',
 
-"quicklinks_updated" =>
-"Los Enlaces Rápidos se han actualizado",
+'html_buttons_updated' => 
+'Botones de Formato HTML Actualizados',
 
-"quick_link_description" =>
-"Usa este formulario para añadir enlaces personales en la barra de herramientas superior.",
+'only_self_qucklink_access' => 
+'No tienes permiso para accesar los Enlaces Rápidos de otro usuario',
 
-"quick_link_description_more" =>
-"Estos enlaces sólo serán visibles para ti.",
+'quicklinks_updated' => 
+'Enlaces Rápidos Han Sido Actualizados',
 
-"quicklinks_delete_instructions" =>
-"Para borrar un elemento envía el formulario con el título en blanco.",
+'quick_link_description' => 
+'Utiliza este formulario para agregar enlaces personales a la barra lateral.',
 
-"link_title" =>
-"Título de Enlace",
+'quick_link_description_more' => 
+'Estos enlaces solo serán visibles a ti.',
 
-"link_url" =>
-"URL de Enlace",
+'quicklinks_delete_instructions' => 
+'Para borrar un artículo envia el formulario con el título vacio.',
 
-"link_order" =>
-"Orden",
+'link_title' => 
+'Título de Enlace',
 
-"no_extended_fields" =>
-"Actualmente no hay campos de perfil de miembro extendido",
+'link_url' => 
+'URL de Enlace',
 
-"bookmarklet" =>
-"Marcador",
+'link_order' => 
+'Orden',
 
-"bookmarklet_created" =>
-"Marcador creado",
+'no_extended_fields' => 
+'Actualmente no hay campos de perfil extendido',
 
-"bookmarklet_info" =>
-"Un marcador te permite añadir entradas en tu weblog sin tener que iniciar sesión en el panel de control.",
+'bookmarklet' => 
+'Bookmarklet',
 
-"consult_manual" =>
-"Por favor consulta la guía de usuario para más información.",
+'bookmarklet_created' => 
+'Bookmarklet Created',
 
-"bookmarklet_name" =>
-"Nombra el marcador",
+'bookmarklet_info' => 
+'A bookmarklet allows you to add entries to your channel without logging into the full control panel.',
 
-"single_word_no_spaces" =>
-"una sola palabra, sin espacios",
+'consult_manual' => 
+'Por favor consulta la guia de usuario para mas información.',
 
-"weblog_name" =>
-"Elige el weblog al que quieres que se añadan las entradas",
+'bookmarklet_name' => 
+'Name The Bookmarklet',
 
-"no_blogs_assigned_to_user" =>
-"No hay weblog asignados a esta cuenta",
+'single_word_no_spaces' => 
+'palabra única, sin espacios',
 
-"select_field" =>
-"Selecciona el campo por defecto al que quieres que se cuelgue la entrada",
+'channel_name' => 
+'Escoge el canal en el caul quieres enviar entradas',
 
-"bookmarklet_next_step" =>
-"Próximo paso",
+'no_channels_assigned_to_user' => 
+'No hay canales asignados a esta cuenta.',
 
-"create_the_bookmarklet" =>
-"Crear Marcador",
+'select_field' => 
+'Selecciona el campo predeterminado adonde quieres que se envie la entrada',
 
-"no_fields_assigned_to_blog" =>
-"El weblog que has elegido no tiene un grupo de campos asignado",
+'bookmarklet_next_step' => 
+'Siguiente Paso',
 
-"safari_users" =>
-"Clicka si usas Safari como navegador",
+'create_the_bookmarklet' => 
+'Create the Bookmarklet',
 
-"bookmarklet_instructions" =>
-"Guarda este enlace en tu menú de favoritos:",
+'no_fields_assigned_to_channel' => 
+'El canal que has seleccionado no tiene un grupo de campos asignado a el',
 
-"smart_notifications" =>
-"Activar Notificaciones Inteligentes",
+'safari_users' => 
+'Haz click si utilizas Safari como tu navegador',
 
-"existing_password_email" =>
-"Debes introducir tu contraseña para actualizar tu dirección de correo",
+'bookmarklet_instructions' => 
+'Guardar este enlace a tu menu de favoritos:',
 
-"bulletin_board" =>
-"Tablón de Anuncios",
+'smart_notifications' => 
+'Habilitar Notificación Inteligente',
 
-"login_as_member" =>
-"Iniciar sesión como miembro",
+'existing_password_email' => 
+'Debes enviar la contraseña actual para actualizar tu dirección de correo',
 
-"pmachine_news_feed" =>
-"Feed de Noticias de EllisLab",
+'bulletin_board' => 
+'Bulletin Board',
+
+'login_as_member' => 
+'Entrar Como Miembro',
+
+'pmachine_news_feed' => 
+'Feed de Noticias de EllisLab',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

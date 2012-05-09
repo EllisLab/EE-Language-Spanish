@@ -1,226 +1,233 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"mailinglist_module_name" =>
-"Lista de Correo",
+'mailinglist_module_name' => 
+'Lista de Correo',
 
-"mailinglist_module_description" =>
-"Administrador de la Lista de Correo",
+'mailinglist_module_description' => 
+'Administrador de Lista de Correo',
 
-"mailinglist_disabled" =>
-"La Lista de Correo no acepta nuevas subscripciones actualmente.",
+'mailinglist_disabled' => 
+'Esta lista de correo no esta aceptando suscripciones nuevas en este momento',
 
-"mailinglist_preferences" =>
-"Preferencias de Lista de Correo",
+'mailinglist_preferences' => 
+'Preferencias de Lista de Correo',
 
-"template_updated" =>
-"La Plantilla ha sido actualizada",
+'template_updated' => 
+'Plantilla ha sido actualizada',
 
-"mailing_list" =>
-"Lista de Correo:",
+'mailing_list' => 
+'Lista de Correo:',
 
-"mailinglist_template" =>
-"Plantilla de Lista de Correo",
+'ml_email_address_field' => 
+'Direccion de Correo:',
 
-"mailinglist_template_desc" =>
-"Esta plantilla permite que los mensajes de la lista de correo se puedan personalizar.",
+'mailinglist_template' => 
+'Plantilla de Lista de Correo',
 
-"mailinglist_template_warning" =>
-"No borrar las dos variables obligatorias:",
+'mailinglist_template_desc' => 
+'Esta plantilla te permite personalizar los mensajes de la lista de correo',
 
-"ml_edit_template" =>
-"Editar Plantilla",
+'mailinglist_template_warning' => 
+'No borres las dos variables requeridas:',
 
-"ml_create_new" =>
-"Crear una Lista de Correo nueva",
+'ml_edit_template' => 
+'Editar Plantilla',
 
-"ml_mailinglists" =>
-"Listas de Correo",
+'ml_create_new' => 
+'Crear una Nueva Lista de Correo',
 
-"ml_mailinglist_title" =>
-"Nombre corto",
+'ml_mailinglists' => 
+'Listas de Correo',
 
-"ml_mailinglist_name" =>
-"Nombre completo",
+'ml_mailinglist_title' => 
+'Nombre Corto',
 
-"ml_edit_list" =>
-"Editar la Lista",
+'ml_mailinglist_name' => 
+'Nombre Completo',
 
-"ml_view_list" =>
-"Ver la Lista",
+'ml_edit_list' => 
+'Editar Lista',
 
-"ml_view" =>
-"Ver",
+'ml_view_list' => 
+'Ver Lista',
 
-"ml_no_lists_exist" =>
-"Actualmente no hay listas de correo",
+'ml_view' => 
+'Ver',
 
-"ml_mailinglist_short_name" =>
-"Nombre corte de la Lista de Correo",
+'ml_no_lists_exist' => 
+'Actualmente no hay listas de correo',
 
-"ml_mailinglist_short_info" =>
-"Una sola palabra sin espacios. Usarás esta palabra en la etiqueta del formulario de subscripción a la lista de correo para que se pueda añadir al usuario a la lista correspondiente.",
+'ml_mailinglist_short_name' => 
+'Nombre Corto de la Lista de Correo',
 
-"ml_mailinglist_long_name" =>
-"Nombre completo de la Lista de Correo",
+'ml_mailinglist_short_info' => 
+'Una sola palabra, sin espacios. Utilizaras esta palabra en la etiqueta del formulario de suscripcion de tu lista de correo, para que el manejador de suscripciones sepa que a que lista debera suscribir a alguien.',
 
-"ml_mailinglist_long_info" =>
-"El nombre completo de tu lista de correo.",
+'ml_mailinglist_long_name' => 
+'Nombre Completo de Lista de Correo',
 
-"ml_all_fields_required" =>
-"Todos los campos son obligatorios.",
+'ml_mailinglist_long_info' => 
+'El nombre completo de tu lista de correo',
 
-"ml_invalid_short_name" =>
-"El nombre corto de tu lista de correo debe contener caracteres alfanuméricos solamente, sin espacios.",
+'ml_all_fields_required' => 
+'Todos los campos son requeridos.',
 
-"ml_short_name_taken" =>
-"El nombre corto que has elegido ya está tomado.",
+'ml_invalid_short_name' => 
+'El nombre corto de tu lista de correo solo debe incluir letras, numeros y no espacios.',
 
-"ml_mailinglist_created" =>
-"La Lista de Correo ha sido creada",
+'ml_short_name_taken' => 
+'El nombre corto que has seleccionado ya esta utilizado.',
 
-"ml_mailinglist_updated" =>
-"La Lista de Correo ha sido actualizada",
+'ml_mailinglist_created' => 
+'Lista de correo ha sido creada',
 
-"ml_total_emails" =>
-"Total Emails",
+'ml_mailinglist_updated' => 
+'Lista de correo ha sido actualizada',
 
-"ml_batch_subscribe" =>
-"Lote de Subscribir/Cancelación de subscripción",
+'ml_total_emails' => 
+'Total de Correos',
 
-"ml_action" =>
-"Selecciona la acción que quieres realizar:",
+'ml_batch_subscribe' => 
+'Suscribir/Desuscribir en Grupo',
 
-"ml_select_list" =>
-"Selecciona la lista de correo a la que quieres aplicar la acción:",
+'ml_action' => 
+'Selecciona la opcion que quieres usar:',
 
-"ml_no_list_id" =>
-"No ha sido posible localizar la lista de correo. Si el problema persiste, por favor, notifícalo a un administrador.",
+'ml_select_list' => 
+'Selecciona la lista de correo al cual quieres que se aplique la accion:',
 
-"ml_remove_email_addresses" =>
-"Cancelar la subscripción de las direcciones de correo",
+'ml_no_list_id' => 
+'No se puede ubicar la lista de correo. Si el problema persiste por favor notifica el administrador.',
 
-"ml_total_emails_deleted" =>
-"Total de direcciones de correo borradas:",
+'ml_remove_email_addresses' => 
+'Desuscribir Direcciones de Correo',
 
-"ml_total_duplicate_emails" =>
-"Total direcciones de correo duplicadas:",
+'ml_total_emails_deleted' => 
+'Total de correos borrados:',
 
-"ml_emails_deleted" =>
-"Las direcciones de correo han sido borradas",
+'ml_total_duplicate_emails' => 
+'Total de correos duplicados:',
 
-"ml_bad_email_del_heading" =>
-"Las siguientes direcciones de correo no se pudieron borrar:",
+'ml_emails_deleted' => 
+'Direcciones de correo han sido borradas',
 
-"ml_mailinglist" =>
-"Lista de Correo",
+'ml_bad_email_del_heading' => 
+'Los siguientes correos no pudieron ser borrados:',
 
-"ml_total_in_mailinglist" =>
-"Total direcciones de correo:",
+'ml_mailinglist' => 
+'Lista de Correo',
 
-"ml_view_mailinglist" =>
-"Ver Lista de Correo",
+'ml_total_in_mailinglist' => 
+'Total de Direccion de Correo:',
 
-"ml_delete_mailinglist" =>
-"Borrar Lista de Correo",
+'ml_view_mailinglist' => 
+'Ver Lista de Correo',
 
-"ml_delete_list_question" =>
-"¿Estás seguro que quieres borrar las listas de correo siguientes?",
+'ml_delete_mailinglist' => 
+'Borrar Lista de Correo',
 
-"ml_all_data_nuked" =>
-"Todas las direcciones de correo que la lista(s) contenga se borrarán permanentemente.",
+'ml_delete_list_question' => 
+'Estas seguro que deseas borrar las siguientes listas de correo?',
 
-"ml_list_deleted" =>
-"Lista de Correo borrada",
+'ml_all_data_nuked' => 
+'Todas los correos en esta lista seran borrados permanentemente..',
 
-"ml_lists_deleted" =>
-"Listas de Correo borradas",
+'ml_list_deleted' => 
+'Lista de Correo Borrada',
 
-"ml_email_search" =>
-"Búsqueda de dirrección de correo",
+'ml_lists_deleted' => 
+'Listas de Correo Borradas',
 
-"ml_email_search_cont" =>
-"Introduce una dirección de correo completa o parcial",
+'ml_email_search' => 
+'Busqueda de Correo',
 
-"ml_email_address" =>
-"Email",
+'ml_email_search_cont' => 
+'Envia una direccion de correo completa o imparcial',
 
-"ml_delete" =>
-"Borrar",
+'ml_email_address' => 
+'Email',
 
-"ml_no_results" =>
-"No hay resultados que se ajusten a los criterios introducidos",
+'ml_delete' => 
+'Borrar',
 
-"ml_delete_confirm" =>
-"Borrar direcciones de correo",
+'ml_no_results' => 
+'No hay resultados que concuerden con los criterios que has enviado',
 
-"ml_delete_question" =>
-"¿Estás seguro que quieres borrar las direcciones de correo seleccionadas?",
+'ml_delete_confirm' => 
+'Borrar Direcciones de Correo',
 
-"ml_email_deleted" =>
-"Las direcciones de correo han sido borradas",
+'ml_delete_question' => 
+'Estas seguro que deseas borrar los siguientes correos?',
 
-"ml_missing_email" =>
-"Debes introducir una dirección de correo",
+'ml_email_deleted' => 
+'Direccion de correo ha sido borrada',
 
-"ml_invalid_email" =>
-"Dirección de correo inválida",
+'ml_missing_email' => 
+'Debes enviar una direccion de correo completa',
 
-"ml_email_already_in_list" =>
-"Tu dirección de correo ya pertenece a la lista de correo",
+'ml_invalid_email' => 
+'Direccion de correo invalidas',
 
-"ml_banned_email" =>
-"No se permita la dirección de correo",
+'ml_email_already_in_list' => 
+'Tu direccion de correco ya se encuentra en la lista de correo',
 
-"ml_email_accepted" =>
-"Tu dirección de correo ha sido añadida a nuestra lista de correo.",
+'ml_banned_email' => 
+'Direccion de correo no es permitida',
 
-"ml_email_confirmation_sent" =>
-"Se ha enviado un email de confirmación a tu dirección de correo.",
+'ml_email_accepted' => 
+'Tu direccion de correo ha sido agregada a nuestra lista de correo.',
 
-"ml_click_confirmation_link" =>
-"Por favor, clicka el enlace en el email para activar tu cuenta de la lista de correo.",
+'ml_email_confirmation_sent' => 
+'Se te ha enviado un correo de confirmacion.',
 
-"ml_mailinglist_confirmation" =>
-"Email de confirmación",
+'ml_click_confirmation_link' => 
+'Por favor haz click en el link dentro del correo para activar tu cuenta de lista de correo.',
 
-"ml_thankyou_for_joining" =>
-"Gracias por añadirte a nuestra lista de correo!",
+'ml_mailinglist_confirmation' => 
+'Confirmacion de Correo',
 
-"ml_activation_instructions" =>
-"Por favor, clicka en el enlace de abajo para confirmar tu dirección de correo.",
+'ml_thankyou_for_joining' => 
+'Gracias por unirte a nuestra lista de correo!',
 
-"ml_expiration_blurb" =>
-"Si no quieres ser añadido a nuestra lista, ignora este mensaje.",
+'ml_activation_instructions' => 
+'Por favor haz click en el siguiente link para confirmar tu correo.',
 
-"ml_account_confirmed" =>
-"Tu dirección de correo no ha sido confirmada.",
+'ml_expiration_blurb' => 
+'Si no quieres que te agreguemos a nuestra lista, ignora este correo.',
 
-"ml_expired_date" =>
-"El código de autorización que has introducido ha caducado.",
+'ml_account_confirmed' => 
+'Tu direccion de correo ha sido confirmada.',
 
-"ml_unsubscribe" =>
-"Tu dirección de correo ha sido quita de nuestra lista de correo.",
+'ml_expired_date' => 
+'El codigo de autorizacion que has enviado ha expirado',
 
-"ml_unsubscribe_failed" =>
-"No ha sido posible encontrar el número de cuenta especificado.",
+'ml_unsubscribe' => 
+'Tu direccion de correo ha sido removida de nuestra lista de correo.',
 
-"ml_add_email_addresses" =>
-"Subscribir direcciones de correo",
+'ml_unsubscribe_failed' => 
+'No se puede encontrar el numero de cuenta especificado.',
 
-"ml_add_email_addresses_cont" =>
-"Si estás introduciendo múltiples direcciones de correo, separa cada dirección con un espacio o ponla en una nueva línea.",
+'ml_add_email_addresses' => 
+'Suscribir Direcciones de Correo',
 
-"ml_emails_imported" =>
-"La subscripción se produjo con éxito",
+'ml_add_email_addresses_cont' => 
+'Si estas enviando multiples direcciones de correo, separa cada una con un espacio y linea nueva',
 
-"ml_total_emails_imported" =>
-"Total  direcciones de correo subscritas:",
+'ml_emails_imported' => 
+'Suscripcion de correo exitosa',
 
-"ml_bad_email_heading" =>
-"Las direcciones de correo siguientes no se pudieron importar:",
+'ml_total_emails_imported' => 
+'Total de correo suscriptos:',
+
+'ml_bad_email_heading' => 
+'Los siguientes correos no pudieron ser importados:',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

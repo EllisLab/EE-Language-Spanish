@@ -1,190 +1,221 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"your_name" =>
-"Tu nombre",
+'your_name' => 
+'Tu Nombre',
 
-"your_email" =>
-"Tu direcci�n de correo",
+'your_email' => 
+'Tu Correo',
 
-"recipient" =>
-"Destinatario",
+'recipient' => 
+'Recipiente',
 
-"cc" =>
-"CC",
+'cc' => 
+'CC',
 
-"bcc" =>
-"BCC",
+'bcc' => 
+'BCC',
 
-"recipient_group" =>
-"Enviar a Grupos de Miembros",
+'recipient_group' => 
+'Enviar a Grupos de Miembro',
 
-"manual_recipients_ignored" =>
-"El campo de destinatario de arriba será ignorado",
+'manual_recipients_ignored' => 
+'El campo de recibo anterior sera ignorado',
 
-"send_to_mailinglist" =>
-"Envair a Listas de Correo",
+'send_to_mailinglist' => 
+'Enviar a Listas de Correo',
 
-"honor_email_pref" =>
-"Enviar sólo a miembros que han elegido aceptar emails",
+'honor_email_pref' => 
+'Enviar solo a miembros que han escodigo aceptar email',
 
-"separate_emails_with_comma" =>
-"Separar múltiples direcciones con una coma",
+'separate_emails_with_comma' => 
+'Separa multiples direcciones de correo con un coma',
 
-"no_email_matching_criteria" =>
-"No hay direcciones de correo que sigan los criterios seleccionados",
+'no_email_matching_criteria' => 
+'No hay direcciones de correo que concuerdan con tu criterio seleccionado',
 
-"not_allowed_to_email_members" =>
-"No tienes permisos para enviar emails a los miembros",
+'not_allowed_to_email_members' => 
+'No tienes permitido enviar correo a miembros',
 
-"not_allowed_to_email_member_groups" =>
-"No tienes permisos para enviar emails a Grupos de Miembros",
+'not_allowed_to_email_member_groups' => 
+'No tienes permitido enviar correos a Grupos de Miembro',
 
-"not_allowed_to_email_mailinglist" =>
-"No tienes permisos para enviar emails a las listas de correo",
+'not_allowed_to_email_mailinglist' => 
+'No tienes permitido enviar correo a la lista de correo',
 
-"subject" =>
-"Asunto",
+'subject' => 
+'Tema',
 
-"message" =>
-"Mensaje",
+'message' => 
+'Mensaje',
 
-"plaintext_alt" =>
-"Alternativa de Simple Texto (opcional, sólo email HTML, sin formato de texto)",
+'plaintext_alt' => 
+'Alternativa de Texto Simple (opcional, correos de solo HTML, sin formato de texto aplicado)',
 
-"send_an_email" =>
-"Enviar un email",
+'send_an_email' => 
+'Enviar un Email',
 
-"sending_email" =>
-"Enviando el email",
+'sending_email' => 
+'Enviando Email',
 
-"batchmode_ready_to_begin" =>
-"La rutina de envío de emails comenzará en cinco segundos",
+'batchmode_ready_to_begin' => 
+'La rutina de envio de correo empezara en cinco segundos',
 
-"batchmode_warning" =>
-"Por favor, no toque su navegador hasta que el proceso se haya realizado completamente!",
+'batchmode_warning' => 
+'No toques tu explorador hasta que el proceso termine por completo!',
 
-"problem_with_id" =>
-"Se ha producido un error con el número ID que se necesita para enviar emails",
+'problem_with_id' => 
+'En problema fue encontrado con el ID necesario para enviar correos',
 
-"cache_data_missing" =>
-"Los datos de caché e email no se encontró.",
+'cache_data_missing' => 
+'Los datos de cache de email no fueron encontrados.',
 
-"currently_sending_batch" =>
-"Enviando emails de %x a %y",
+'currently_sending_batch' => 
+'Ahora enviando correos %x hasta %y',
 
-"emails_remaining" =>
-"Emails que faltan:",
+'emails_remaining' => 
+'Correos Restantes:',
 
-"email_error" =>
-"Error de email",
+'email_error' => 
+'Error de Email',
 
-"send_it" =>
-"Enviar",
+'send_it' => 
+'Enviarlo',
 
-"total_emails_sent" =>
-"Número de emails enviados:",
+'total_emails_sent' => 
+'Cantidad total de emails enviados:',
 
-"plain_text" =>
-"Texto simple",
+'plain_text' => 
+'Texto Simple',
 
-"html" =>
-"HTML",
+'html' => 
+'HTML',
 
-"mail_format" =>
-"Formato de email",
+'mail_format' => 
+'Formato de Email',
 
-"word_wrap" =>
-"Word Wrapping",
+'text_formatting' => 
+'Formato de Texto',
 
-"text_formatting" =>
-"Formato de texto",
+'none' => 
+'Ninguno',
 
-"none" =>
-"Ninguno",
+'auto_br' => 
+'&lt;br /&gt; auto',
 
-"auto_br" =>
-"Auto &lt;br /&gt;",
+'xhtml' => 
+'XHTML',
 
-"xhtml" =>
-"XHTML",
+'wordwrap' => 
+'Envoltura Word',
 
-"priority" =>
-"Prioridad",
+'priority' => 
+'Prioridad',
 
-"chars" =>
-"caracteres",
+'attachment' => 
+'Adjunto',
 
-"highest" =>
-"El más alto",
+'attachment_problem' => 
+'Hubo un problema adjuntando tu archivo.',
 
-"high" =>
-"Alto",
+'attachment_unavailable' => 
+'Para que se envien adjuntos, una ubicacion de carga debe ser definida.',
 
-"normal" =>
-"Normal",
+'attachment_warning' => 
+'Adjuntos no son guardados por ExpressionEngine, y deben ser guardados localmente.',
 
-"low" =>
-"Bajo",
+'chars' => 
+'caracteres',
 
-"lowest" =>
-"El más bajo",
+'highest' => 
+'Mas Alto',
 
-"empty_form_fields" =>
-"Has dejado campos en blanco.",
+'high' => 
+'Alto',
 
-"email_sent_message" =>
-"Tu email ha sido enviado",
+'normal' => 
+'Normal',
 
-"all_email_sent_message" =>
-"Todos los emails han sido enviados",
+'low' => 
+'Bajo',
 
-"email_sent" =>
-"Email enviado",
+'lowest' => 
+'Mas Bajo',
 
-"view_email_cache" =>
-"Ver el email enviado previamente",
+'empty_form_fields' => 
+'Dejastes algunos campos sin llenar.',
 
-"previous_email" =>
-"Email enviado previamente",
+'email_sent_message' => 
+'To correo ha sido enviado',
 
-"email_title" =>
-"Título del Email",
+'all_email_sent_message' => 
+'Todos los correos han sido enviados',
 
-"email_date" =>
-"Fecha de envío",
+'email_success' => 
+'Correo Enviado',
 
-"total_recipients" =>
-"Destinatarios",
+'view_email_cache' => 
+'Ver Correos Enviados Previamente',
 
-"resend" =>
-"Reenviar",
+'previous_email' => 
+'Correo Enviado Previamente',
 
-"view" =>
-"Ver",
+'email_title' => 
+'Titulo de Correo',
 
-"no_cached_email" =>
-"No hay emails en caché",
+'email_date' => 
+'Fecha Enviado',
 
-"delete_emails" =>
-"Email borrado",
+'total_recipients' => 
+'Total de Recipientes',
 
-"delete_confirm" =>
-"Borrar la confirmación de email",
+'resend' => 
+'Re-enviar',
 
-"delete_question" =>
-"¿Estás seguro que quieres borrar el email especificado?",
+'view' => 
+'Ver',
 
-"email_deleted" =>
-"El email ha sido borrado",
+'no_cached_email' => 
+'No hay correos en cache',
 
-"mailinglist_unsubscribe" =>
-"Para borrar tu dirección de correo de la lista de correo, clicka aquí:",
+'delete_emails' => 
+'Borrar Correo',
 
-"mailinglist_unsubscribe_all" =>
-"Para borrar tu  dirección de correo de todas las listas de correo, clicka aquí:",
+'delete_confirm' => 
+'Borrar Configuracion de Correo',
+
+'delete_question' => 
+'Estas seguro que quieres borrar los correos especificados?',
+
+'bad_cache_ids' => 
+'No hay correos que concuerdan con los criterios seleccionados',
+
+'email_deleted' => 
+'Correo ha sido borrado',
+
+'mailinglist_unsubscribe' => 
+'Para remover tu correo de la lista de correo, haz click aqui:',
+
+'mailinglist_unsubscribe_all' => 
+'Para remover tu correo de todas las listas de correo, haz click aqui:',
+
+'complete' => 
+'Completo',
+
+'incomplete' => 
+'Incompleto',
+
+'on' => 
+'Encendido',
+
+'off' => 
+'Apagado',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

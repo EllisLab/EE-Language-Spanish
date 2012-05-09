@@ -1,72 +1,66 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "admin_notify_mailinglist" =>
-"Notificación de Administrador de subscripción a la Lista de Correo",
+"Notificación de Admin de Suscripción de Lista de Correo",
 
 "admin_notify_mailinglist_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando alguien se subscribe a la lista de correo",
+"Esta plantilla define el mensaje que un admin recibe cuando alguien se suscribe a la lista de correo.",
 
 "admin_notify_forum_post_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando se realiza un nuevo post en el foro",
+"Esta plantilla define el mensaje que un admin recibe cuando un nuevo mensaje de foro es enviado",
 
 "admin_notify_entry" =>
-"Notificación de Administrador de Nuevas Entradas",
+"Notificación de Admin de Entradas Nuevas",
 
 "admin_notify_entry_desc" =>
-"Esta plantilla define el mensaje de notificación que se recibe cuando hay nuevas entradas del weblog",
+"Este plantilla define el mensaje que recipientes de notificación reciben cuando nuevas entradas de canal son enviadas.",
 
 "private_message_notification" =>
 "Notificación de Mensaje Privado",
 
 "private_message_notification_desc" =>
-"Esta plantilla define el mensaje que el usuario recibe cuando alguien le ha enviado un Mensaje Privado",
+"Esta plantilla define el mensaje que un usuario recibe cuando alguien les ha enviado un Mensaje Privado",
 
 "forum_post_notification_desc" =>
-"Esta plantilla define el mensaje que un usuario recibe cuando alguien ha respondido a un post propio en el foro",
+"Esta plantilla define el mensaje que un usuario recibe cuando alguien ha respondido a su mensaje de foro",
 
 "admin_notify_forum_post" =>
-"Notificación de Administrador de un Post en el Foro",
+"Notificación de Admin de Mensajes de Foro",
 
 "forum_post_notification" =>
-"Notificación de Usuario de un Post en el Foro",
+"Notificación de Usuario de Mensajes de Foro",
 
 "gallery_comment_notification" =>
-"Notificación de comentario en la Galería de Usuario",
+"Notifiación de Usuario de Comentario de Galería",
 
 "gallery_comment_notification_desc" =>
 "Esta plantilla define el mensaje que un usuario recibe cuando alguien ha respondido a su comentario",
 
 "admin_notify_gallery_comment" =>
-"Notificación de Administrador de Galería de Comentarios",
+"Notificación de Admin de Comentarios de Galería",
 
 "admin_notify_gallery_comment_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando se realiza un comentario en la galería",
+"Esta plantilla define el mensaje que un admin recibe cuando un comentario es enviado en la galería",
 
 "email_title" =>
-"Título del Email",
+"Título de Correo Electrónico",
 
 "email_message" =>
-"Mensaje Email",
+"Mensaje de Correo Electrónico",
 
 "admin_notify_comment" =>
-"Notificación de Administrador de Comentarios",
+"Notificacion de Admin de Comentarios",
 
 "admin_notify_comment_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando un se realiza un comentario",
-
-"admin_notify_trackback" =>
-"Notificación de Administrador de Trackbacks",
-
-"admin_notify_trackback_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando se recibe un trackback",
+"Esta plantilla define el mensaje que un admin recibe cuando un comentario es enviado",
 
 "admin_notify_reg" =>
-"Notificación de Administrador de Registro de un Miembro Nuevo",
+"Notificación de Admin de Regisro de Miembro Nuevo",
 
 "admin_notify_reg_desc" =>
-"Esta plantilla define el mensaje que un administrador recibe cuando se registra un miembro nuevo",
+"Esta plantilla define el mensaje que un admin recibe cuando un miembro nuevo se ha registrado",
 
 "comment_notification" =>
 "Notificación de Comentario de Usuario",
@@ -78,67 +72,70 @@ $L = array(
 "Instrucciones de Contraseña Olvidada",
 
 "forgot_password_instructions_desc" =>
-"Esta plantilla define las instrucciones que recibe un usuario que ha olvidado su contraseña",
+"Esta plantilla define las instrucciones que un usuario que ha olvidado su contraseña recibe",
 
 "mailinglist_activation_instructions" =>
-"Instrucciones de Activación de la Lista de Correo",
+"Instrucciones Para Activación de Lista de Correo",
 
 "mailinglist_activation_instructions_desc" =>
-"Esta plantilla define las instrucciones de activación de la Lista de Correo",
+"Esta plantilla define las instrucciones de activación de lista de correo",
 
 "mbr_activation_instructions" =>
 "Instrucciones de Activación de Cuenta de Miembro",
 
 "mbr_activation_instructions_desc" =>
-"Esta plantilla define las instrucciones de activación de miembro que se envían a la gente que se registra en es sitio",
+"Esta plantilla define las instrucciones de activación de miembro que son enviadas a personas que se registran en el sitio",
 
 "reset_password_notification" =>
-"Notificación de Reseteo de Contraseña",
+"Notificacion de Restablecimiento de Contraseña",
 
 "reset_password_notification_desc" =>
-"Esta plantilla define las instrucciones de reseteo de contraseña",
+"Esta plantilla define las instrucciones de restablecimiento de contraseña",
 
 "validated_member_notify" =>
 "Notificación de Validación de Cuenta de Miembro",
 
 "decline_member_validation" =>
-"Notificación de Declinación de Cuenta de Miembro",
+"Notifiación Declinación de Cuenta de Miembro",
 
 "validated_member_notify_desc" =>
-"Esta plantilla define la notificación que reciben los miembros cuando un administrador ha validado su cuenta de miembro",
+"Esta plantilla define la notificación que un miembro recibe cuando un admin ha validado su cuenta de membresia",
 
 "use_this_template" =>
-"¿Deseas activar esta plantilla?",
+"Habilitar Esta Plantilla?",
 
 "use_this_template_exp" =>
-"Si clickas en &lt;b&gt;no&lt;/b&gt;, esta plantilla no se usará. En cambio, el mensaje se generará de forma dinámica según el idioma elegido por cada usuario.",
+"Si deshabilitada, esta plantilla no será utilizada. En su lugar, un mensaje será generado dinamicamente en el lenguaje preferido de cada usuario",
 
 "user_messages_template_desc" =>
-"La intención de esta plantilla es la de mostrar mensajes de error y otros mensajes a los usuarios después de realizar ciertas acciones, como iniciar sesión, enviar un formulario, etc",
+"El proposito de esta plantilla es mostrar mensaje de error y otros tipo a usuarios despues que realizan ciertas acciones, como entrar al sitio, enviar un formulario, etc.",
 
 "user_messages_template_warning" =>
-"No borres ninguna de las cinco variables requeridas:",
+"No borres ni uno de las cinco variables requeridas:",
 
 "available_variables" =>
-"Se pueden usar las variables siguientes:",
+"Las siguientes variables pueden ser utilizadas:",
 
 "pm_inbox_full" =>
-"Notificación de Bandeja de Entrada de Mensajes Privados llena",
+"Notificación de Casilla de Entrada de Mensaje Privado Llena",
 
 "pm_inbox_full_desc" =>
-"Esta plantilla define el mensaje que reciben los usuarios cuando no pueden recibir más Mensajes Privados debido a que su Bandeja de Entrada está llena",
+"Esta plantilla define el mensaje que un usuario recibe cuando no pueden recibir Mensajes Privados debido a una Casilla de Entrada llena",
 
 "forum_moderation_notification" =>
-"Notificación de Usuario de la Moderación de una Entrada del Foro",
+"Notifiación de Usuario de Moderación de Tema de Foro",
 
 "forum_moderation_notification_desc" =>
-"Esta plantilla define las notificaciones que reciben los miembros cuando su Entrada en el foro se ha movido, dividido o fusionado por un moderador",
+"Esta plantilla define las notificaciones que un miembro recibe cuando un tema de foro es movido, partido o juntado por un moderador",
 
 "forum_report_notification" =>
-"Notificación de Moderador de Denuncia de Post del Foro",
+"Notificación de Moderador de Reporte de Mensaje de Foro",
 
 "forum_report_notification_desc" =>
-"Esta plantilla define las notificaciones que los moderadores cuando un usuario denuncia un post del foro",
+"Esta plantilla define las notificaciones que un moderador recibe cuando un usuario reporta un mensaje de foro",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

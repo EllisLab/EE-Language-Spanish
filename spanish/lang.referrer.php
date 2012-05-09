@@ -1,27 +1,27 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "referrer_module_name" =>
-"Referencias (referrer)",
+"Referente",
 
 "referrer_module_description" =>
-"Módulo de rastreo de referencias",
+"Módulo de rastreo de referentes",
 
-"tracking_preferences" =>
-"Preferencias de Rastreo",
+"referrer_preferences" =>
+"Preferencias de Referentes",
 
 "referrer_ip" =>
-"IP de la referencia",
+"IP del Referente",
 
 "referrer_date" =>
-"Fecha de la referencia",
+"Fecha del Referente",
 
 "ref_ip" =>
 "Dirección IP",
 
 "ref_user_agent" =>
-"Usuario Agente",
+"Agente del usuario",
 
 "ref_url" =>
 "URL",
@@ -30,61 +30,67 @@ $L = array(
 "Tipo",
 
 "referrers" =>
-"Referencias (referrers)",
+"Referentes",
 
 "view_referrers" =>
-"Ver referencias",
+"Ver Referentes",
 
 "clear_referrers" =>
-"Despejar referencias",
+"Limpiar Referentes",
 
 "referrer_from" =>
-"Formulario de referencias",
+"Formulario de Referente",
 
 "referrer_to" =>
-"Referencias a",
+"Referente A",
 
 "no_referrers" =>
-"Actualmente no hay referencias",
+"Actualmente no hay referentes",
+
+"referrer_no_results" =>
+"No hay resultados coincidiendo con los criterios enviados",
 
 "total_referrers" =>
-"Total de referencias:",
+"Total de Referentes:",
 
 "save_instructions" =>
-"¿Cuántas referencias recientes quieres guardar?",
+"Cuantos de los referentes mas recientes deseas guardar?",
 
 "referrers_deleted" =>
-"Las referencias han sido borradas",
+"Referentes han sido limpiados",
 
 "referrer_deleted" =>
-"La referencia ha sido borrada",
+"Referente ha sido limpiado",
 
 "delete_confirm" =>
-"Confirma Borrar",
+"Confirmar Borrado",
 
 "referrer_delete_question" =>
-"¿Estás seguro que quieres borrar la(s) referencia(s) seleccionadas?",
+"Estás seguro que deseas borrar los referentes seleccionados?",
 
 "blacklist_question" =>
-"Además de borrar estas referencias, también puedes:",
+"Ademas de borrar estos referentes también puedes:",
 
 "add_urls" =>
-"¿Deseas borrar otras referencias con las misma URL?",
+"Borrar Otros Referentes con el mismo URL?",
 
 "add_and_blacklist_urls" =>
-"¿Deseas añadir las URLs a la Lista Negra y Borrar otras referencias con la mismo URL?",
+"Agregar URL a Lista Negra y Borrar Otros Referentes con el mismo URL?",
 
 "add_ips" =>
-"¿Deseas borrar otras referencias con la misma IP?",
+"Borrar Otros Referentes con el mismo IP?",
 
 "add_and_blacklist_ips" =>
-"¿Deseas añadir las Direcciones IP a la Lista Negra y borrar otras referencias con la misma IP?",
+"Agregar Direcciones IP a Lista Negra y Borrar Otros Referentes con el mismo IP?",
 
 "add_agents" =>
-"¿Deseas borrar otras referencias del mismo Usuario Agente?",
+"Borrar Otros Referentes con el mismo Agente de Usuario?",
 
 "add_and_blacklist_agents" =>
-"¿Deseas añadir el Usuario Agente a la Lista Negra y borrar otras referencias del mismo Usuario Agente?",
+"Agregar Agentes de Usuario a Lista Negra y Borrar Otros Referentes con el mismo Agente de Usuario?",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

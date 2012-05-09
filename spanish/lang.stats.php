@@ -1,12 +1,15 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "stats_module_name" =>
 "Estadísticas",
 
 "stats_module_description" =>
-"Módulo de presentación de Estadísticas",
+"Módulo de presentación de estadísticas",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

@@ -1,180 +1,189 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"strict_urls" =>
-"Habilitar URLs Estrictas",
+"pconnect" =>
+"Conexion de Base de Datos Persistente",
 
-"strict_urls_info" =>
-"Esta función impone reglas más estrictas para tus URLs, e interactúa con la función 404 más abajo. Por favor, consulta la guía de usuario para más información.",
+"cache_on" =>
+"Habilitar Caching de Consulta SQL",
+
+"db_debug" =>
+"Habilitar Depuracion de Base de Datos",
 
 "xss_clean_uploads" =>
-"¿Deseas aplicar Filtrado XSS para los ficheros subidos?",
+"Aplicar Filtro de XSS a archivos cargados?",
 
 "memberlist_cfg" =>
-"Preferencias Lista de Miembros",
+"Preferencias de Lista de Miembros",
 
 "total_posts" =>
-"Total Posts",
+"Total de Mensajes",
 
 "total_comments" =>
-"Total Comentarios",
+"Total de Comentarios",
 
 "total_entries" =>
-"Total Entradas",
+"Total de Entradas",
 
 "memberlist_order_by" =>
-"Lista de Miembros - Ordenar por",
+"Lista de Miembros - Ordenar Por",
 
 "memberlist_sort_order" =>
-"Lista de Miembros - Ordenar",
+"Lista de Miembros - Orden",
 
 "memberlist_desc" =>
-"Descendiente",
+"Descendente",
 
 "memberlist_asc" =>
-"Ascendiente",
+"Ascendente",
 
 "memberlist_row_limit" =>
 "Lista de Miembros - Filas",
 
 "system_admin_blurb" =>
-"La mayoría de aspectos administrativos de ExpressionEngine se controlan desde una de las cinco areas siguientes:",
+"La mayoria de los aspectos administrativos de ExpressionEngine son gestionados de una de las siguientes cinco areas:",
 
-"weblog_administration_blurb" =>
-"Esta área te permite administrar tus weblogs, preferencias y sub-sistemas relacionados con el contenido.",
+"channel_administration_blurb" =>
+"Esta area te permite gestionar tus canales, preferencias, y sub-sistemas relacionados con contenido.",
 
 "members_and_groups_blurb" =>
-"Esta área te permite administrar miembros, grupos de miembros y características relacionadas con tus miembros. ",
+"Esta area te permite gestionar miembros, grupos de miembro, y demas aspectos relacionados con miembros.",
 
 "specialty_templates_blurb" =>
-"Estas plantillas se usan para propósitos especiales tales como mostrar mensajes de error y enviar notificaciones por email.",
+"Estas plantillas son utilizadas para propositos especiales tal como presentar mensajes de error y mandar notificaciones por correo.",
 
 "system_preferences_blurb" =>
-"Esta área te permite administrar la configuración de tu sistema y las preferencias globales.",
+"Esta area te permite gestionar la configuracion de su sistema y las preferencias globales.",
 
 "utilities_blurb" =>
-"Esta área contiene utilidades auxiliares que te ayudan a administrar ExpressionEngine.",
+"Esta area contiene utilidades auxiliares que te ayudan gestionar ExpressionEngine.",
 
 "search" =>
-"Buscar",
+"Busqueda",
 
 "search_preferences" =>
-"Preferencias de búsqueda",
+"Preferencias de Busqueda",
 
 "no_search_results" =>
-"No se han encontrado resultados para tu búsqueda",
+"No Se Encontraron Resultados",
 
 "search_results" =>
-"Resultados de la búsqueda",
+"Resultados de Busqueda",
 
 "mailinglist_cfg" =>
 "Preferencias de Lista de Correo",
 
 "mailinglist_notify" =>
-"Notificar al/los Administrador/es de nuevos usuarios en la lista de correo",
+"Habilita lista de recipientes para notificacion de nuevas suscripciones a la lista de correos",
 
 "mailinglist_enabled" =>
-"La Lista de Correo está activada",
+"Lista de Correo Habilitada",
 
 "mailinglist_notify_emails" =>
-"Emails de notificación",
+"Direcciones de Correo de Recipientes de Notificaciones",
 
 "censor_replacement" =>
-"Palabra de recambio debido a censura",
+"Palabra Reemplazo Para Censuras",
 
 "censor_replacement_info" =>
-"Si se deja en blanco, las palabras censuradas se cambiarán con: #",
+"Si permanece vacio palabras censuradas seran reemplazadas con: #",
 
 "censored_wildcards" =>
-"Palabras comodín están permitidas. Por ejemplo, el comodín test* censuraría las palabras, test, testing, tester, etc.",
+"Comodines estan permitidos. Por ejemplo, el comodin prueba* censuraria todas las palabras &#39;prueba&#39;, &#39;pruebas&#39;, etc.",
 
-"weblog_relationships" =>
-"Relaciones Weblog",
+"channel_relationships" =>
+"Relaciones de Canal",
 
 "webmaster_name" =>
-"Webmarster o nombre de la página para los email auto-generados",
+"Webmaster o nombre del sitio para correos auto-generados",
 
 "search_log_cfg" =>
-"Configuración del Registro de Términos de Búsqueda",
+"Configuracion de Registro de Terminos de Busqueda",
 
 "enable_search_log" =>
-"Activar Registro de Términos de Búsqueda",
+"Habilitar Registro de Terminos de Busqueda",
 
 "enable_search_log_exp" =>
-"Si está activado, los términos buscados por tus visitas quedarán registrados.",
+"Cuando habilitado, los terminos de busqueda que tus visitas envien seran registrados.",
 
 "max_logged_searches" =>
-"Número máximo de registros de búsquedas recientes",
+"Numero maximo de terminos de busqueda recientes a guardar",
 
 "no_extensions_exist" =>
-"No Hay Extensiones",
+"No Existen Extensiones",
 
 "extensions_manager" =>
-"Administrador de Extensiones",
+"Gestor de Extensiones",
 
 "available_extensions" =>
 "Extensiones Disponibles",
 
 "extension" =>
-"Extensión",
+"Extension",
 
 "manage_extension" =>
-"Administrar",
+"Gestionar",
 
 "disable_extension_conf" =>
-"Desactivar la Confirmación de Extensión",
+"Inhabilitar Confirmacion de Extension",
 
 "disable_extensions_conf" =>
-"Desactivar la Confirmación de Extensiones",
+"Inhabilitar Confirmacion de Extensiones",
 
 "enable_extension_conf" =>
-"Activar la Confirmación de Extensión",
+"Habilitar Confirmacion de Extension",
 
 "enable_extensions_conf" =>
-"Activar la Confirmación de Extensiones",
+"Habilitar Confirmacion de Extensiones",
 
 "toggle_extension_confirmation" =>
-"¿Estás seguro de que quieres realizar esta acción?",
+"Estas seguro que deseas llevar a cabo esta accion?",
 
 "extension_disabled" =>
-"Desactivado",
+"Inhabilitado",
 
 "extension_enabled" =>
-"Activado",
+"Habilitado",
 
 "disable_extensions" =>
-"¿Desactivar Extensiones?",
+"Inhabilitar Extensiones?",
 
 "enable_extensions" =>
-"¿Activar Extensiones?",
+"Habilitar Extensiones?",
 
 "disable_extension" =>
-"¿Desactivar?",
+"Inhabilitado?",
 
 "enable_extension" =>
-"¿Activar?",
+"Habilitado?",
 
 "extension_name" =>
-"Nombre de la Extensión",
+"Nombre de Extension",
+
+"setting" =>
+"Configuracion",
 
 "settings" =>
-"Ajustes",
+"Configuraciones",
 
 "documentation" =>
-"Documentación",
+"Documentacion",
 
 "status" =>
-"Estado",
+"Estatus",
 
 "extension_settings" =>
-"Ajustes de la Extensión",
+"Configuracion de Extension",
 
 "settings_update" =>
-"Ajustes actualizados",
+"Configuracion Actualizada",
+
+"extension_class_does_not_exist" =>
+"Clase %c no existe en (%f)",
 
 "guest" =>
-"Invitado",
+"Visita",
 
 "wiki_search" =>
 "Wiki",
@@ -186,613 +195,547 @@ $L = array(
 "Sitio",
 
 "searched_in" =>
-"Buscado",
+"Busco En",
 
 "search_terms" =>
-"Términos buscados",
+"Terminos de Busqueda",
 
 "screen_name" =>
-"Nombre de pantalla",
+"Nombre de Pantalla",
 
 "view_search_log" =>
-"Ver el Registro Términos de Búsqueda",
+"Ver Registro de Busqueda",
 
 "no_search_terms" =>
-"No se han registrado términos de búsqueda",
+"No se han registrado terminos de busqueda",
 
 "throttling_cfg" =>
-"Configuración de regulación",
+"Configuracion de Throttling",
 
 "banish_masked_ips" =>
-"Denegar acceso si no hay una dirección IP presente",
+"Denegar Acceso Si No Se Encuentra Direccion IP",
 
 "max_page_loads" =>
-"Máximo de Cargas de Página",
+"Maxima Cantidad de Cargas de Pagina",
 
 "max_page_loads_exp" =>
-"El total de veces que se permite a un usuario cargar cualquiera de tus páginas web (dentro del intervalo de tiempo que hay abajo) antes de ser excluido.",
+"La cantidad maxima que un usuario es permitido cargar alguna de tus paginas (dentro del intervalo de abajo) antes de ser bloqueado.",
 
 "time_interval" =>
-"Intervalo de tiempo (en segundos)",
+"Intervalo de Tiempo (en segundos)",
 
 "time_interval_exp" =>
-"Número de segundos durante los que se permite el número (arriba) de cargas de página.",
+"El numero de segundos durante el cual el numero de arriba de cargas de pagina esta permitido.",
 
 "lockout_time" =>
-"Tiempo de Exclusión (en segundos)",
+"Tiempo de Bloqueo (en segundos)",
 
 "lockout_time_exp" =>
-"La duración a la que un usuario debe ser excluido si excede los límites.",
+"La duracion de tiempo en el que un usuario debe permanecer bloqueado de un sitio si se excede de los limites.",
 
 "banishment_type" =>
-"Acción a tomar",
+"Accion a Realizar",
 
 "banishment_type_exp" =>
-"La acción  que se debería realizar si un usuario ha excedido los límites.",
+"La accion que debe realizarse si un usuario excede los limites.",
 
 "url_redirect" =>
-"Redirección de URL",
+"Redireccion de URL",
 
 "404_page" =>
-"Enviar encabezados 404",
+"Enviar Cabeceras 404",
 
 "show_message" =>
 "Mostrar mensaje personalizado",
 
 "banishment_url" =>
-"URL para redireccionar",
+"URL para Redireccion",
 
 "banishment_url_exp" =>
-"Si elijes la opción Redirección de URL.",
+"Si seleccionastes Redireccion de URL como opcion.",
 
 "banishment_message" =>
-"Mensaje personalizado",
+"Mensaje Personalizado",
 
 "banishment_message_exp" =>
-"Si seleccionas la opción de Mensaje Personalizado.",
+"Si seleccionastes Mensaje Personalizado como opcion.",
 
 "email_charset" =>
-"Codificación de caracteres de email",
-
-"ip_search" =>
-"Búsqueda de dirección IP",
+"Codificacion de Caracter para Correo",
 
 "honor_entry_dst" =>
-"¿Asociar el ajuste de horario de verano asociado con cada entrada de weblog?",
+"Respetar la configuracion de Horario de Verano asociada con cada entrada de canal?",
 
 "allow_member_localization" =>
-"¿Permitir a los miembros a fijar preferencias de localización propias?",
+"Permitir miembros establecer sus propias preferencias de localizacion?",
 
 "allow_member_loc_notes" =>
-"Si marcado como &quot;no&quot; todas las fechas y horas se localizarán con la selección por defecto de la página maestra.",
+"Si establecido como &quot;no&quot; todas las fechas y horas seran localizadas al predeterminado maestro del sitio.",
 
 "publish_tab_behavior" =>
-"Comportamiento de la pestaña Publicar",
+"Comportamiento de Ficha de Publicar",
 
 "click" =>
 "Click",
 
 "hover" =>
-"Flotar (hover)",
+"Hover",
 
 "enable_throttling" =>
-"Habilitar Regulador (throttling)",
+"Habilitar Throttling",
 
 "enable_throttling_explanation" =>
-"Esta función genera un encabezado 404 y un mensaje si se hace una solicitud en la que el grupo de la plantilla no existe en la URL. Se intenta principalmente, restringir solicitudes de páginas inexistentes por parte de los robots de los buscadores. ",
+"Esta opcion genera una cabecera y mensaje 404 si un pedido de tu sitio es hecho en el cual el grupo de plantilla no existe en el URL. Si intencion es la de prevenir que rastreadores de motores de busqueda pidan paginas no existentes repetidamente.",
 
 "max_caches" =>
-"Máximo de URIs cacheables",
+"Numero Maximo de URIs en Cache",
 
 "max_caches_explanation" =>
-"Si usas cache para tus páginas o tus bases de datos, esta preferencia limita el total de instancias de cache destinadas a prevenir que los ficheros de cache usen demasiado espacio de disco. 150 es un buen número para un sitio pequeño. Si tienes un sitio mayor y el espacio de disco no es problema, puedes elegir un número mayor (superior a 300). Tenemos un límite interno de 1000 sin importar tu elección.",
+"Si incluyes tu paginas o base de datos en cache, esta preferencia limita el numero total de instancias de cache para prever que tus archivos de cache tomen mucho espacion en el disco",
 
 "standby_recount" =>
-"Recontando...por favor, espera...",
+"Recontando... por favor espera...",
 
 "theme_folder_url" =>
-"URL hacia tu carpeta &quot;temas&quot; ",
+"URL a tu directorio &quot;temas&quot;",
 
 "exp_forums" =>
-"Estadísticas del Foro",
+"Estadisticas de Foro",
 
 "exp_forum_topics" =>
-"Temas del Foro",
+"Temas de Foros",
 
 "email_module_captchas" =>
-"Activar CAPTCHAs para Díselo-a-un-Amigo y emails de contacto",
+"Habilirar CAPTCHAs para correo de Contact y Avisar-a-Un-Amigo",
 
 "sql_good_query" =>
-"Tu consulta tuvo éxito",
+"Tu consulta fue exitosa",
 
 "must_submit_number" =>
-"Debes introducir el número de días en los que se filtrará la rutina de depuración",
+"Debes enviar el numero de dias a filtrar la rutina de podar.",
 
 "must_submit_group" =>
-"Debes seleccionar por lo menos un miembro de grupo",
+"Debes escoger al menos un grupo de miembros",
 
-"must_submit_blog" =>
-"Debes elegir al menos un weblog",
+"must_submit_channel" =>
+"Debes escoger al menos un canal",
+
+"taken_channel_name" =>
+"Este nombre de canal ya esta utilizado.",
 
 "no_members_matched" =>
-"No hay cuentas de miembro que se ajusten a los criterios introducidos",
+"No hay cuentas de miembro coincidiendo con los criterios que has enviado",
 
 "good_member_pruning" =>
 "%x cuentas de miembro han sido borradas",
 
 "prune_member_confirm_msg" =>
-"¿Estás seguro que quieres borrar las cuentas de miembro especificadas?",
+"Estas seguro que deseas borrar las cuentas de miembro especificadas?",
 
 "member_pruning" =>
-"Depuración de Cuentas de Miembro",
+"Podado de Cuentas de Miembro",
 
 "mbr_prune_x_days" =>
-"Borrar las cuentas de miembro que tengan más de X días",
+"Borrar cuentas de miembro que tienen mas de X dias de existencia",
 
 "mbr_prune_never_posted" =>
-"Sólo borrar usuarios que nunca han colgado entradas, comentarios o posts del foro",
+"Solo borrar usuario que nunca han enviado entras, comentarios o mensajes de foro",
 
 "mbr_prune_zero_note" =>
-"Si introduces un cero, las cuentas de miembro de cualquier fecha se borrarán.",
+"Si envias un cero, cuentas de miembro de cualquier fecha seran borradas.",
 
 "mbr_prune_groups" =>
-"Borra sólo los grupos seleccionados",
+"Borrar solo dentro de los grupos seleccionados.",
 
-"weblog_entry_pruning" =>
-"Depuración de Entrada de Weblog",
+"channel_entry_pruning" =>
+"Podado de Entradas de Canal",
 
-"weblog_prune_x_days" =>
-"Borrar las entradas de weblog anteriores a X días",
+"channel_prune_x_days" =>
+"Borrar entradas de canal que tienen mas de X dias de existencia",
 
-"weblog_prune_never_posted" =>
-"Sólo borrar las entradas que no tienen comentarios",
+"channel_prune_never_posted" =>
+"Solo borrar entradas que no tienen comentarios",
 
 "prune_entry_confirm_msg" =>
-"¿Estás seguro que quieres borrar las entradas de weblog especificadas?",
+"Estas seguro que deseas borrar las entradas de canal especificadas?",
 
 "no_entries_matched" =>
-"No hay entradas de weblog que se ajusten a los criterios introducidos",
+"No hay canales que coinciden con los criterios que enviastes",
 
 "good_entry_pruning" =>
-"%x entradas de weblog han sido borradas",
+"%x entradas de canal han sido borradas",
 
-"select_prune_blogs" =>
-"Borrar sólo dentro de los weblogs seleccionados",
+"select_prune_channels" =>
+"Borrar solo dentro de los canales seleccionados",
 
 "comment_pruning" =>
-"Depuración de Comentarios",
+"Podado de Comentarios",
 
 "comment_prune_x_days" =>
-"Borrar comentarios que son anteriores a X días",
+"Borrar comentarios que tienen mas de X dias de existencia",
 
 "no_comments_matched" =>
-"No hay comentarios que se ajusten a los criterios introducidos",
+"No hay comentarios que coinciden con los criterios que enviastes",
 
 "good_commennt_pruning" =>
 "%x comentarios han sido borrados",
 
 "prune_comment_confirm_msg" =>
-"¿Estás seguro que quieres borrar los comentarios especificados?",
-
-"trackback_pruning" =>
-"Depuración de Trackbacks",
-
-"good_trackback_pruning" =>
-"%x trackbacks han sido borrados",
-
-"trackback_prune_x_days" =>
-"Borrar trackbacks que son anteriores a X días",
-
-"prune_trackback_confirm_msg" =>
-"¿Estás seguro que quieres borrar los trackbacks especificados?",
-
-"no_trackbacks_matched" =>
-"No hay trackbacks que se ajusten a los criterios introducidos",
+"Estas seguro que deseas borrar los comentarios especificados?",
 
 "topic_pruning" =>
-"Depuración de Tema de Foro",
+"Podado de Temas de Foro",
 
 "good_topic_pruning" =>
 "%x temas de foro han sido borrados",
 
 "topic_prune_x_days" =>
-"Borrar temas de foro que son anteriores a X días",
+"Borrar temas de foro que tienen mas de X dias de existencia",
 
 "must_submit_forums" =>
-"Debes seleccionar al menos un foro",
+"Debes escoger al menos un foro",
 
 "prune_if_no_posts" =>
-"Borrar sólo temas que no tengan ningún post",
+"Borrar temas solo si no contienen mensajes",
 
 "select_prune_forums" =>
-"Borrar sólo dentro de los foros seleccionados",
+"Solo borrar dentro de los foros seleccionados",
 
 "must_select_one" =>
 "Debes seleccionar al menos uno",
 
 "prune_topic_confirm_msg" =>
-"¿Estás seguro que quieres borrar los temas de foro especificados?",
+"Estas seguro que deseas borrar los temas de foro que has especificado?",
 
 "no_topics_matched" =>
-"No hay temas que se ajusten a los criterios introducidos",
+"No hay temas coincidiendo con los criterios que has enviado",
 
 "select_prune_topics" =>
-"Borrar sólo dentro de los foros seleccionados",
+"Borrar solo dentro de los foros seleccionados",
 
 "pm_cfg" =>
 "Preferencias de Mensaje Privado",
 
 "prv_msg_storage_limit" =>
-"Máximo de Mensajes Privados que un usuario puede guardar",
+"Maxima Cantidad de Mensajes Privados que un usuario puede guardar",
 
 "prv_msg_send_limit" =>
-"Máximo de Mensajes Privados que un usuario puede enviar por día",
+"Maxima Cantidad de Mensajes Pvidados que un usurio puede enviar por dia",
 
 "prv_msg_max_chars" =>
-"Máximo de carácteres permitidos en un Mensaje Privado",
+"Maxima Cantidad de caracteres a permitir en Mensajes Privados",
 
 "prv_msg_max_attachments" =>
-"Máximo de ficheros adjuntos por Mensaje Privado",
+"Maxima Cantidad de Adjuntos por Mensaje Privado",
 
 "prv_msg_upload_path" =>
-"Ruta del servidor para la carpeta de ficheros adjuntos (upload)",
+"Ruta de Servidor para Directorio de Carga de Adjuntos",
 
 "prv_msg_attach_maxsize" =>
-"Tamaño máximo de un fichero adjunto por Mensaje Privado (en Kilobytes)",
+"Tamaño Maximo de Adjunto para un Mensaje Privado (en Kilobytes)",
 
 "prv_msg_attach_total" =>
-"Máximo de todos los ficheros adjuntos (en Megabytes)",
+"Maxima Cantidad de Todos los Adjuntos (en Megabytes)",
 
 "prv_msg_html_format" =>
-"Formato HTML en los Mensajes Privados",
+"Formato HTML en Mensajes Privados",
 
 "prv_msg_auto_links" =>
-"¿Convertir automáticamente las URLs y las direcciones de email en links?",
+"Auto-convertir URLs y direcciones de correo a enlaces?",
 
 "html_safe" =>
-"Permitir sólo HTML seguro",
+"Permitir solo HTML seguro",
 
 "html_all" =>
-"Permitir todo tipo de HTML (no se recomienda)",
+"Permitir todo HTML (no recomendado)",
 
 "html_none" =>
-"Convertir HTML a entidades de caracteres",
+"Convertir HTML a entidades de caracter",
 
-"html_header" =>
-"Cabecera HTML",
-
-"page_header" =>
-"Cabecera de Página",
-
-"page_subheader" =>
-"Sub-Cabecera de Página",
-
-"import_utilities" =>
-"Importar Utilidades",
-
-"html_footer" =>
-"Pie de página HTML",
-
-"breadcrumb_trail" =>
-"Rastros (breadcrumb)",
-
-"breadcrumb_current_page" =>
-"Rastros página actual",
-
-"signature_form" =>
-"Editar tu Firma",
-
-"edit_avatar" =>
-"Editar tu Avatar",
-
-"avatar_folder_list" =>
-"Carpeta de Avatares Preinstalados",
-
-"browse_avatars" =>
-"Navegar página  de Avatares",
+"config_editor" =>
+"Editor de Archivo de Configuracion",
 
 "image_cfg" =>
-"Preferencias de Redimensión de imágenes",
+"Preferencias de Cambio de Tamaño de Imagenes",
 
 "output_cfg" =>
-"Preferencias de rendimiento y eliminación de fallos",
+"Preferencias de Salida y Depuracion",
 
 "category_trigger_duplication" =>
-"Un plantilla o grupo de plantillas ya existe con este nombre",
+"Error de Gatillo de Categoria: Una plantilla o grupo de plantilla con este nombre ya existe.",
 
 "invalid_path" =>
-"La siguiente ruta que as introducido no es válida:",
+"La siguiente ruta que enviastes no es valida:",
 
 "not_writable_path" =>
-"La ruta que as introducido no tiene permisos de escritura. Por favor, asegúrate que los permisos están ajustados a 777",
+"La ruta que enviastes no tienes permisos de escritura. Por favor asegurate que los permisos de el archivo esten establecidos como 777.",
+
+"empty_profile_trigger" =>
+"Debes especficar una Palabra de Gatillo para Perfiles",
 
 "profile_trigger" =>
-"Perfil de palabra activadora",
+"Palabra de Gatillo para Perflies",
 
 "profile_trigger_notes" =>
-"Cuando esta palabra se encuentra en tu URL mostrará tu área de perfil de miembro. La palabra que elijas no puede ser el nombre de un grupo de plantilla existente",
+"Cuando esta palabra se encuentra tu URL mostrara el area de perfil de miembros. La palabra que selecciones no puede ser el nombre de un grupo de plantillas existente",
 
 "signature_cfg" =>
 "Preferencias de Firma",
 
 "notification_cfg" =>
-"Preferencias de Notificación",
+"Preferencias de Notificacion",
 
 "photo_cfg" =>
 "Preferencias de Foto de Miembro",
 
 "enable_photos" =>
-"Activar Fotos de Miembros",
+"Habilitar Fotos de Miembro",
 
 "photo_url" =>
-"URL hacia la Carpeta de Fotos",
+"URL a Directorio de Fotos",
 
 "photo_path" =>
-"Ruta de servidor haca la Carpeta de Fotos",
+"Ruta de Servidor a Directorio de Fotos",
 
 "photo_max_width" =>
-"Ancho máximo de la foto",
+"Ancho Maximo de Fotos",
 
 "photo_max_height" =>
-"Alto máximo de la foto",
+"Alto Maximo de Fotos",
 
 "photo_max_kb" =>
-"Tamaño máximo de la foto (en Kilobytes)",
+"Tamaño Maximo de Fotos (en Kilobytes)",
 
 "must_be_path" =>
-"Nota: Debe ser la ruta entera del servidor, NO una URL. Los permisos de la carpeta deben ser 777.",
+"Nota: debe ser una ruta de servidor completa, NO un URL. Permisos de la carpeta deben estar establecidos como 777.",
 
 "allow_signatures" =>
-"¿Deseas permitir a los usuarios tener firmas?",
+"Permitir Usuario tener Firmas?",
 
 "sig_maxlength" =>
-"Máximo número de caracteres por firma",
+"Cantidad maxima de caracteres por firma",
 
 "sig_allow_img_hotlink" =>
-"¿Deseas permitir hot-linking de imágenes en firmas?",
+"Permitir enlaces de imagenes externas dentro de firmas?",
 
 "sig_allow_img_upload" =>
-"¿Deseas permitir a los usuarios cargar imágenes a sus firmas?",
+"Permitir usuario cargar una imagen a su firma?",
 
 "sig_img_url" =>
-"URL a la Carpeta de Imágenes de Carga (upload)",
+"URL a Directorio de Cargas de Imagenes de Firma",
 
 "sig_img_path" =>
-"Ruta de servidor hacia la Carpeta de Imágenes de Carga (upload)",
+"Ruta de servidor a Directorio de Imagenes de Firma",
 
 "sig_img_max_width" =>
-"Ancho máximo de la Imagen de Firma",
+"Ancho Maximo de Imagen de Firma",
 
 "sig_img_max_height" =>
-"Alto máximo de la Imagen de Firma ",
+"Alto Maximo de Imagen de Firma",
 
 "sig_img_max_kb" =>
-"Tamaño máximo (en Kilobytes) de la Imagen de Firma",
+"Tamaño Maximo (en Kilobytes) de Imagen de Firma",
 
 "avatar_cfg" =>
-"Preferencias del Avatar",
+"Preferencias de Avatar",
 
 "enable_avatars" =>
-"Activar Avatares",
+"Habilitar Avatares",
 
 "allow_avatar_uploads" =>
-"¿Deseas permitir a los miembros cargar sus propios avatares?",
+"Permitir usuarios cargas sus propios avatares?",
 
 "avatar_url" =>
-"URL a la Carpeta de Avatares",
+"URL a Directorio de Avatar",
 
 "avatar_path" =>
-"Ruta de servidor a la Carpeta de Avatares",
+"Ruta de Servidor a Directorio de Avatar",
 
 "avatar_max_width" =>
-"Ancho máximo del Avatar",
+"Ancho Maximo de Avatar",
 
 "avatar_max_height" =>
-"Alto máximo del Avatar",
+"Alto Maximo de Avatar",
 
 "avatar_max_kb" =>
-"Tamaño máximo del Avatar (en Kilobytes)",
+"Tamaño Maximo de Avatar (en Kilobytes)",
 
 "ignore_noncritical" =>
-"Ignorar información no esencial (recomendado)",
+"Ignorar datos no esenciales (recomendado)",
 
 "archive_destination" =>
-"Destinación",
+"Destino",
 
 "archive_type" =>
-"Tipo de fichero",
+"Tipo de Archivo",
 
 "mac_no_zip" =>
-"(mejor opción para usuarios de Mac)",
+"(mejor opcion para usuarios Mac)",
 
 "max_referrers" =>
-"Número máximo para grabar referrers recientes",
+"Maxima cantidad de referentes recientes a guardar",
 
 "new_version_check" =>
-"Comprovación automática de Nuevas Versiones",
+"Revisado Automatico de Version Nueva",
 
 "profile_buttons" =>
-"Ruta a las Imágenes de Miembros",
+"Ruta a Imagenes de Miembro",
 
 "profile_buttons_exp" =>
-"Esta es la ruta del directorio que contiene las imágenes usadas en los perfiles de los miembros.",
+"Esta es la ruta al directorio que contiene las imagenes usadas en las paginas de perfil de miembros.",
 
 "remap_pm_urls" =>
-"Remapear pMachine Pro URLs a EE",
+"Remapear URLs de pMachine a EE",
 
 "remap_pm_urls_desc" =>
-"Si has migrado a EE desde pM Pro, activando esta opción redirigirás visitas que vienen a tu web usando las antiguas pM URLs a la página correcta en EE.",
+"Si has migrado a EE desde mPachine Pro, habilitar esta opcion redireccionara a usuarios que vengan a tu sitio utilizando los URLs viejos de mP a la pagina de EE correcta.",
 
 "remap_pm_dest" =>
-"Destinación de URLs remapeadas",
+"Destino de URLs Remapeados",
 
 "remap_pm_dest_exp" =>
-"Si se encuentran URLs de pM Pro, hacia dónde debería ser redirigidas? Usa una URL completa e incluye la template_group/template:  http://www.yoursite.com/index.php/template_group/template/",
+"Si URLs de pM Pro son encontrados, adonde deben dirigir? Utiliza un URL completo e incluye el grupo_de_plantilla/plantilla: http://www.tusitio.com/index.php/grupo_de_plantilla/plantilla/",
 
 "captcha_rand" =>
-"Añade una palabra Catcha aleatoria",
-
-"template_rev_msg" =>
-"Nota: Guardar revisiones puede usar mucho espacio de la base de datos, así que recomendamos mantener los límites más abajo.",
-
-"max_tmpl_revisions" =>
-"Máximas revisiones a mantener",
-
-"max_revisions_exp" =>
-"Máximo número de revisiones que se deberían mantener para CADA plantilla. Por ejemplo, si seleccionas 5, sólo las 5 revisiones más recientes se guardarán para cualquier plantilla.",
+"Agregar Numero Aleatoro a Palabra CAPTCHA",
 
 "plugin_no_curl_support" =>
-"Tu servidor no soporta la librería Curl, requerida para usar esta función.",
+"Tu servidor no tiene la biblioteca Curl, la cual es requerida para utilizar esta funcion.",
 
 "plugins" =>
 "Plugins",
 
 "plugin_by_date" =>
-"Por fecha",
+"Por Fecha",
 
 "plugin_by_letter" =>
-"Por letra",
+"Por Letra",
 
 "plugin_requires" =>
-"Requier",
+"Requiere",
 
 "plugin_zlib_missing" =>
-"No se encuentra la librería Zlib. Por favor, consulta la guía de usuario.",
+"Biblioteca Zlib no se encuentra. Por favor consulte la guia de usuario.",
 
 "plugin_can_not_fetch" =>
-"No se ha podido recuperar remotamente el plugin. ",
+"No se puede retirar el plugin remotamente",
 
 "plugin_folder_not_writable" =>
-"Tu plugin no tiene permisos de escritura. Los permisos deben estar ajustados a 777 antes de que esta accón puede llevarse a cabo.",
+"Tu directorio de plugins no tiene permiso de escritura. Los permisos de archivo deben estar establecidos como 777 antes que esta accion pueda ser llevada a cabo.",
 
 "plugin_problem_creating_file" =>
-"No se ha podido crear una versión local de tu plugin",
+"No se puede crear una version local de tu plugin",
 
 "plugin_version_check" =>
-"Comprobar versión",
+"Revisar Version",
 
 "plugin_installed" =>
-"Plugin(s) instalado",
+"Plugin(s) Instalados",
 
 "plugin_latest" =>
-"Últimos plugins",
+"Ultimos Plugins",
 
 "plugin_installation" =>
-"Instalación de plugin",
+"Instalacion de Plugin",
 
 "plugin_install" =>
 "Instalar",
 
 "plugin_install_status" =>
-"Estado de la instalación de plugin",
+"Estatus de Instalacion de Plugin",
 
 "plugin_install_success" =>
-"El plugin se instaló correctamente.",
+"El plugin fue instalado exitosamente.",
 
 "plugin_install_other" =>
-"El fichero del plugin ha sido guardad en tu directorio de plugins.",
+"El archivo de plugin ha sido almacenado en tu directorio de plugins.",
 
 "plugin_error_uncompress" =>
-"No ha sido posible descomprimir el fichero ZIP. El fichero ZIP se ha guardado en tu directorio de plugins.",
+"No se pudo abrir archivo ZIP. El archivo ZIP ha sido guardado en tu directorio de plugins.",
 
 "plugin_error_no_zlib" =>
-"Tu servidor no soporta zlib, así que la descompresión no ha sido posible. El fichero ZIP se ha guardado en tu directorio de plugins.",
+"Tu servidor no tiene zlib, y por eso no se pueden abrir archivos ZIP. El archivo zip esta guardado en tu directorio de plugins.",
+
+"plugin_error_package_already_exists" =>
+"Paquete Add-on ya existe",
+
+"plugin_error_no_plugins_found" =>
+"No se pudo encontrar un archivo de plugin valido en la descarga",
 
 "plugin_delete_confirm" =>
-"Confirmación de borrado de plugin",
+"Confirmacion de Removido de Plugin",
 
 "plugin_single_confirm" =>
-"¿Estás seguro que quieres borrar este plugin?",
+"Estas seguro que deseas borrar este plugin?",
 
 "plugin_multiple_confirm" =>
-"¿Estás seguro que quieres borrar estos plugins?",
+"Estas seguro que deseas borrar estos plugins?",
 
 "plugin_remove" =>
-"Borrar",
+"Remover",
 
 "plugin_removal" =>
-"Borrado de plugins",
+"Removido de Plugin",
 
 "plugin_removal_status" =>
-"Estado del borrado de plugins",
+"Estatus de Removido de Plugin",
 
 "plugin_removal_success" =>
-"El plugin siguiente se borró correctamente:",
+"El siguiente plugin fue removido exitosamente:",
 
 "plugin_removal_error" =>
-"Un error ocurrió borrando el siguiente plugin:",
+"Un error ocurrio al remover el siguiente plugin:",
 
 "auto_assign_cat_parents" =>
-"Auto-Asignación de categoría ascendente",
+"Auto-Asignar Padres de Categoria",
 
 "auto_assign_cat_parents_exp" =>
-"Si está seleccionado &quot;yes&quot;, cuando las nuevas entradas sean introducidas, la categoría ascendente será asignada automáticamente cada vez que elijas una categoría descendiente.",
+"Si habilitado, cuando nuevas entradas son enviadas, la categoria padre sera asignada automaticamente cuando selecciones una categoria hija.",
 
 "use_category_name" =>
-"¿Quieres usar Títulos URL de Categoría  en links?",
+"Utilizar Titulos de URL de Categoria en Enlaces?",
 
 "use_category_name_exp" =>
-"Esta preferencia determina si el número ID de la categoría o el título URL de la categoría se usa en links relacionas con la categoría.",
+"Esta preferencia determina si el numero ID de categoria o el Titulo URL de categoria en enlaces relacionados a categoria.",
 
 "reserved_category_word" =>
-"Indicador de la URL de categoría",
+"Indicador de URL de Categoria",
 
 "reserved_category_word_exp" =>
-"Si has seleccionado &quot;yes&quot; en la preferencia de arriba, debes escoger un palabra reservada. Esta palabra se usará en la URL para indicar que el motor de visualización del weblog que estás mostrando una categoría. Nota: cualquiera que sea la palabra que escojas NO PUEDE tener el mismo nombre que una plantilla o grupo de plantillas.",
+"Si seleccionas &quot;si&quot; en la preferencia de arriba debes escoger una palabra reservada. Esta palabra sera utilizada en el URL para indicar al motor de mostrado de canal que estas mostrando una categoria. Nota: la palabra que escogas NO PUEDE ser el nombre de una plantilla o grupo de plantilla.",
 
 "enable_sql_caching" =>
-"¿Solicitudes Weblog con caché dinámico?",
+"Incluir Consultas Dinamicas de Canal en Cache?",
 
 "enable_sql_caching_exp" =>
-"Esta función mejorará la velocidad a la que las páginas de tu weblog cargan, poniendo en caché las solicitudes que normalmente se ejecutan de forma dinámica. Actívala sólo si no usa las funciones &quot;entradas futuras&quot; o &quot;entradas caducadas&quot;.",
+"Esta funcion mejorara la velocidad en la cual cargan tus paginas de canal incluyendo consultas que son ejecutadas dinamicamente normalmente. Habilita esto solo si no piensas utilizar las funciones de &quot;entradas futuas&quot; o &quot;entradas con expiracion&quot;.",
 
 "email_debug" =>
-"¿Activar depurador de email?",
+"Habilitar Depurado de Corre?",
 
 "email_debug_exp" =>
-"Los mensajes del servidor serán mostrados al enviar emails.",
+"Mensajes de servidor seran mostrados al enviar correo.",
 
 "none" =>
 "Ninguno",
 
-"weblog_nomenclature" =>
-"Palabra de designación de sección",
+"channel_nomenclature" =>
+"Palabra para Designacion de Seccion",
 
-"weblog_nomenclature_exp" =>
-"Por defecto, ExpressionEngine usa la palabra &quot;weblog&quot; a través del panel de control. Puedes cambiarla si prefieres algo más genérico, como &quot;sección&quot;.  Ten en cuenta que esta palabra no cambiará en tus plantillas, sólo en el panel de control",
+"channel_nomenclature_exp" =>
+"Por predeterminado, ExpressionEngine utiliza la palabra &quot;canal&quot; dentro del panel de control. Puedes cambiarlo si prefieras una palabra mas generica, tal como &quot;seccion&quot;. Por favor nota: Esta palabra no cambiara en tus plantillas, solo dentro del panel de control.",
 
 "site_404" =>
-"Página 404",
+"Pagina 404",
 
 "site_404_exp" =>
-"Determina qué plantilla se presentará cuando alguien intente acceder a una URL inválida.",
-
-"save_tmpl_files" =>
-"¿Deseas permitir que las plantillas se puedan guardar como archivos?",
-
-"save_tmpl_files_exp" =>
-"Cuando guardes tus plantillas, tienes la opción de guardarlas como ficheros en tu servidor. Por favor, consulta la guía de usuario para más información sobre esta función.",
-
-"tmpl_file_basepath" =>
-"Ruta base hacia el directorio de archivos de plantilla",
-
-"tmpl_file_basepath_exp" =>
-"Ruta del servidor al directorio en el que los archivos de plantilla se deberían guardar.",
+"Determina que plantilla debe ser mostrada cuando alguien trata de accesar un URL invalido.",
 
 "db_cfg" =>
-"Ajustes de base de datos",
-
-"db_conntype" =>
-"Tipo de conexión de base de datos",
-
-"persistent" =>
-"Persistente",
-
-"non_persistent" =>
-"No Persistente",
+"Configuracion de Base de Datos",
 
 "cp_image_path" =>
-"URL hacia el directorio de imágenes del panel de control",
+"URL a Directorio de Imagenes del Panel de Control",
 
 "auto_close" =>
 "Auto",
@@ -801,79 +744,76 @@ $L = array(
 "Manual",
 
 "new_posts_clear_caches" =>
-"¿Despejar la caché cuando nuevas se creen nuevas entradas?",
+"Limpiar todo el cache cuando entradas nuevas son enviadas?",
 
 "require_ip_for_posting" =>
-"¿Se requiere una dirección IP y un Agente Usuario cuando se reciben comentarios?",
+"Requerir Direccion IP y Agente de Usuario cuando se reciben comentarios?",
 
 "redirect_submitted_links" =>
-"¿Deseas aplicar denegación por Rango a los links enviados por los usuarios?",
+"Aplicar Denegacion de Rango a enlaces enviados por usuarios?",
 
 "redirect_submitted_links_explanation" =>
-"Esta opción modifica los links enviados por usuarios para que primero dirijan a una página de redirección intermedia. Esto ayuda a disuadir comentarios de spam al prevenir que los motores de búsqueda cataloguen los links.",
+"Esta opcion reescribe enlaces enviados por usuarios para que primero dirigan a una pagina intermedia de redireccion. Esto ayuda disminuir spam de comentarios al prevenir que motores de busqueda agreguen enlaces.",
 
 "captcha_cfg" =>
-"Preferencias de Captcha",
+"Preferencias de CAPTCHA",
 
 "captcha_require_members" =>
-"¿Requiere Captcha con usuarios que han iniciado la sesión?",
+"Requerir CAPTCHA para miembros?",
 
-"weblog_cfg" =>
-"Preferencias de Weblog Global",
+"channel_cfg" =>
+"Preferencias Globales de Canal",
 
 "auto_convert_high_ascii" =>
-"Convertir automáticamente texto ASCII en Entidades",
+"Automaticamente Convertir Texto Alto en ASCII a Entidades",
 
 "cp_cfg" =>
-"Ajustes del Panel de Control",
+"Configuracion de Panel de Control",
 
 "query_cfg" =>
-"Pereferencias de caché de query",
+"Preferencias de Cache de Consultas",
 
 "debug_cfg" =>
-"Preferencias de solución de errores (debugging)",
+"Preferencias de Depurado",
 
 "license_number" =>
-"Número de licencia",
+"Numero de Licencia",
 
 "word_separator" =>
-"Separador de palabras para los Títulos URL",
+"Palabra Separador para Titulos de URL",
 
 "dash" =>
-"Guión",
+"Guion",
 
 "underscore" =>
-"Guión bajo",
+"Guion Bajo",
 
 "site_name" =>
-"Nombre de tu sitio",
+"Nombre de su sitio",
 
 "system_admin" =>
-"Administración del Sistema",
+"Administracion de Sistema",
+
+"content_admin" =>
+"Administracion de Contenido",
 
 "system_preferences" =>
 "Preferencias de Sistema",
 
 "is_system_on" =>
-"¿Está encendido el sistema?",
+"Habilitar sistema?",
 
 "is_system_on_explanation" =>
-"Si él sistema está apagado, sólo los Super Admins pueden ver tu sitio(s)",
+"Si el sistema esta inhabilitado, solo Super Admins podran ver tu sitio",
 
 "system_off_msg" =>
-"Mensaje de Sistema Apagado",
-
-"offline_template" =>
-"Plantilla de Sistema Offline",
-
-"offline_template_desc" =>
-"Esta plantilla contiene la página que se mostrará cuando tu sitio esté offline.",
+"Mensaje de Sistema Inhabilitado",
 
 "template_updated" =>
-"Plantilla actualizada",
+"Plantilla Actualizada",
 
 "preference_information" =>
-"Guía de Preferencias",
+"Guia de Preferencias",
 
 "preference" =>
 "Preferencia",
@@ -882,256 +822,241 @@ $L = array(
 "Valor",
 
 "general_cfg" =>
-"Configuración General",
-
-"enable_db_caching" =>
-"Activar Caché de SQL Query",
-
-"member_cfg" =>
-"Preferencias de Miembro",
-
-"profile_templates" =>
-"Plantilla de Perfil de Miembro",
+"Configuracion General",
 
 "allow_member_registration" =>
-"¿Deseas aceptar nuevos registros de miembros?",
+"Permitir Nuevos Registros de Miembro?",
 
 "req_mbr_activation" =>
-"¿Requiere activación una cuenta de miembro?",
+"Requerir Activacion de Cuenta de Miembro?",
 
 "no_activation" =>
-"No es necesaria la activación",
+"No se requiere activacion",
 
 "email_activation" =>
-"Activación por email realizada por el miembro nuevo",
+"Activacion por correo",
 
 "manual_activation" =>
-"Activación manual realizada por un administrador",
+"Activacion manual por un administrador",
 
 "require_terms_of_service" =>
-"Requiere Términos de Servicio",
+"Requerir Terminos de Uso",
 
 "member_theme" =>
-"Tema de Perfil de Miembro por defecto",
+"Tema Predeterminado de Perfil de Miembro",
 
 "member_theme_exp" =>
-"Determina qué tema usar para varias de las páginas de miembros: inicio de sesión, registro, perfil, etc.",
+"Determina que tema a usar para paginas de membresia variadas: acceso, registro, perfil, etc.",
 
 "require_terms_of_service_exp" =>
-"Si seleccionas &quot;sí&quot; obligarás a los usuarios a marcar  la casilla &quot;Acepto los Términos durante el registro",
+"Establecer esto en su obliga a usuario a aceptar los terminos durante su registro",
 
 "use_membership_captcha" =>
-"Activar Captcha de Miembro",
+"Habilitar CAPTCHA de Membresia",
 
 "new_member_notification" =>
-"¿Deseas notificar a los administradores sobre nuevos registros?",
+"Notificar administradores de nuevos registros?",
 
 "mbr_notification_emails" =>
-"Dirección de correo para la notificación",
+"Direccion de Correo para Notificacion",
 
 "separate_emails" =>
-"Separar direcciones múltiples con una coma",
+"Separa multiples correos con una coma",
 
 "email_console_timelock" =>
-"Cierre temporal de la Consola de Email",
+"Candado de Consola de Correo",
 
 "email_console_timelock_exp" =>
-"Minutos que deben pasar antes de permitir a un miembro enviar otro email. Nota: Esto sólo se aplica a la Consola de Email de las páginas de perfil de miembro.",
+"El numero de minutos que deben pasar antes de que un miembro puedo enviar otro correo. Nota: esto solo aplicar ala Consola de Correo en las paginas de perfil de miembros.",
 
 "log_email_console_msgs" =>
-"Mensajes de Registro de Consola de Email",
+"Registrar Mensajes de Consola de Correo",
 
 "log_email_console_msgs_exp" =>
-"Esta preferencia te permite registrar todos los mensajes enviados a través de la Consola de Email de las páginas de perfil de miembro.",
+"Esta preferencia te permite registrar todos los mensajes enviados por la Consola de Correo en las paginas de perfil de miembros.",
 
 "default_member_group" =>
-"Grupo de Miembros que será asignado por defecto a nuevos miembros",
+"Grupo de Miembro Asignado a Miembros Nuevos Predeterminadamente",
 
 "group_assignment_defaults_to_two" =>
-"Si requiere la activación de cuenta, los miembros se añadirán a este grupo cuando sean activados",
-
-"view_email_logs" =>
-"Registros de la Consola de Email",
+"Si requieres activacion de miembro, miembros seran asignado a este al estar activados",
 
 "user_session_type" =>
-"Tipo de Sesión de Usuario",
+"Tipo de Sesion de Miembro",
 
 "admin_session_type" =>
-"Tipo de Sesión de Panel de Control",
+"Tipo de Sesion de Panel de Control",
 
 "security_cfg" =>
-"Preferencias de Seguridad y Sesión",
+"Preferencias de Seguridad y Sesiones",
 
 "un_min_len" =>
-"Tamaño de nombre usuario mínimo",
+"Minimo de Longitud para Nombres de Usuario",
 
 "pw_min_len" =>
-"Tamaño de contraseña mínimo",
+"Minimo de Longitud de Contraseña",
 
 "cs_session" =>
-"Cookies e ID de sesión",
+"Cookies e ID de sesion",
 
 "c_session" =>
-"Sólo Cookies",
+"Solo Cookies",
 
 "s_session" =>
-"Sólo ID de sesión",
+"Solo ID de sesion",
 
 "secure_forms" =>
-"Procesar los datos de formulario en Modo Seguro?",
+"Procesar datos de formularios en Modo Seguro?",
 
 "deny_duplicate_data" =>
-"¿Deseas Denegar Duplicar Datos?",
+"Denegar Datos Duplicados?",
 
 "deny_duplicate_data_explanation" =>
-"Esta opción evita que la información introducida por los usuarios (comentarios, trackbacks, etc.) se reciba si ya existe un duplicado exacto de esos datos.",
+"Esta opcion previene que datos enviados por usuario (comentarios, etc.) se reciban como datos duplicados exactos de datos que ya existen.",
 
 "secure_forms_explanation" =>
-"Evita spam automático y múltiples envíos accidentales.",
+"Previene spaming automatico y submisiones multiples por accidente.",
 
 "allow_multi_logins" =>
-"¿Deseas permitir múltiples sesiones desde una sola cuenta?",
+"Habilitar multiples sesiones en una cuenta unica?",
 
 "allow_multi_logins_explanation" =>
-"Determina si más de una persona puede acceder al sistema utilizando la misma cuenta de usuario. Nota: Si tu Tipo de Sesión está seleccionada como &quot;Sólo Cookies&quot; esta opción no funcionará.",
+"Determine si una persona puede acceder al sistema simultaneameente con la misma cuenta de usuario. Nota: Si tu Tipo de Sesion esta como &quot;Solo Cookies&quot; esta funcion no podra utilizarse.",
 
 "password_lockout" =>
-"¿Deseas activar el cierre de contraseña?",
+"Habilitar Candado de Contraseña?",
 
 "password_lockout_explanation" =>
-"Si se activa, sólo se permitirán cuatro intentos de inicio de sesión no válidos dentro del intervalo de tiempo especificado más abajo. Esto es una disuasión para hackers que usan ataques de colisión para obtener contraseñas poco seguras.",
+"Si habilitado, solo se permitiran cuatro intentos de acceso dentro del intervalo de tiempo especificado. Esto ayuda a prevenir hackers que utilizan ataques de colision para adivinar contraseñas debiles.",
 
 "password_lockout_interval" =>
-"Intervalo de Tiempo para el cierre.",
+"Intervalo para Candado de Contraseña",
 
 "login_interval_explanation" =>
-"El número está puesto en minutos. Se permite usar decimales. Ejemplo:  1.5",
+"Numero en minutos. Tienes permitido utilizar fracciones decimales. Ejempli: 1.5",
 
 "require_ip_for_login" =>
-"¿Requiere una Dirección IP y Agente de Usuario para el Inicio de Sesión?",
+"Requerir Direccion IP y Agente de Usuario para Acceder?",
 
 "require_ip_explanation" =>
-"Evita que los usuarios inicien la sesión a menos que su navegador genere una Dirección IP y un Agente de Usuario. Esto evita que los hackers se puedan conectar a través de conexiones directas al socket.",
+"Previene que usuarios accedan al menos que su navegador genere una Direccion IP y datos de Agente de Usuario. Esto previene que hackers accedan utilizando conexiones directas.",
 
 "allow_multi_emails" =>
-"¿Deseas permitir múltiples cuentas usando la misma dirección de correo?",
+"Permitir Mas de Una Cuenta por Direccion de Correo?",
 
 "allow_username_change" =>
-"¿Deseas permitir a los miembros cambiar su nombre de usuario?",
+"Permitir a miembros cambiar su nombre de usuario?",
 
 "require_secure_passwords" =>
-"¿Requiere Contraseñas Seguras?",
+"Requerir Contraseñas Seguras?",
 
 "secure_passwords_explanation" =>
-"Los usuarios tendrán que elegir contraseñas que tengan por lo menos una mayúscula, una minúscula y un número.",
+"Usuarios deberan escoger contraseñas con al menos una letra mayusculas, una minuscula, y un numero",
 
 "allow_dictionary_pw" =>
-"¿Permitir palabras de diccionario en las contraseñas?",
+"Permitir Palabras de Diccionario como Contraseñas?",
 
 "real_word_explanation" =>
-"Esta opción evita que los usuarios usen como contraseña palabras y nombres que aparecen en el diccionario",
+"Esto previene que usuarios utilizen palabras y nombres que existen en un diccionario como su contraseña",
 
 "dictionary_note" =>
-"Nota: Para poder usar esta función debes instalar un fichero de diccionario. Consulta el manual.",
+"Nota: para poder utilizar esta funcion debes instalar el archivo de diccionario. Consulta el manual.",
 
 "name_of_dictionary_file" =>
-"Nombre del fichero de diccionario",
+"Nombre del Archivo de Diccionario",
 
 "dictionary_explanation" =>
-"El nombre del fichero que contiene tu lista de palabras",
+"El nombre del archivo que contiene tu lista de palabras",
 
 "image_path" =>
-"Ruta al Directorio de Imágenes",
+"Ruta a Directorio de Imagenes",
 
 "cp_url" =>
-"URL a tu página índice de tu Panel de Control",
+"URL a la pagina indice de tu Panel de Control",
 
 "with_trailing_slash" =>
-"Con barra final",
+"Con diagonal final",
 
 "site_url" =>
-"URL hacia el directorio raíz de tu sitio",
+"URL al directorio raiz de tu sitio",
 
 "url_explanation" =>
-"Este es el directorio que contiene el fichero índice de tu sitio.",
+"Este es el directorio que contiene el archivo indice de tu sitio",
 
 "doc_url" =>
-"URL al directorio de documentación",
+"URL a Directorio de Documentacion",
 
 "doc_url_explanation" =>
-"Sólo directorio raíz, con barra final",
+"Solo el directorio raiz, con diagonal final",
 
 "site_index" =>
-"Nombre de la página índice de tu sitio",
+"Nombre de la pagina indice de tu sitio",
 
 "system_path" =>
-"Ruta absoluta a tu carpeta %x",
+"Ruta absoluta a tu directorio %x",
 
 "force_query_string" =>
-"Forzar cadena de URL query",
+"Force URL query strings",
 
 "safe_mode" =>
-"¿Tu servidor está funcionando en el Modo Seguro de PHP?",
+"Tu servidor esta corriendo en PHP en Modo Seguro?",
 
 "force_query_string_explanation" =>
-"Este es un mecanismo de seguridad para servidores que no soportan la variable PATH_INFO.",
+"Este es un mecanismo para los servidores que no tienen soporte para la variable PATH_INFO.",
 
 "debug" =>
-"Preferencias de depuración de errores (debug)",
+"Preferencia de Depuracion",
 
 "debug_explanation" =>
-"Activa los mensajes de error, valioso durante el desarrollo del sitio",
+"Habilitado el mostrado de mensaje de error, los cuales se encuentran disponibles durante desarollo del sitio",
 
-"show_queries" =>
-"¿Mostar las SQL Queries?",
+"show_profiler" =>
+"Mostrar Perfilador de Salida?",
 
-"show_queries_explanation" =>
-"Si se activa, los Super Admins verán todas las queries SQL mostradas al pie de la ventana del navegador. Valioso para la depuración de errores.",
+"show_profiler_explanation" =>
+"Si habilitado, Super Admins podran ver resultados de benchmark, todas las consultas SQL, y datos de formularios enviados mostrados en la parte inferior de la ventana. Util para depuracion.",
 
 "debug_zero" =>
-"0: No se han generado mensajes de error PHP/SQL ",
+"0: Errores de PHP/SQL no son generados",
 
 "debug_one" =>
-"1: Los mensajes de error de PHP/SQL se muestran sólo a los Super Admins",
+"1: Errores de PHP/SQL son mostrados solo a Super Admins",
 
 "debug_two" =>
-"2: Los mensajes de error de  PHP/SQL se muestran a cualquiera - NO ES SEGURO",
+"2: Errores de PHP/SQL son mostrados a todos - NO SEGURO",
 
 "deft_lang" =>
-"Idioma por defecto",
+"Lenguaje Predeterminado",
 
 "xml_lang" =>
-"Lenguaje XML por defecto",
+"Lenguaje XML Predeterminado",
 
 "used_in_meta_tags" =>
-"Usado en las meta tags del panel de control",
-
-"charset" =>
-"Set de Caracteres por defecto",
+"Utilizado en etiquetas meta del panel de control",
 
 "gzip_output" =>
-"Activir GZIP output?",
+"Habilitar Salida GZIP?",
 
 "gzip_output_explanation" =>
-"Si se activa, tu sitio se mostrará en un formato comprimido para una carga de página más rápida",
+"Cuando habilitado, tu sitio era mostrado en un formato comprimido para carga de paginas mas rapido",
 
 "send_headers" =>
-"Generar Encabezados de Página HTTP?",
+"Generar Cabeceras HTTP de Pagina",
 
 "redirect_method" =>
-"Método de Redirección",
+"Metodo de Redireccion",
 
 "location_method" =>
-"Location (más rápido)",
+"Locacion (mas rapido)",
 
 "refresh_method" =>
-"Refresh (Servidores Windows)",
+"Refrescar (servidores Windows)",
 
 "localization_cfg" =>
-"Ajustes de Localización",
+"Configuracion de Localizacion",
 
 "time_format" =>
-"Formato de Tiempo por defecto",
+"Formato de Fecha Predeterminado",
 
 "united_states" =>
 "Estados Unidos",
@@ -1140,55 +1065,55 @@ $L = array(
 "Europeo",
 
 "server_timezone" =>
-"Zona horaria del Servidor",
+"Horario de Zona del Servidor",
 
 "server_offset" =>
-"Offset del servidor (en minutos)",
+"Server Offset (in minutes)",
 
 "server_offset_explain" =>
-"Usar el signo menos para restar minutos: -15",
+"Utiliza el simbolo de resta para restar minutos: -15",
 
 "daylight_savings" =>
 "Horario de Verano",
 
 "cookie_cfg" =>
-"Ajuste de Cookies",
+"Configuraciones de Cookie",
 
 "cookie_domain" =>
-"Dominio de Cookies",
+"Dominio de Cookie",
 
 "cookie_domain_explanation" =>
-"Usar .tudominio.com para las cookies a lo ancho del sitio",
+"Utiliza .tudominio.com para cookies de todo el sitio",
 
 "cookie_prefix" =>
-"Prefijo de cookies",
+"Prefijo de Cookie",
 
 "cookie_prefix_explain" =>
-"Usar sólo si estás lanzando una instalación múltiple de este programa",
+"Utiliza esto solo si tiene corriendo multiples instalaciones de este programa",
 
 "cookie_path" =>
-"Ruta de cookie",
+"Ruta de Cookie",
 
 "cookie_path_explain" =>
-"Usar sólo si necesitas una ruta de servidor específica para cookies",
+"Utiliza esto solo si requieres una ruta especifica para tus cookies",
 
 "enable_image_resizing" =>
-"Activar Redimensión de Imagen",
+"Habilitar Cambio de Tamaño de Imagen",
 
 "enable_image_resizing_exp" =>
-"Si está activado, podrás crear thumbnails cuando subas imágenes para tus entradas del weblog.",
+"Cuando habilitado, podras crear miniaturas al cargar imagenes para utilizar dentro de tus entradas de canal.",
 
 "image_resize_protocol" =>
-"Protocolo de Redimensión de Imagen",
+"Protocolo de Cambio de Tamaño de Imagen",
 
 "image_resize_protocol_exp" =>
-"Por favor, comprueba que tu proveedor de hosting soporta el protocolo seleccionado.",
+"Por favor revisa con tu proveedor de hospedaje para verificar que tu servidor tiene soporte del protocolo seleccionado.",
 
 "image_library_path" =>
-"Ruta al Convertidor de Imagen",
+"Ruta de Convertidor de Imagen",
 
 "image_library_path_exp" =>
-"Si seleccionas ImageMagick o NetPBM debes especificar la ruta del servidor al programa.",
+"Si seleccionas ImageMagick o NetPBM debes especificar una ruta de servidor al programa.",
 
 "gd" =>
 "GD",
@@ -1200,61 +1125,61 @@ $L = array(
 "NetPBM",
 
 "imagemagick" =>
-"ImageMagik",
+"ImageMagick",
 
 "thumbnail_prefix" =>
-"Sufijo de Thumbnail",
+"Sufijo de Miniaturas de Imagen",
 
 "thumbnail_prefix_exp" =>
-"Este sufijo se añadirá a todas los thumbnails generados automáticamente.  Ejemplo: foto_thumb.jpg",
+"Este sufijo sera agregado a todas las miniaturas generadas automaticamente. Por ejemplo: photo_min.jpg",
 
 "captcha_path" =>
-"Ruta de Servidor a la carpeta Captcha",
+"Ruta de Servidor a Carpeta CAPTCHA",
 
 "captcha_url" =>
-"URL Completa a la carpeta Captcha",
+"URL Completo a Carpeta CAPTCHA",
 
 "captcha_font" =>
-"Usar fuente TrueType para Captcha?",
+"Utilizar Fuentes True Type para CAPTCHA?",
 
 "email_cfg" =>
-"Configuración de correo",
+"Configuracion de Correo",
 
 "mail_protocol" =>
-"Protocolo de correo",
+"Protocolo de Correo",
 
 "smtp_server" =>
-"Dirección de Servidor SMTP",
+"Direccion de Servidor SMTP",
 
 "smtp_username" =>
-"Nombre de usuario SMTP",
+"Usuario SMTP",
 
 "smtp_password" =>
 "Contraseña SMTP",
 
 "only_if_smpte_chosen" =>
-"Usar esta opción sólo si seleccionas SMTP",
+"Use this only if you chose SMTP",
 
 "email_batchmode" =>
-"Usa Batch Mode? (lote)",
+"Utilizar Modo Lote?",
 
 "batchmode_explanation" =>
-"El Batch Move separa un número grande de mailing en grupos más pequeños que se envían en intervalos. Recomendado si tu web usa una cuenta de hosting compartida.",
+"Modo Lote reparte grupos grandes de correo a grupos mas pequeños, los cuales se envian en intervalos. Es recomendado si tu sitio esta hospedado en una cuenta de servidor compartido.",
 
 "email_batch_size" =>
-"Número de Emails por lote",
+"Numero de Correo Por Lote",
 
 "batch_size_explanation" =>
-"Para servers normales, 300 is un número seguro",
+"Para servidores comunes, 300 es un numero seguro",
 
 "webmaster_email" =>
-"Dirección de correo de retorno para emails generados automáticamente",
+"Direccion de correo de retorno para correos generados automaticamente",
 
 "return_email_explanation" =>
-"Si dejas esto en blanco, muchos servidores de correo considerarán tu email como spam",
+"Si mantienes esto en blanco, muchos servidores de correo consideraran tu correo como spam",
 
 "php_mail" =>
-"PHP Mail",
+"Correo PHP",
 
 "sendmail" =>
 "Sendmail",
@@ -1263,199 +1188,193 @@ $L = array(
 "SMTP",
 
 "plain_text" =>
-"Texto simple",
+"Texto Simple",
 
 "html" =>
 "HTML",
 
 "mail_format" =>
-"Formato de correo por defecto",
+"Formato Predeterminado de Correo",
 
 "word_wrap" =>
-"¿Deseas activar Word-wrapping por defecto?",
+"Enable Word-wrapping by Default?",
 
 "cp_theme" =>
-"Tema de Panel de Control por defecto",
+"Tema Predeterminado para Panel de Control",
 
 "template_cfg" =>
 "Preferencias de Plantilla",
 
-"save_tmpl_revisions" =>
-"Guardar las revisiones de plantilla",
-
 "censoring_cfg" =>
-"Censura de palabras",
+"Censura de Palabras",
 
 "enable_censoring" =>
-"¿Deseas activar la censura  de palabras?",
+"Habilitar Censura de Palabras?",
 
 "censored_words" =>
-"Palabras censuradas",
+"Palabras Censuradas",
 
 "censored_explanation" =>
-"Situar cada palabra en una línea diferente.",
+"Escribe una palabra por linea.",
 
 "emoticon_cfg" =>
-"Preferencias de emoticonos",
+"Preferencias de Emoticon",
 
 "enable_emoticons" =>
-"Mostrar smileys?",
+"Mostrar Smileys?",
 
 "emoticon_path" =>
-"URL al directorio que contiene los smileys",
+"URL al directorio que contiene tus smileys",
 
 "tracking_cfg" =>
-"Preferencias de rastreo",
+"Preferencias de Rastreo",
 
 "enable_online_user_tracking" =>
-"¿Deseas activar el rastreo de usuario online?",
+"Habilitar Rastreo de Usuario en Linea?",
 
 "dynamic_tracking_disabling" =>
-"Suspender TODO el rastreo cuando el número de visitantes online excede:",
+"Suspender TODO rastreo cuando el numero de visitas excede:",
 
 "dynamic_tracking_disabling_info" =>
-"El Rastreo de Usuarios Online debe activarse para usar esta opción. Mirar la guía de usuario para más detalles.",
+"Rastreo de Usuario en Linea debe estar habilitado para usar esta funcion, lee la guia de usuario para mas detalles.",
 
 "enable_hit_tracking" =>
-"¿Deseas activar el rastreo de hits de la plantilla?",
+"Habilitar Rastreo de Hits en Plantillas?",
 
 "enable_entry_view_tracking" =>
-"¿Deseas activar el rastreo de las vistas de las entradas de Weblog?",
+"Habilitar Rastreo de Vistas de Entradas de Canal?",
 
 "log_referrers" =>
-"¿Deseas activar el rastreo de referencias?",
+"Habilitar Rastreo de Referencias?",
 
-"weblog_administration" =>
-"Administración de Weblog",
+"channel_administration" =>
+"Administracion de Canal",
 
-"weblog_management" =>
-"Mánager de Weblog",
+"channel_management" =>
+"Gestion de Canales",
 
 "field_management" =>
-"Campos de weblog personalizados",
+"Campos de Canal Personalizados",
 
 "file_upload_prefs" =>
-"Preferencias de Carga de Fichero (upload)",
+"Preferencias de Carga de Archivos",
 
 "categories" =>
-"Administración de Categorías",
+"Gestion de Categorias",
+
+"missing_required_fields" =>
+"Te Hacen Falta Campos Requeridos:",
 
 "default_ping_servers" =>
-"Servidores de Ping por defecto",
+"Servidores Ping Predeterminados",
 
 "status_management" =>
-"Estados de Entrada Personalizados",
+"Estados Personalizados de Entrada",
+
+"status_created" =>
+"Estatus ha sido Creado",
+
+"status_updated" =>
+"Estatus ha sido actualizado",
+
+"status_deleted" =>
+"Estatus ha sido borrado",
+
+"taken_status_group_name" =>
+"Este nombre de grupo de estatus ya existe.",
+
+"invalid_status_name" =>
+"Nombres de estatus solo puede tener numeros y letras, y tambien espaciones, guiones bajos y guiones. ",
+
+"duplicate_status_name" =>
+"Un estatus ya existe con el mismo nombre.",
 
 "edit_preferences" =>
-"Preferencias de edición",
+"Editar Preferencias",
 
 "preferences_updated" =>
-"Preferencias actualizadas",
+"Preferencias Actualizadas",
 
 "edit_groups" =>
-"Editar grupos",
+"Editar Asignaciones de Grupo",
 
 "members_and_groups" =>
 "Miembros y Grupos",
-
-"view_members" =>
-"Ver Miembros",
-
-"member_validation" =>
-"Activar Miembros Pendientes",
-
-"register_member" =>
-"Registrar un Miembro Nuevo",
-
-"member_search" =>
-"Buscar Miembro",
-
-"user_banning" =>
-"Usar exclusión (banning)",
-
-"custom_profile_fields" =>
-"Campos de Perfil personalizados",
-
-"email_notification_template" =>
-"Plantillas de email de notificación",
-
-"member_groups" =>
-"Grupos de Miembros",
 
 "utilities" =>
 "Utilidades",
 
 "view_log_files" =>
-"Ver el registro del Panel de Control (log)",
+"Ver Registro de Panel de Control",
 
 "clear_caching" =>
-"Despejar los datos en caché",
+"Limpiar Datos de Cache",
 
 "page_caching" =>
-"Ficheros de caché de Página (plantilla) ",
+"Archivos de cache de pagina (plantilla)",
 
 "tag_caching" =>
-"Ficheros de caché de etiquetas",
+"Archivos de cache de etiquetas",
 
 "db_caching" =>
-"Ficheros de caché de base de datos",
+"Archivos de cache de base de datos",
 
 "all_caching" =>
-"Todo se pone en caché",
+"Todo cache",
 
 "cache_deleted" =>
-"Los ficheros en caché han sido borrados",
+"Archivos de cache han sido borrados",
 
 "php_info" =>
 "PHP Info",
 
 "sql_manager" =>
-"SQL Manager",
+"Gestor de SQL",
 
 "sql_info" =>
 "SQL Info",
 
 "sql_utilities" =>
-"SQL Utilidades",
+"Utilidades SQL",
 
 "database_type" =>
-"Tipo de base de datos",
+"Tipo de Base de Datos",
 
 "sql_version" =>
-"Versión de base de datos",
+"Version de Base de Datos",
 
 "database_size" =>
-"Tamaño de base de datos",
+"Tamaño de Base de Datos",
 
 "database_uptime" =>
-"Tiempo de funcionamiento de las base de datos",
+"Tiempo en Linea de Base de Datos",
 
 "total_queries" =>
-"Total solicitudes al servidor desde el encendido",
+"Cantidad de consultas de servidor desde encendido",
 
 "sql_status" =>
-"Información de Estado",
+"Informacion de Estatus",
 
 "sql_system_vars" =>
 "Variables de Sistema",
 
 "sql_processlist" =>
-"Lista de Proceso",
+"Listado de Procesos",
 
 "sql_query" =>
-"Formulario de Query de base de datos",
+"Formulario de Consultas de Base de Datos",
 
 "query_result" =>
-"Resultado de solicitud (query)",
+"Resultado de Consulta",
 
 "query" =>
-"SQL Query",
+"Consulta SQL",
 
 "total_results" =>
-"Resultados totales: %x",
+"Total de Resultados: %x",
 
 "total_affected_rows" =>
-"Total de filas afectadas:",
+"Total de Filas Afectadas:",
 
 "browse" =>
 "Navegar",
@@ -1467,7 +1386,7 @@ $L = array(
 "Nombre de Tabla",
 
 "records" =>
-"Registros de base de datos",
+"Registros de Base de Datos",
 
 "size" =>
 "Tamaño",
@@ -1476,58 +1395,46 @@ $L = array(
 "Tipo",
 
 "analize" =>
-"Analizar tablas",
+"Analizar Tablas",
 
 "optimize" =>
-"Optimizar las tablas SQL",
+"Optimizar Tablas SQL",
 
 "repair" =>
-"Reparar tablas SQL",
+"Reparar Tablas SQL",
 
 "optimize_table" =>
-"Optimizar las tablas seleccionadas",
+"Optimizar tablas seleccionadas",
 
 "repair_table" =>
-"Reparar las tablas seleccionadas",
-
-"view_table_sql" =>
-"Ver los datos y estructura SQL",
-
-"backup_tables_file" =>
-"Hacer Backup de las tablas seleccionadas - Fichero de texto",
-
-"backup_tables_zip" =>
-"Hacer Backup de las tablas seleccionadas - Fichero Zip",
-
-"backup_tables_gzip" =>
-"Hacer Backup de las tablas seleccionadas - Fichero Gzip",
+"Reparar tablas seleccionadas",
 
 "select_all" =>
 "Seleccionar Todo",
 
 "no_buttons_selected" =>
-"Debes seleccionar las tablas en las que quieres realizar esta acción",
+"Debes seleccionar las tablas a las cuales le quieres realizar esta accion",
 
 "unsupported_compression" =>
-"Tu instalación de PHP no soporta este método de compresión",
+"Tu instalacion de PHP no tiene soporte para este metodo de compresion",
 
 "backup_info" =>
-"Usa este formulario para hacer el backup de tu base de datos",
+"Utiliza este formulario para respaldar tu base de datos.",
 
 "save_as_file" =>
-"Guardar el backup en tu escritorio",
+"Guardar respaldo a tu escritorio",
 
 "view_in_browser" =>
-"Ver el backup en tu navegador",
+"Ver respaldo en tu navegador",
 
 "sql_query_instructions" =>
-"Usar este formulario para introducir una SQL query",
+"Utiliza este formulario para enviar una consulta SQL",
 
 "sql_query_debug" =>
-"Activar MySQL Output de error",
+"Habilitar Salida de Errores MySQL",
 
 "file_type" =>
-"Tipo de fichero:",
+"Tipo de Archivo:",
 
 "zip" =>
 "Zip",
@@ -1536,163 +1443,157 @@ $L = array(
 "Gzip",
 
 "advanced_users_only" =>
-"Sólo Usuario Avanzados",
+"Solo Usuario Avanzados",
 
 "recount_stats" =>
-"Recuento de estadísticas",
+"Recontar Estadisticas",
+
+"recount_prefs" =>
+"Recontar Preferencias",
+
+"recount_batch_total" =>
+"Cantidad total de filas de base de datos procesadas por lote.",
 
 "preference_updated" =>
-"Preferencia actualizada",
+"Preferencia Actualizada",
 
 "click_to_recount" =>
-"Clicka para hacer un recuento de las filas de la %x a la %y",
+"Haz click para recontar filas %x hasta %y",
 
 "items_remaining" =>
-"Historial restante:",
+"Registros restantes:",
 
 "recount_completed" =>
-"Recuento completo",
+"Reconteo Completado",
 
 "return_to_recount_overview" =>
-"Volver a la página de Recuento Principal",
+"Regresar a Pagina Principal de Reconteo",
 
 "recounting" =>
-"Haciendo recuento",
+"Recontando",
 
 "recount_info" =>
-"Los enlaces de abajo te permiten actualizar varias estadísticas, como por ejemplo cuantas entradas ha realizado cada miembro.",
+"Los enlaces de abajo te permiten actualizar varias estadisticas, tales como cuantas entradas ha enviado cada usuario.",
 
 "source" =>
 "Fuente",
 
 "total_records" =>
-"Total historial (records)",
+"Total de Registros:",
 
 "recalculate" =>
-"Hacer recuento de Estadísticas",
+"Recount Statistics",
 
 "do_recount" =>
-"Realizar recuento",
-
-"set_recount_prefs" =>
-"Preferencias de recuento",
-
-"recount_instructions" =>
-"Total de filas de base de datos procesadas por lote.",
-
-"recount_instructions_cont" =>
-"Para prevenir timeout del servidor, hacemos recuento de las estadísticas en lote. 1000 es un número seguro para la mayoría de servidores. Si el sitió está en un servidor de alto rendimiento o un servidor dedicado, puedes aumentar el número.",
+"Realizar Reconteo",
 
 "exp_members" =>
 "Miembros",
 
-"exp_weblog_titles" =>
-"Entradas de Weblog",
+"exp_channel_titles" =>
+"Entradas de Canal",
 
 "search_and_replace" =>
-"Encontrar y reemplazar",
-
-"data_pruning" =>
-"Depuración de datos",
+"Encontrar y Sustituir",
 
 "sandr_instructions" =>
-"Estos formularios te permiten buscar texto específico y reemplazarlo por otro texto diferente",
+"Estos formularios te permiten buscar texto especifico y sustituirlo con texto diferente",
 
 "search_term" =>
-"Buscar este texto",
+"Buscar por este texto",
 
 "replace_term" =>
-"Y reemplazarlo con este otro texto",
+"Y sustituirlo con este texto",
 
 "replace_where" =>
-"¿En qué campo de la base de datos quieres que suceda el cambio?",
+"En que campo de base de datos deseas que la sustitucion ocurra?",
 
 "search_replace_disclaimer" =>
-"Dependiendo de la sintaxis usada, esta función puede producir resultados no deseados. Consulta el manual y haz un backup de tu base de datos.",
+"Dependiendo del sintaxis utilizado, esta funcion puede producir resultados no deseados. Consulta el manual y respalda tu base de datos.",
 
 "title" =>
-"Título",
+"Titulo",
 
-"weblog_entry_title" =>
-"Título de Entrada de Weblog",
+"channel_entry_title" =>
+"Titulos de Entradas de Canal",
 
-"weblog_fields" =>
-"Campos de Weblog:",
+"channel_fields" =>
+"Campos de Canal:",
 
 "templates" =>
 "En TODAS las Plantillas",
 
 "rows_replaced" =>
-"Número de historiales de base de datos en los que se realizó el cambio:",
+"Cantidad de registros de base de datos en el cual una sustitucion ocurrio:",
 
 "view_database" =>
-"Administrar Tablas de Base de Datos",
-
-"sql_backup" =>
-"Backup de base de datos",
+"GestionarTablas de Bases de Datos",
 
 "sql_no_result" =>
-"La query que has introducido no ha tenido ningún resultado",
+"La consulta que enviastes no produjo resultados",
 
 "sql_not_allowed" =>
-"Lo siento, pero ese no es un tipo de query permitido.",
+"Disculpa, pero ese no es uno de los tipos permitidos de consulta.",
 
 "site_statistics" =>
-"Estadísticas de sitio",
+"Estadisticas de Sitio",
 
 "translation_tool" =>
-"Utilidad de traducción",
+"Utilidad de Traduccion",
 
 "translation_dir_unwritable" =>
-"Aviso: La carpeta de traducción no tiene permisos de escritura",
+"Advertencia: Tu directorio de direccion no tiene permisos de escritura",
 
 "please_set_permissions" =>
-"Por favor, cambia los permisos a 666 o 777 de la carpeta siguiente:",
+"Por favor establece los permisos del siguiente directorio a 666 o 777:",
 
 "choose_translation_file" =>
-"Elige un fichero para traducir",
+"Escoge un archivo a traducir",
 
 "core_language_files" =>
-"Ficheros de idioma de núcleo:",
+"Archivos basicos de idioma:",
 
 "module_language_files" =>
-"Ficheros de idioma de módulo:",
+"Archivos de idioma de modulo:",
 
 "file_saved" =>
-"El fichero ha sido guardado",
+"Este archivo ha sido guardado",
 
 "default_html_buttons" =>
-"Botones HTML por defecto",
+"Botones de HTML Predeterminados",
 
-"import_from_pm" =>
-"Utilidad para Importar pMachine Pro",
+"add_html_button" =>
+"Agregar Boton HTML",
+
+"add_predefined_html_button" =>
+"Agregar boton HTML predeterminado",
+
+"add_new_html_button" =>
+"Agregar nuevo boton HTML",
 
 "import_from_mt" =>
-"Utilidad para Importar Movable Type",
+"Utilidad de Importacion de Movable Type",
 
 "member_import" =>
-"Utilidad para importar miembros",
+"Utilidad de Importacion de Miembros",
 
 "specialty_templates" =>
-"Plantillas Especiales",
-
-"user_messages_template" =>
-"Plantilla de mensajes de usuario",
+"Plantillas de Especialidad",
 
 "plugin_manager" =>
-"Mánager de plugin",
+"Gestor de Plugins",
 
 "installed_plugins" =>
-"Plugins instalados",
+"Plugins Instalados",
 
 "no_plugins_exist" =>
-"No hay plugins instalados actualmente",
+"No existen plugins instalados actualmente",
 
 "view_info" =>
-"Ver información",
+"Ver Info",
 
 "plugin_information" =>
-"Información de plugin",
+"Informacion de Plugin",
 
 "pi_name" =>
 "Nombre",
@@ -1701,40 +1602,40 @@ $L = array(
 "Autor",
 
 "pi_version" =>
-"Versión",
+"Version",
 
 "pi_author_url" =>
-"URL del autor",
+"URL de Autor",
 
 "pi_description" =>
-"Descripción",
+"Descripcion",
 
 "pi_usage" =>
 "Uso",
 
 "no_additional_info" =>
-"No hay información adicional disponible para este plugin",
+"No existe informacion adicional para este plugin",
 
 "update_and_return" =>
-"Actualizar y terminar",
+"Actualizado y Terminado",
 
 "cached_relationships" =>
-"Entradas de relaciones en caché",
+"Entradas de Relacion en Cache",
 
 "template_debugging" =>
-"¿Deseas mostrar el Depurador de Plantilla?",
+"Mostrar Depuracion de Plantilla?",
 
 "template_debugging_explanation" =>
-"Si se activa, los Super Admins verán una lista de detalles sobre el procesamiento de la página. Valioso para la depuración de errores.",
+"Si habilitado, Super Admin podran ver un listado de los detalles relacionados con el procesamiento de la pagina. Util para depuracion.",
 
 "view_throttle_log" =>
-"Ver el registo de Regulador (throttle)",
+"Ver Registro de Throttle",
 
 "no_throttle_logs" =>
-"No hay IPs que reguladas en el sistema ahora mismo.",
+"Ningun IP esta siendo throttled por el sistema.",
 
 "throttling_disabled" =>
-"Regulador (throttling) desactivado",
+"Throttling Inhabilitado",
 
 "hits" =>
 "Hits",
@@ -1743,28 +1644,37 @@ $L = array(
 "Cerrado",
 
 "last_activity" =>
-"Última actividad",
+"Ultima Actividad",
 
 "blacklist_all_ips" =>
-"Poner en la Lista Negra todas las IPs",
+"Poner TODOS los IPs en Lista Negra",
 
 "sites_tab_behavior" =>
-"Comportamiento de las pestañas de sitio (Sites Tab)",
+"Comportamiento de Fichas de Sitio",
 
 "is_site_on" =>
-"Está el sitio encendido?",
+"Esta habilitado el sitio?",
 
 "is_site_on_explanation" =>
-"Si el sitio está apagado, sólo los Super Admins podrán ver este sitio",
+"Si el sitio esta inhabilitado, solo Super Admin podran ver el sitio",
 
 "theme_folder_path" =>
-"Ruta a la Carpeta de Temas",
+"Ruta de Carpeta de Temas",
 
 "site_preferences" =>
 "Preferencias de Sitio",
 
 "multiple_sites_enabled" =>
-"Activar el Admistrador de Múltiples Sitios",
+"Habilitar el Gestor de Sitios Multiples",
+
+"admin_content" =>
+"Administracion",
+
+"admin_system" =>
+"Administracion",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

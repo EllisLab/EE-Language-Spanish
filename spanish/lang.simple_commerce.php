@@ -1,265 +1,357 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "simple_commerce_module_name" =>
 "Comercio Simple",
 
 "simple_commerce_module_description" =>
-"Módulo de Comercio Simple y Flexible",
+"Módulo Simple y Flexible de Comercio",
 
 "simple_commerce_home" =>
 "Panel de Control",
 
+"subscription_frequency" =>
+"Frecuencia de Suscripción",
+
+"subscription_frequency_unit" =>
+"Unidad de Frecuencia de Suscripción",
+
+"invalid_subscription_frequency" =>
+"Frecuencia de Suscripción Inválida",
+
+"recurs_every" =>
+"Recurre cada",
+
+"days" =>
+"Dias",
+
+"screen_name" =>
+"Nombre de pantalla",
+
+"weeks" =>
+"Semanas",
+
+"months" =>
+"Meses",
+
+"years" =>
+"Años",
+
+"day" =>
+"Dia",
+
+"week" =>
+"Semana",
+
+"month" =>
+"Mes",
+
+"year" =>
+"Año",
+
 "ipn_url" =>
-"Instant Payment Notification (IPN) URL",
+"URL de Notificación de Pago Instantáneo (IPN)",
 
 "ipn_details" =>
-"Instant Payment Notification es un servicio de PayPal que permite procesar transacciones en un su página web y luego notificar a ExpressionEngine cuando la transacción se ha completado y ha sido aceptada. Esto permite no guardar y registrar las compras en el módulo Comercio Simple hasta que la transacción ha finalizado. El Módulo de Comercio Simple de  ExpressionEngine automatiza to esto detrás del escenario de forma que sólo tiene que activar la Instant Payment Notification en la página de PayPal y darles la URL de abajo&lt;br /&gt;&lt;br /&gt;
-Para más detalles:  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
+"Notificación de Pago Instantáneo es un servicio de Paypal que permito el procesamiento de transacciones en su sitio y luego la notificación de ExpressionEngine cuando una transacción es completada y aceptada. Esto permite que las compras no sean guardadas en el módulo de Comercio Simple hasta que la transacción se finalize. El módulo de Comercio Simple de ExpressionEngine automatiza todo esto de fondo y solo debes activar Notificación de Pago Instantáneo en el sitio de PayPal y proveer el siguiente URL.",
+
+"items" =>
+"Artículos",
+
+"purchases" =>
+"Compras",
+
+"email_templates" =>
+"Plantillas de Correo Electrónico",
 
 "store_items" =>
-"Productos",
+"Artículos de Tienda",
 
 "add_item" =>
-"Añadir  producto",
+"Agregar Artículo",
+
+"item_added" =>
+"Artículos Agregados",
+
+"purchase_date" =>
+"Fecha de compra",
+
+"recurring" =>
+"Recurrente",
+
+"current_subscriptions" =>
+"Fecha de Finalización de Suscripción",
 
 "add_items" =>
-"Añadir productos",
+"Agregar Artículos",
 
 "edit_items" =>
-"Editar productos",
+"Editar Arículos",
 
 "export_items" =>
-"Exportar productos",
+"Exportar Artículos",
 
 "store_purchases" =>
-"Compras",
+"Compras de Tienda",
 
 "edit_purchases" =>
 "Editar Compras",
 
 "add_purchase" =>
-"Añadir Compra",
+"Agregar Compra",
 
 "export_purchases" =>
 "Exportar Compras",
 
 "choose_entry_for_item" =>
-"Elegir entrada para producto",
+"Selecciona Entrada para Artículo de Tienda",
 
 "invalid_entries" =>
-"No hay entradas válidas",
+"No Hay Entras Válidas",
 
 "invalid_emails" =>
-"Emails inválidos",
+"Correos Inválidos",
 
 "invalid_purchases" =>
-"Compras inválidas",
+"Compras Inválidas",
 
 "use_sale_price" =>
-"¿Desea usar rebajas?",
+"Utilizar Precio de Descuento?",
 
 "entry_title" =>
-"Título de entrada",
+"Título de Entrada",
 
 "update_item" =>
-"Actualizar producto",
+"Actualizar Artículo",
 
 "update_items" =>
-"Actualizar productos",
+"Actualizar Artículos",
 
 "sale_price" =>
-"Precio rebajado",
+"Precio de Descuento",
 
 "regular_price" =>
-"Precio habitual",
+"Precio Regular",
 
 "item_enabled" =>
-"Producto Activado",
+"Artículo Habilitado",
 
 "purchase_actions" =>
-"Acciones de compra",
+"Acciones de Compra",
 
 "store_emails" =>
-"Guardar emails",
+"Guardar Correos",
 
 "add_email_template" =>
-"Añadir plantilla de email",
+"Agregar Plantilla de Correo",
 
 "edit_email_templates" =>
-"Editar plantilla de email",
+"Editar Plantillas de Correo",
 
 "sales_information" =>
-"Información de ventas",
+"Información de Ventas",
 
 "no_email_templates" =>
-"No hay plantillas de email",
+"No Hay Plantillas de Correo",
 
 "no_purchases" =>
-"No ha compras",
+"No Hay Compras",
 
 "perform_item_actions" =>
-"¿Realizar acciones para el producto?",
+"Realizar Acciones para este Artículo?",
 
 "email_name" =>
-"Nombre de plantilla de email",
+"Nombre de Plantilla de Correo",
 
 "edit_emails" =>
-"Editar emails",
+"Editar Correos",
 
 "monthly_sales" =>
-"Ventas mensuales",
+"Ventas Mensuales",
 
 "customer_email" =>
-"Plantilla de email de cliente",
+"Plantilla de Correo de Cliente",
+
+"on_subscribe" =>
+"En Suscripción",
+
+"on_unsubscribe" =>
+"En Desuscripción",
+
+"customer_email_subscribe" =>
+"Plantilla de Correo de Suscripción de Cliente",
+
+"customer_email_unsubscribe" =>
+"Plantilla de Correo de Suscripción de Cliente",
 
 "admin_email_address" =>
-"Dirección de correo de administrador",
+"Direcciones de Correo de Admin",
 
 "invalid_price" =>
-"Precio inválido!",
+"Precio Inválido!",
 
 "select_admin_template" =>
-"Debes seleccionar una plantilla de email de administrador si no se rellena la dirección de correo",
+"Debes Seleccionar Plantilla de Correo de Admin si la Dirección de Correo Esta Llenada",
 
 "admin_email_template" =>
-"Plantilla de email de administrador",
+"Plantilla de Correo de Admin",
 
 "member_group" =>
-"Nuevo Grupo de miembros",
+"Nuevo Grupo de Miembro",
+
+"admin_email_template_unsubscribe" =>
+"Plantilla de Correo de Admin de Desuscripción ",
+
+"member_group_subscribe" =>
+"Suscribir Grupo de Miembro",
+
+"member_group_unsubscribe" =>
+"Desuscribir Grupo de Miembro",
 
 "send_no_email" =>
-"No enviar email",
+"No Enviar el Correo",
 
 "no_change" =>
-"No cambiar",
+"No Cobrar",
 
 "no_store_items" =>
-"No guardar productos",
+"No Guardar Artículos de Tienda",
 
 "item_purchases" =>
 "Compras",
 
+"updated" =>
+"Actualizado",
+
 "choose_item" =>
-"Elegir producto",
+"Escoge Artículo",
 
 "fields_left_blank" =>
-"Has dejado en blanco algunos campos obligatorios",
+"Dejastes Algunos Campos Requeridos Vacios",
 
 "add_emails" =>
-"Añadir plantillas de email",
+"Agregar Plantillas de Correo",
 
 "add_email" =>
-"Añadir plantilla de email",
+"Agregar Plantilla de Correo",
 
 "update_email" =>
-"Actualizar plantilla de email",
+"Actualizar Plantilla de Correo",
 
 "update_purchase" =>
 "Actualizar Compra",
 
 "update_emails" =>
-"Actualizar Plantillas de email",
+"Actualizar Plantillas de Correo",
 
 "update_purchases" =>
 "Actualizar Compras",
 
 "purchases_deleted" =>
-"Compras borradas",
+"Compras Borradas",
 
 "email_instructions" =>
-"Instrucciones de email",
+"Instrucciones de Correo",
 
 "email_subject" =>
-"Asunto",
+"Tema de Correo",
 
 "email_body" =>
-"Contenido",
+"Cuerpo de Correo",
 
 "add_email_instructions" =>
-"Cuando se confirma la compra de un producto, se puede enviar un email a una o varias direcciones de correo para ese producto. Estos emails pueden contener ciertas variables enviadas a PayPal, y son las siguientes:",
+"Cuando la compra de un artículo es confirmada, un correo puede ser enviado a una o varias direcciones de correo. Estos correos pueden contener ciertas variables enviadas desde PayPal, siendo las siguientes:",
 
 "edit_selected" =>
-"Editar selección",
+"Editar Seleccionado",
 
 "delete_selected" =>
-"Borrar selección",
+"Borrar Seleccionado",
 
 "delete_items_confirm" =>
-"Confirmación de borrado de productos",
+"Confirmación de Borrado de Artículos",
 
 "items_deleted" =>
-"Productos borrados",
+"Artículos Borrados",
 
 "delete_emails_confirm" =>
-"Confirmación de borrado de emails",
+"Confirmación de Borrado de Correos",
 
 "delete_purchases_confirm" =>
-"Confirmación de borrado de compras",
+"Confirmación de Borrado de Compras",
 
 "emails_deleted" =>
-"Plantillas de email borradas!",
+"Plantillas de Correo Borradas!",
 
 "member_not_found" =>
-"Miembro no encontrado",
+"Miembro No Encontrado",
 
 "purchaser_screen_name" =>
-"Nombre de Pantalla del comprador",
+"Nombre de Pantalla del Comprador",
 
 "txn_id" =>
-"Número de identificación de la compra (TXN ID)",
+"Número de Identificación de Compra (TXN ID)",
 
 "date_purchased" =>
-"Fecha de la compra",
+"Fecha de Compra",
+
+"subscription_end_date" =>
+"Fecha de Finalización de Compra",
+
+"subscription_end_date_subtext" =>
+"Entra &#39;0&#39; para no poner fecha de finalizacion de suscripción",
 
 "item_purchased" =>
-"Producto comprado",
+"Artículo Comprado",
 
 "item_cost" =>
-"Coste del producto",
+"Precio de Artículo",
 
 "invalid_date_formatting" =>
-"Formato de fecha inválido",
+"Formato de Fecha Inválido",
 
 "invalid_amount" =>
-"Cantidad de dinero inválida",
+"Cantidad Monetaria Inválida",
 
 "encryption" =>
-"Encriptación",
+"Encripción",
 
 "encrypt_buttons_links" =>
-"¿Desea encriptar los Botones y Enlaces de PayPal?",
+"Encriptar Botones y Enlaces de PayPal?",
 
 "public_certificate" =>
-"Ruta del Certificado Público",
+"Ruta de Certificado Público",
 
 "certificate_id" =>
-"ID dado al Certificado Público por PayPal",
+"ID Dado a Certificado Público por PayPal",
 
 "private_key" =>
-"Ruta a la llave privada",
+"Ruta de Llave Privada",
 
 "paypal_certificate" =>
-"Ruta al certificado PayPal",
+"Ruta de Certificado PayPal",
 
 "temp_path" =>
-"Ruta de ficheros temporales encriptados",
+"Ruta de Archivos Temporales Encriptados",
 
 "settings" =>
-"Ajustes",
+"Configuración",
 
 "settings_updated" =>
-"Ajustes Actualizados",
+"Configuración Actualizada",
 
 "file_does_not_exist" =>
-"El fichero no existe para &#39;%pref%&#39;.  Asegúrate de usar la ruta de servidor completa.",
+"Archivo No Existe para &#39;%pref%&#39;.  Asegurate de utilizar la ruta completa de servidor.",
 
 "temporary_directory_unwritable" =>
-"El directorio especificado para escribir los ficheros temporales no tiene permisos de escritura",
+"El Directorio especificado para escribir los archivos temporales no tiene permisos de escritura.",
 
 "paypal_account" =>
-"Cuenta de PayPal",
+"Cuenta PayPal",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

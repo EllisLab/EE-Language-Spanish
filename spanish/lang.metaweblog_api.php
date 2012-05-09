@@ -1,45 +1,48 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "metaweblog_api_module_name" =>
-"API Metaweblog",
+"API de Metaweblog",
 
 "metaweblog_api_module_description" =>
-"Módulo API Metaweblog",
+"Módulo de API de Metaweblog",
 
 "metaweblog_api_home" =>
 "Panel de Control",
 
 "api_urls" =>
-"Ver URLs para API MetaWeblog",
+"Ver URLs para API de MetaWeblog",
 
 "invalid_access" =>
-"Acceso inválido",
+"Acceso Inválido",
 
-"no_weblogs_found" =>
-"No se encontraron weblogs para este usuario.",
+"no_channels_found" =>
+"No se encontraron Canales para este usuario.",
 
-"invalid_weblog" =>
-"Selección de weblog inválida",
+"invalid_channel" =>
+"Selección de Canal Inválida",
 
 "invalid_categories" =>
-"Selección de categorías inválida",
+"Selección de Categorias Inválida",
 
 "no_entries_found" =>
-"No se encontraron entradas",
+"No Se Encontraron Entradas",
 
 "no_entry_found" =>
-"No se encontró la entrada en la base de datos",
+"Entrada no encontrada en la base de datos",
 
 "unauthorized_action" =>
-"No estás autorizado para realizar esta acción.",
+"No tienes autorización para realizar esta acción.",
 
 "entry_uneditable" =>
-"No tienes permisos necesarios para editar esta entrada. Por favor, comprueba los permisos del grupo de miembros.",
+"No tiene permiso para editar esta entrada. Por favor revisa los permisos de grupo",
+
+"no_metaweblog_configs" =>
+"Actualmente no hay Configuraciones de API de MetaWeblog",
 
 "metaweblog_configurations" =>
-"Configuraciones del MetaWeblog API ",
+"Configuraciones de API de MetaWeblog",
 
 "metaweblog_config_name" =>
 "Nombre",
@@ -48,40 +51,40 @@ $L = array(
 "URL",
 
 "metaweblog_delete_confirm" =>
-"Borrar de las configuraciones del API MetaWeblog",
+"Borrar Configuraciones de API de MetaWeblog",
 
 "metaweblog_deleted" =>
-"Configuración del API MetaWeblog borrada",
+"Configuración de API de MetaWeblog Borrada",
 
 "metaweblogs_deleted" =>
-"Configuraciones del API MetaWeblog borradas",
+"Configuraciónes de API de MetaWeblog Borradas",
 
 "metaweblog_delete_question" =>
-"¿Estás seguro que quieres borrar la configuración seleccionada del API MetaWeblog?",
+"Estás seguro que deseas borrar las Configuraciones de API de MetaWeblogs seleccionadas?",
 
 "delete" =>
 "Borrar",
 
 "new_config" =>
-"Configuración nueva",
+"Configuración Nueva",
 
 "modify_config" =>
-"Modificar configuración",
+"Modificar Configuración",
 
 "configuration_options" =>
-"Opciones de configuración",
+"Opciones de Configuración",
 
 "metaweblog_pref_name" =>
-"Nombre de configuración",
+"Nombre de Configuración",
 
 "metaweblog_parse_type" =>
-"Preferencias de formato de texto",
+"Preferencia de Formato de Texto",
 
 "metaweblog_parse_type_subtext" =>
-"Seleccionar &quot;sí&quot; devolverá el contenido de una entrada tal y como se mostraría en una página web con todo el pMCode y los directorios presentes.",
+"Habilitar esto imprimirá el contenido de esta entrada como si fuera presentada en una página web con todo el CódigoBB y directorios de archivos.",
 
 "yes" =>
-"Sí",
+"Si",
 
 "no" =>
 "No",
@@ -90,52 +93,58 @@ $L = array(
 "Ninguno",
 
 "metaweblog_field_group" =>
-"Grupo de campos de weblog",
+"Grupo de Campo de Canal",
 
 "metaweblog_excerpt_field" =>
-"Campo Extracto",
+"Campo de Extracto",
 
 "metaweblog_content_field" =>
-"Campo Contenido",
+"Campo de Contenido",
 
 "metaweblog_more_field" =>
-"Campo Más",
+"Campo de Mas",
 
 "metaweblog_keywords_field" =>
-"Campo Palabras clave",
+"Campo de Palabras Clave",
 
 "metaweblog_mising_fields" =>
-"Se dejó un campo en blanco",
+"Un Campo Fué Dejado Vacio",
 
 "configuration_created" =>
-"Se ha creado la configuración",
+"Configuración Creada",
 
 "configuration_updated" =>
-"Configuración actualizada",
+"Configuración Actualizada",
 
 "metaweblog_create_new" =>
-"Crear nueva configuración",
+"Crear Configuración Nueva",
 
 "unable_to_upload" =>
-"No se pudo cargar el fichero (upload)",
+"No se Puede Cargar el Archivo",
+
+"invalid_file_content" =>
+"El archivo que intentas cargar tiene contenido inválido para su tipo de MIME",
 
 "metaweblog_upload_dir" =>
-"Carpeta para subir ficheros (upload)",
+"Directorio de Carga para Carga de Archivos",
 
 "metaweblog_upload_dir_subtext" =>
-"Relativamente pocos editores de weblog permiten esta opción y quizá no quieras permitir uploads a través de la API, así que el ajuste &#39;Ninguno&#39; impedirá cualquier tipo de carga de fichero desde el editor del weblog.",
+"Relativamente pocos editores de canal permiten esta opción y probablemente no desearias cargar archivo por medio del API, entonces seleccionando &#39;Ninguno&#39; previene que se carguen archivos via el editor de canal.",
 
 "metaweblog_entry_status" =>
-"Estado de la Entrada",
+"Estatus de Entrada",
 
 "do_not_set_status" =>
-"No establecer estado (el cliente decide)",
+"No Establecer Estatus (Cliente dedice)",
 
 "auto_br" =>
 "Auto &lt;br /&gt;",
 
 "xhtml" =>
 "XHTML",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

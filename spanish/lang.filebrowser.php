@@ -1,55 +1,59 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"file_browser" =>
-"Navegador de ficheros",
+'file_browser' => 
+'Explorador de Archivos',
 
-"view" =>
-"Ver",
+'view' => 
+'Ver',
 
-"path_does_not_exist" =>
-"La ruta especificada no existe",
+'path_does_not_exist' => 
+'La ruta especificada no existe',
 
-"file_viewing_error" =>
-"Se ha producido un error de tipo desconocido.",
+'file_viewing_error' => 
+'Un error de tipo desconocido fue encontrado.',
 
-"fp_no_files" =>
-"No hay fichero disponibles en el directorio.",
+'fp_no_files' => 
+'No hay archivos disponibles en el directorio.',
 
-"fb_view_images" =>
-"Ver imágenes",
+'fb_view_images' => 
+'Ver Imagenes',
 
-"fb_view_image" =>
-"Ver imagen",
+'fb_view_image' => 
+'Ver Imagen',
 
-"fb_insert_file" =>
-"Instertar fichero",
+'fb_insert_file' => 
+'Insertar Archivo',
 
-"fb_insert_files" =>
-"Insertar fichero",
+'fb_insert_files' => 
+'Insertar Archivos',
 
-"fb_select_field" =>
-"Seleccionar campo",
+'fb_select_field' => 
+'Seleccionar Campo',
 
-"fb_select_files" =>
-"Seleccionar ficheros",
+'fb_select_files' => 
+'Seleccionar Archivos',
 
-"fb_non_images" =>
-"* Indica ficheros que no son imágenes. Sólo se pueden visualizar imágenes.",
+'fb_non_images' => 
+'* Indica no imagenes. Solo imagenes pueden ser vistas.',
 
-"fb_insert_link" =>
-"Insertar Enlace",
+'fb_insert_link' => 
+'Insertar Enlace',
 
-"fb_insert_links" =>
-"Insertar Enlaces",
+'fb_insert_links' => 
+'Insertar Enlaces',
 
-"fb_insert_url" =>
-"Insertar URL",
+'fb_insert_url' => 
+'Insertar URL',
 
-"fb_insert_urls" =>
-"Insertar URLs",
+'fb_insert_urls' => 
+'Insertar URLs',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

@@ -1,43 +1,47 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"email_module_name" =>
-"Email",
+'email_module_name' => 
+'Correo Electronico',
 
-"email_module_description" =>
-"Módulo de Email de Usuario",
+'email_module_description' => 
+'Modulo de Usuario de Correo Electronico',
 
-"message_required" =>
-"El mensaje de email es obligatorio",
+'message_required' => 
+'Mensjae de Correo es Requerido',
 
-"em_banned_from_email" =>
-"La dirección de correo del remitente que has introducido está bloqueada.",
+'em_banned_from_email' => 
+'La direccion de correo del remitente ha sido blockeada.',
 
-"em_banned_recipient" =>
-"Una o más direcciones de correo de los destinatarios están bloqueados.",
+'em_banned_recipient' => 
+'Una o mas direcciones de correos de tus recipientes han sido blockeadas.',
 
-"em_invalid_recipient" =>
-"Una o más direcciones de correo de los destinatarios son inválidas.",
+'em_invalid_recipient' => 
+'Una o mas direcciones de correo de tus recipientes son invalidas.',
 
-"em_no_valid_recipients" =>
-"Tu email no tenía ningún destinatario válido.",
+'em_no_valid_recipients' => 
+'Tu correo no tiene recipientes validos.',
 
-"em_sender_required" =>
-"Se requiere una dirección de correo del remitente válida",
+'em_sender_required' => 
+'Un remitente valido de correo es requerido',
 
-"em_unauthorized_request" =>
-"No estás autorizado a realizar esta acción",
+'em_unauthorized_request' => 
+'No tienes autorizacion para llevar a cabo esta accion',
 
-"em_limit_exceeded" =>
-"Has superado el número de emails que puedes enviar por día.",
+'em_limit_exceeded' => 
+'Has excedido el numero de envio de correos permitodos por dia.',
 
-"em_interval_warning" =>
-"Sólo puedes enviar un email cada %s segundos",
+'em_interval_warning' => 
+'Solo tiene permitido enviar correos cada %s segundos',
 
-"em_email_sent" =>
-"Tu mensaje ha sido enviado.",
+'em_email_sent' => 
+'Tu mensaje de correo ha sido enviado.',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

@@ -1,33 +1,33 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "storage_status" =>
-"Tienes %x de %y mensajes permitidos.",
+"Tienes %x de un total de %y mensajes permitidos.",
 
 "storage_percentage" =>
-"Tus carpetas están llenas al %x% ",
+"Tus carpetas se encuentran %x% llenas",
 
 "messages_reply_all" =>
-"Responder a todos",
+"Responder a Todos",
 
 "edit_list" =>
-"Editar lista",
+"Editar Lista",
 
 "no_more_attachments" =>
-"No se pueden añadir más ficheros adjuntos.",
+"No tienes permitido agregar mas adjuntos.",
 
 "click_preview_to_attach" =>
-"Para añadir más de un elemento, clicka en &quot;vista previa&quot; después de elegir un fichero",
+"Para adjuntar mas de un artículo haz click en vista previa despues de escoger un archivo",
 
 "view_folder" =>
-"Ver carpeta",
+"Ver Carpeta",
 
 "view_message" =>
-"Ver mensaje",
+"Ver Mensaje",
 
 "compose_message" =>
-"Crear un mensaje nuevo",
+"Componer Mensaje Nuevo",
 
 "new_message" =>
 "Mensaje Nuevo",
@@ -39,52 +39,52 @@ $L = array(
 "Mensaje Privado",
 
 "draft_messages" =>
-"Borrador",
+"Mensajes de Borrador",
 
 "deleted_messages" =>
-"Papelera",
+"Basura",
 
 "erase_messages" =>
-"Vaciar papelera",
+"Vaciar Basura",
 
 "erase_popup" =>
-"¿Estás seguro que deseas borrar permanentemente los mensajes?",
+"Estás seguro que deseas borrar todos los mensajes?",
 
 "track_messages" =>
-"Rastrear mensajes",
+"Rastrear Mensajes",
 
 "edit_folders" =>
-"Editar las carpetas de mensaje",
+"Editar Carpetas de Mensajes",
 
 "folder_directions" =>
-"Para borrar un elemento envía el formulario con el nombre de la carpeta en blanco. Borrar una carpeta borrar todos los mensajes que contenga.",
+"Para borrar un artículo envia el formulario con el nombre de carpeta vacio. Borrar una carpeta borrará todos los mensajes dentro de esta.",
 
 "folder_required" =>
-"(Obligatorio)",
+"(Requerido)",
 
 "missing_required_field" =>
-"Falta un campo obligatorio",
+"Campo Requerido Vacio",
 
 "folder_name" =>
-"Nombre de carpeta",
+"Nombre de Carpeta",
 
 "buddy_list" =>
-"Lista de amigos",
+"Lista de Amigos",
 
 "blocked_list" =>
-"Lista de bloqueo",
+"Lista de Bloqueados",
 
 "folder_page" =>
 "Página",
 
 "no_messages" =>
-"No hay mensajes",
+"No Hay Mensajes",
 
 "message_subject" =>
 "Asunto",
 
 "message_sender" =>
-"Enviado por",
+"Remitente",
 
 "message_date" =>
 "Fecha",
@@ -96,7 +96,7 @@ $L = array(
 "Ilimitado",
 
 "messages_percent_full" =>
-"Tus carpeteas están llenas al {lang:usage_percent}% ",
+"Tus carpetas se encuentran {lang:usage_percent}% llenas",
 
 "messages_folder" =>
 "Carpeta de Mensajes Privados",
@@ -111,25 +111,25 @@ $L = array(
 "Copiar",
 
 "messages_allowed_total" =>
-"Tienes {lang:total_messages} de  {lang:max_messages} mensajes permitidos.",
+"Tienes {lang:total_messages} de un total de {lang:max_messages} mensajes permitidos.",
 
 "switch_folder" =>
-"Cambiar carpeta:",
+"Cambiar Carpeta:",
 
 "zero_percent" =>
 "0%",
 
 "sent_copy" =>
-"¿Deseas guardar una copia en la carpeta de Mensajes Enviados?",
+"Guardar una copia en la carpeta de mensajes Enviados?",
 
 "track_message" =>
-"Rastrear mensaje",
+"Rastrear Mensaje",
 
 "hide_cc" =>
-"Esconder el CC a los destinatarios",
+"Esconder CC de los Recibos",
 
 "preview_message" =>
-"Vista previa del mensaje",
+"Vista Previa de Mensaje",
 
 "guided" =>
 "Guiado",
@@ -147,10 +147,10 @@ $L = array(
 "100%",
 
 "choose_folder" =>
-"Elegir carpeta",
+"Escoge Carpeta",
 
 "close_window" =>
-"Cerrar ventana",
+"Cerrar Ventana",
 
 "search_results" =>
 "Resultados de Búsqueda",
@@ -162,16 +162,16 @@ $L = array(
 "CC",
 
 "new_search" =>
-"¿Realizar nueva búsqueda",
+"Realizar Búsqueda Nueva?",
 
 "attachments" =>
-"Ficheros adjuntos",
+"Adjuntos",
 
 "max_size" =>
-"Tamaño máximo:",
+"Tamaño Máximo:",
 
 "message_recipients" =>
-"Destinatarios",
+"Recipientes",
 
 "message" =>
 "Mensaje",
@@ -180,55 +180,55 @@ $L = array(
 "Smileys",
 
 "empty_recipients_field" =>
-"El mensaje debe contener por lo menos un destinatario.",
+"El mensaje debe contener al menos un recipiente.",
 
 "empty_subject_field" =>
-"El título es obligatorio para todos los mensajes",
+"Un asunto es requerido para todos los mensajes",
 
 "empty_body_field" =>
-"Tu campo de mensaje está vacío. ¿Querías decir algo, no?",
+"Tu campo de asunto se encuentra vacio. Si querias decir algo, no?",
 
 "sending_limit_warning" =>
-"Has sobrepasado el límite de envío de Mensajes Privados para un periodo de 24 horas.",
+"Has sobre pasado el límite de envio de Mensajes Privados en 24 horas.",
 
 "storage_limit_warning" =>
-"Has llegado al limite de espacio para Mensajes Privados",
+"Has alcanzado tu límite de almacenamiento de Mensajes Privados.",
 
 "message_too_large" =>
-"El mensaje es más grande que el tamaño máximo: %max%",
+"Mensaje es mas grande que el tamaño máximo de %max%",
 
 "characters" =>
 "Caracteres",
 
 "unable_to_recieve_attach" =>
-"No ha sido posible recibir el fichero adjunto",
+"No se Puede Recibir Adjunto",
 
 "attach_too_large" =>
-"El tamaño de tus ficheros adjuntos ha sobrepasado el límite permitido.",
+"El tamaño de tus adjuntos excede el límite permitido.",
 
 "too_many_attachments" =>
-"Hay demasiado fichero adjunto en el sistema de Mensajes Privados. Por favor, contacta el administrador.",
+"Muchos adjuntos han sido cargados en el sistema de MP. Por favor contacta al administrador.",
 
 "allowed_mimes" =>
-"Tipos de ficheros permitidos:",
+"Tipos de Archivo Permitidos:",
 
 "file_name" =>
-"Nombre del fichero",
+"Nombre de Archivo",
 
 "file_size" =>
-"Tamaño del fichero",
+"Tamaño de Archivo",
 
 "remove" =>
-"Quitar",
+"Remover",
 
 "current_attachments" =>
-"Fichero Adjunto actual",
+"Adjunto Actual",
 
 "file_size_unit" =>
 "KB",
 
 "draft_message" =>
-"Guardar como borrador",
+"Guardar como Borrador",
 
 "messages_reply" =>
 "Responder",
@@ -237,37 +237,37 @@ $L = array(
 "Reenviar",
 
 "invalid_message" =>
-"Mensaje inválido",
+"Mensaje Inválido",
 
 "reply_prefix" =>
 "RE: ",
 
 "forward_prefix" =>
-"FWD: ",
+"RV: ",
 
 "member_name" =>
-"Nombre de miembro",
+"Nombre de Miembro",
 
 "member_usernames" =>
-"Nombre de pantalla de miembro",
+"Nombre de Pantalla de Miembro",
 
 "member_description" =>
 "Descripción",
 
 "empty_list" =>
-"La lista está vacía",
+"Lista Vacia",
 
 "add_member" =>
-"Añadir miembro",
+"Agregar Miembro",
 
 "any" =>
-"Cualquiera",
+"Cualquier",
 
 "member_search" =>
-"Búsqueda de Miembro",
+"Búsqueda de Miembros",
 
 "insert_member_instructions" =>
-"Clicka sobre un nombre para seleccionarlo",
+"Haz click en un nombre de miembro para seleccionarlo",
 
 "description_charlimit" =>
 "(menos de 50 caracteres)",
@@ -276,19 +276,19 @@ $L = array(
 "Carpetas Actualizadas",
 
 "blocked_recipients" =>
-"En tus Destinatarios o CC había miembros que no pudieron recibir de Mensaje Privado. Han sido borrados por el sistema aunque puedes intentar a enviarlos otra vez.",
+"Existen miembros listados en tus campos de Recipientes o CC que no pueden recibir Mensajes Privados. Han sido removidos por el sistema y podrias querer intentar de enviar de nuevo.",
 
 "overflow_recipients" =>
-"Las bandejas de entrada de los miembros siguientes están llenas, y para enviar este mensaje, debes sacarlos de tus Destinatarios o CC: %overflow_names%",
+"Las bandejas de entrada de los siguientes miembros se encuentran llenas, y para enviar este mensaje debes removerlos de los campos de Recipientes o CC: %overflow_names%",
 
 "add_buddy" =>
-"Añadir a Amigos",
+"Agregar a Amigos",
 
 "add_block" =>
-"Añadir a Bloqueos",
+"Agregar a Bloqueados",
 
 "invalid_username" =>
-"Uno o más Nombres de Pantalla introducidos es inválido.",
+"Uno o mas de los Nombres de Pantalla enviados son inválidos.",
 
 "delete_selected" =>
 "Borrar los mensajes seleccionados",
@@ -300,52 +300,55 @@ $L = array(
 "Copiar los mensajes seleccionados",
 
 "no_search_results" =>
-"Tu búsqueda no dio resultados",
+"Tu búsqueda no retorno resultados",
 
 "bulletin_board" =>
-"Tablón de Anuncios",
+"Boletin de Anuncios",
 
 "message_no_bulletins" =>
-"No hay anuncios",
+"Sin Boletines",
 
 "send_bulletin" =>
-"Enviar anuncio",
+"Enviar Boletin",
 
 "bulletin_expires" =>
-"El anuncio caduca",
+"Boletin Expira",
 
 "bulletin_message" =>
-"Mensaje de anuncio",
+"Mensaje de Boletin",
 
 "bulletin_date" =>
-"Fecha de anuncio",
+"Fecha de Boletin",
 
 "bulletin_success" =>
-"Anuncio colgado correctamente",
+"Boletin Enviado Exitosamente",
 
 "member_group" =>
-"Grupo de miembros",
+"Grupo de Miembro",
 
 "delete_bulletin" =>
-"Borrar anuncio",
+"Borrar Boletin",
 
 "delete_bulletin_popup" =>
-"¿Estás seguro que quieres borrar este anuncio?",
+"Estás seguro que deseas borrar este boletin?",
 
 "bulletin_deleted" =>
-"Anuncio borrado",
+"Boletin Borrado",
 
 "messsage_already_sent" =>
-"Tu mensaje ya ha sido enviado",
+"Tu Mensaje Ya Ha Sido Enviado",
 
 "waiting_period_not_reached" =>
-"Para prevenir spam hay un periodo de %time% horas antes de que los nuevos miembros puedan enviar Mensajes Privados.",
+"Para evitar spam existe  un tiempo de espera de %time% hora antes que miembros nuevos puedan enviar Mensajes Privados.",
 
 "send_throttle" =>
-"Sólo se pueden enviar Mensajes Privados cada %x segundos",
+"Solo tienes permitido enviar un Mensaje Privado cada %y segundos",
 
 "duplicate_message_sent" =>
-"Has enviado el mismo mensaje más de una vez.",
+"Has enviado el mismo mensaje mas de una vez.",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

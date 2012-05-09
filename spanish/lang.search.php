@@ -1,33 +1,33 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "search_module_name" =>
-"Buscar",
+"Busqueda",
 
 "search_module_description" =>
-"Módulo de búsqueda",
+"Modulo de Busqueda",
 
 "search_no_stopwords" =>
-"Tu búsqueda incluía palabras comunes que no pueden ser buscadas.",
+"Tu termino de busqueda incluye palabras que no estan permitidas en la busqueda.",
 
 "search_exact_word" =>
-"Buscar la Palabra Exacta",
+"Buscar por Palabra Exacta",
 
 "search_any_words" =>
-"Buscar cualquier palabra",
+"Buscar por Cualquier Palabra",
 
 "search_all_words" =>
-"Buscar todas las palabras",
+"Buscar por Todas las Palabras",
 
 "search_keywords" =>
-"Palabras clave",
+"Palabras Clave",
 
 "search_total_results" =>
-"Resultados de la búsqueda:",
+"Total de Resultados de Búsqueda",
 
-"search_weblog" =>
-"Weblog",
+"search_channel" =>
+"Canal",
 
 "search_excerpt" =>
 "Extracto",
@@ -35,35 +35,35 @@ $L = array(
 "search_author" =>
 "Autor",
 
-"search_any_weblog" =>
-"Cualquier Weblog",
+"search_any_channel" =>
+"Cualquier Canal",
 
 "search_total_comments" =>
-"Comentarios Totales",
+"Total de Comentarios",
 
 "search_recent_comment_date" =>
-"Comentarios Recientes",
+"Comentario Reciente",
 
 "search_by_keyword" =>
 "Buscar por Palabra Clave",
 
 "search_in_titles" =>
-"Buscar en los Títulos",
+"Buscar en Títulos",
 
 "search_entries" =>
-"Buscar en los Títulos y las Entradas",
+"Buscar en Títulos y Entradas",
 
 "search_everywhere" =>
-"Buscar en los Títulos, Entradas y Comentarios",
+"Buscar en Títulos, Entradas, y Comentarios",
 
 "search_exact_phrase_match" =>
-"Frase Exacta",
+"Concordar Palabra Exacta",
 
 "search_by_member_name" =>
 "Buscar por Nombre de Miembro",
 
 "search_by_member_group" =>
-"Buscar por Grupo de Miembros",
+"Buscar por Grupo de Miembro",
 
 "switch_to_group" =>
 "Cambiar a Búsqueda de Grupo",
@@ -72,19 +72,19 @@ $L = array(
 "Cambiar a Búsqueda de Nombre",
 
 "search_all_groups" =>
-"Buscar todos los grupos de miembros",
+"Buscar Todos los Grupos de Miembro",
 
 "search_exact_name_match" =>
-"Nombre Exacto",
+"Concordar Nombre Exacto",
 
-"search_weblogs" =>
-"Weblogs",
+"search_channels" =>
+"Canales",
 
 "search_categories" =>
-"Categorías",
+"Categorias",
 
 "search_also_search_comments" =>
-"Buscar también en los comentarios",
+"También buscar en comentarios",
 
 "search_any_date" =>
 "Cualquier fecha",
@@ -93,25 +93,25 @@ $L = array(
 "Hoy y...",
 
 "search_this_week_and" =>
-"Esta semana y...",
+"Esta Semana y...",
 
 "search_one_month_ago_and" =>
-"Hace 1 mes y...",
+"1 Mes Atras y...",
 
 "search_three_months_ago_and" =>
-"Hace 3 meses y...",
+"3 Meses Atras y...",
 
 "search_six_months_ago_and" =>
-"Hace 6 meses y...",
+"6 Meses Atras y...",
 
 "search_one_year_ago_and" =>
-"Hace 1 año y...",
+"1 Año Atras y...",
 
 "search_newer" =>
-"El más nuevo",
+"Mas Nuevo",
 
 "search_older" =>
-"El más antiguo",
+"Mas Antiguo",
 
 "search_sort_results_by" =>
 "Ordenar Resultados Por",
@@ -123,19 +123,19 @@ $L = array(
 "Título",
 
 "search_most_comments" =>
-"Mayor cantidad de comentarios",
+"Mayoria de Comentarios",
 
 "search_recent_comment" =>
-"Comentario más reciente",
+"Comentarios Mas Recientes",
 
 "search_descending" =>
 "Descendiente",
 
 "search_ascending" =>
-"Ascendiente",
+"Ascendente",
 
 "search_entries_from" =>
-"Entradas de búsqueda",
+"Buscar Entradas Desde",
 
 "search_any_category" =>
 "Cualquier Categoría",
@@ -147,52 +147,52 @@ $L = array(
 "Buscar",
 
 "search_path_error" =>
-"La ruta de búsqueda contiene un error. Por favor contacta con el administrador del sistema.",
+"La ruta de búsqueda contiene un error. Por favor contacta al administrador del sistema.",
 
 "search_not_allowed" =>
-"No tienes permiso usar este motor de búsqueda.",
+"No tienes permiso para utilizar el motor de búsqueda.",
 
 "search_no_keywords" =>
-"No has introducido un término de búsqueda",
+"No enviastes un término de búsqueda",
 
 "search_min_length" =>
-"Los términos de búsqueda deben tener por lo menos %x caracteres",
+"Términos de búsqueda deben tener al menos %x caracteres",
 
 "search_result_heading" =>
-"Resultados de la búsqueda:",
+"Resultados de Búsqueda:",
 
 "search_no_result" =>
-"Tu búsqueda no devolvió ningún resultado.",
+"Tu búsqueda no retorno resultados",
 
 "search_time_not_expired" =>
-"Sólo puedes realizar una búsqueda cada %x segundos.",
+"Solo puedes buscar cada %x segundos.",
 
 "search_results" =>
-"Resultados de la búsqueda",
+"Resultados de Búsqueda",
 
 "search_type" =>
-"Tipo de búsuqeda",
+"Tipo de Búsqueda",
 
 "none_of_these_words" =>
 "Ninguna de estas palabras",
 
 "search_in" =>
-"Buscar en",
+"Buscar En",
 
-"search_in_weblogs" =>
-"Buscar en los Weblogs",
+"search_in_channels" =>
+"Buscar en Canales",
 
 "any_field" =>
-"Cualquier campo",
+"Cualquier Campo",
 
 "search_in_articles" =>
-"Buscar en los Artículos",
+"Buscar en Artículos",
 
 "search_in_titles_articles" =>
-"Buscar en los Títulos y Artículos",
+"Buscar en Títulos y Artículos",
 
 "search_content_from" =>
-"Buscar Contenido De",
+"Formulario de Búsqueda de Contenido",
 
 "date_since" =>
 "Desde",
@@ -201,22 +201,31 @@ $L = array(
 "Hoy",
 
 "past_week" =>
-"La Semana Pasada",
+"Semana Pasada",
 
 "past_month" =>
-"El Mes Pasado",
+"Mes Pasado",
 
 "past_six_months" =>
-"Hace 6 Meses",
+"Ultimos Seis Meses",
 
 "past_year" =>
-"El Año Pasado",
+"Ultimo Año",
 
 "categories" =>
-"Categorías",
+"Categorias",
 
 "any_category" =>
-"Cualquier categoría",
+"Cualquier Categoria",
+
+"rebuild_search_index" =>
+"Reconstruir Indice de Búsqueda",
+
+"searched_for" =>
+"Busqueda por:",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

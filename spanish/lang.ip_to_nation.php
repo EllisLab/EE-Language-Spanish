@@ -1,45 +1,48 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "ip_to_nation_module_name" =>
-"IP al País",
+"IP a Nacion",
 
 "ip_to_nation_module_description" =>
-"Utilidad para asociar direcciones IP con sus respectivos países",
+"Utilidad para asociar direcciones IP a su pais",
 
 "iptonation_missing" =>
-"No se ha podido encontrar el fichero iptonation.php. Por favor, asegúrate de que has instalado todos los componentes de este módulo.",
+"No se puede encontrar el archivo llamado iptonation.php. Por favor asegura que has cargado todos los componentes de este modulo.",
 
 "countryfile_missing" =>
-"No ha sido posible encontrar el fichero country.php en tu carpeta librería.",
+"No se puede encontrar el archivo llamado country.php en tu carpeta de config",
 
 "ip_search" =>
-"Búsquede de Dirección IP",
+"Busqueda de Direccion IP",
 
 "ip_search_inst" =>
-"Introduce una Dirección IP para determinar el país asociado con ella",
+"Envia una direccion IP para determinar a que pais se debe asociar",
 
 "ip_result" =>
-"La IP introducida proviene del país siguiente:",
+"El IP que has enviado es del siguiente pais:",
 
 "manage_banlist" =>
-"Administrar tu lista de Países Excluidos",
+"Gestiona Tu Lista de Paises Bloqueados",
 
 "country" =>
-"País",
+"Pais",
 
 "ban_info" =>
-"Selecciona los países que quieres excluir. Cuando se excluye a un país, una persona con la dirección IP correspondiente a ese país no podrá enviar comentarios, trackbacks, o usar el formulario díselo-a-un-amigo. El resto de la web será accesible.",
+"Selecciona los paises que deseas bloquear. Cuando un pais es bloqueado, una persona con un IP correspondiente a ese pais no podra enviar comentarios, o utilizar tu formulario para avisarle a amigos. Todavia podran ver tu sitio.",
 
 "ban" =>
-"Excluir",
+"Bloquear",
 
 "banlist" =>
-"Lista de exclusión de países",
+"Lista de Naciones Bloqueadas",
 
 "banlist_updated" =>
-"La lista de exclusión de países se ha actualizado correctamente",
+"Lista de bloqueo ha sido actualizada",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

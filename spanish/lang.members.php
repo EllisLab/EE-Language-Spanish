@@ -1,42 +1,108 @@
 <?php
-$L = array(
+$lang = array(
 
+
+"register_member" =>
+"Registrar un Nuevo Miembro",
+
+"view_members" =>
+"Ver Miembros",
+
+"view_search_members" =>
+"Ver / Buscar Miembros",
+
+"member_validation" =>
+"Activar Miembros Pendientes",
+
+"member_search" =>
+"Búsqueda de Miembros",
+
+"user_banning" =>
+"Bloqueo de Miembros",
+
+"custom_profile_fields" =>
+"Campos de Miembro Personalizados",
+
+"member_cfg" =>
+"Preferencias de Membresia",
+
+"preferences_updated" =>
+"Preferencias Actualizadas",
+
+"profile_templates" =>
+"Plantillas de Perfil de Miembro",
+
+"ip_search" =>
+"Búsqueda de Dirección IP",
+
+"member_groups" =>
+"Grupos de Miembro",
+
+"keywords" =>
+"Palabras Clave",
+
+"filter_by" =>
+"Filtrar por",
+
+"filter_member_name" =>
+"Filtrar por Nombre de Miembro",
+
+"filter_member_group" =>
+"Filtrar por Grupo de Miembro",
+
+"member_group_assignment" =>
+"Asignacion de Grupo de Miembro",
+
+"password_confirm" =>
+"Confirmar Contraseña",
+
+"email" =>
+"Correo Electronico",
+
+"invalid_path" =>
+"La ruta que has enviado no es valida.",
+
+"invalid_path_description" =>
+"La siguiente ruta que enviastes no es valida:",
+
+"not_writable_path" =>
+"La ruta que enviastes no tiene permisos de escritura. Por favor asegura que los permisos del archivo estan establecidos como 777.",
 
 "include_in_memberlist" =>
-"¿Deseas añadir miembros en la Lista de miembros del sitio?",
+"Incluir Miembro en el Listado de Miembros del Sitio?",
 
 "include_in_authorlist" =>
-"¿Deseas añadir miembros en la lista de múltiples autores en la página de publicación?",
+"Incluir Miembros en el listado multi-autor de la pagina PUBLICAR?",
 
 "field_description" =>
-"Descripción del campo",
+"Descripcion de Campo",
 
 "field_description_info" =>
-"Este campo se puede usar para dar instrucciones o información adicional.",
+"Este campo puede ser utilizado para proveer instrucciones o informacion adicional.",
 
 "can_edit_categories" =>
-"Se pueden editar y añadir nuevas categorías",
+"Puede editar y agregar categorias nuevas",
 
 "can_delete_categories" =>
-"Se pueden borrar categorías",
+"Puede borrar categorias",
 
 "can_not_delete_self" =>
-"No tienes permisos para borrar tu propia cuenta de miembro",
+"No tienes permitido borrar tu propia cuenta de miembro.",
 
 "no_heirs_available" =>
-"El miembro que estás intentando borrar tiene entradas de weblog asignadas",
+"El miembro que intentas borrar tiene entradas de canal asignadas",
 
 "heir_to_member_entries" =>
-"Este miembro tiene entradas asignadas a su cuenta. Selecciona el miembro al que quieres que esas entradas se reasignen.",
+"Este miembro tiene entradas asignadas a su cuenta. Selecciona el miembro al cual te gustaria reasignar las entradas.",
 
 "heir_to_members_entries" =>
-"Algunos de estos miembros tienen entradas asignadas a sus cuentas. Elije el miembro al que quieres que esas entradas se reasignen.",
+"Algunos de estos miembros tienen entradas asignadas a sus cuentas. Selecciona el miembro al cual te gustaria reasignar las entradas.",
 
 "forum_topics" =>
 "Temas de Foro",
 
 "forum_posts" =>
-"Posts de Foro",
+"Mensajes de Foro",
 
 "topic" =>
 "Tema",
@@ -48,643 +114,619 @@ $L = array(
 "Comentarios",
 
 "gallery_comments" =>
-"Comentarios de Galería",
+"Comentarios de Galeria",
 
-"weblog_entries" =>
-"Entradas de Weblog",
+"channel_entries" =>
+"Entradas de Canal",
 
 "ip_search_instructions" =>
-"Puedes introducir una dirección de IP entera o parcial",
+"Puedes enviar una direccion IP completa o parcial",
 
 "ip_search_too_short" =>
-"La dirección IP que has introducido es demasiado corta. Debe tener al menos 3 caracteres.",
+"La direccion IP que has enviado es muy corta. Debe tener al menos 3 caracteres de longitud.",
 
 "ip_search_no_results" =>
-"Tu búsqueda no ha obtenido resultados",
+"Tu busqueda no retorno resultados",
 
 "member_accounts" =>
-"Cuentas de Miembro",
+"Cuentas de Membresia",
 
-"member_page" =>
-"Recinto externo del Perfil de Miembro",
+"login_as_user" =>
+"SuperAdmin Accediendo Como un Usuario",
 
-"full_profile" =>
-"Página de Perfil completo",
+"control_panel" =>
+"Panel de Control",
 
-"basic_profile" =>
-"Página de Perfil limitado",
+"site_homepage" =>
+"Pagina de Inicio del Sitio",
 
-"message_success" =>
-"Mensaje Privado - Correcto",
+"login_as_member_description" =>
+"Cuando hagas click en enviar, accederas como el miembro &#39;%screen_name%&#39; y seras redireccionado a la pagina de abajo.",
 
-"message_error" =>
-"Mensaje Privado - Error",
+"other" =>
+"Otro",
 
-"message_menu" =>
-"Mensaje Privado - Menú",
-
-"message_menu_rows" =>
-"Mensaje Privado - Filas de menú",
-
-"preview_message" =>
-"Mensaje Privado - Vista previa",
-
-"message_compose" =>
-"Mensaje Privado - Crear página",
-
-"view_message" =>
-"Mensaje Privado - Ver mensaje",
-
-"message_folder" =>
-"Mensaje Privado - Carpeta de mensajes",
-
-"message_folder_rows" =>
-"Mensaje Privado - Filas de carpeta de mensajes",
-
-"message_no_folder_rows" =>
-"Mensaje Privado - Filas de mensaje sin carpeta",
-
-"search_members" =>
-"Mensaje Privado - Búsqueda de miembros",
-
-"member_results" =>
-"Mensaje Privado - Resultados de la búsqueda de miembros",
-
-"member_results_row" =>
-"Mensaje Privado - Filas de resultados de la búsqueda de miembros",
-
-"message_submission_error" =>
-"Mensaje Privado - Error en el envío",
-
-"message_attachment_link" =>
-"Mensaje Privado - Enlace a fichero adjunto",
-
-"message_attachments" =>
-"Mensaje Privado - Ficheros adjuntos",
-
-"message_attachment_rows" =>
-"Mensaje Privado - Filas de ficheros adjuntos",
-
-"message_edit_folders" =>
-"Mensaje Privado - Editar carpetas",
-
-"message_edit_folders_row" =>
-"Mensaje Privado - Editar filas de carpetas",
-
-"buddies_block_list" =>
-"Mensaje Privado - Amigos y Lista de Bloqueo",
-
-"buddies_block_row" =>
-"Mensaje Privado - Amigos y filas de Lista de Bloqueo",
-
-"empty_list" =>
-"Mensaje Privado - Lista vacía",
+"field_order_updated" =>
+"Orden de campos actualizado",
 
 "priv_msg_privs" =>
 "Privilegios de Mensajes Privados",
 
 "can_send_private_messages" =>
-"Se pueden enviar Mensajes Privados",
+"Puede Enviar Mensajes Privados",
 
 "can_attach_in_private_messages" =>
-"Se pueden adjuntar archivos a los Mensajes Privados",
+"Puede Agregar Adjuntos a Mensajes Privados",
 
 "fieldlabel" =>
-"Etiqueta del campo",
+"Rotulo de Campo",
 
 "index" =>
-"Página de Inicio",
+"Pagina Indice Principal",
 
 "member_assignment_warning" =>
-"%x miembro(s) están asignado a este grupo. ¿A qué grupo de miembros se deberían reasignar?",
-
-"subscriptions_form" =>
-"Página de subscripciones",
-
-"no_subscriptions_message" =>
-"Mensajes de No Subscripciones",
-
-"subscription_result_heading" =>
-"Encabezamiento de los Resultados de subscripción",
-
-"subscription_result_rows" =>
-"Filas  de los Resultados de subscripción",
-
-"subscription_pagination" =>
-"Paginación de subscripción",
+"%x miembros estan asignados a este grupo. A que grupo deberian ser reasignados?",
 
 "can_moderate_comments" =>
-"Se pueden moderar los comentarios",
+"Puede Moderar Comentarios",
 
 "exclude_from_moderation" =>
-"Excluir al miembro de la moderación de comentarios",
+"Excluir miembro de moderacion de comentarios",
 
 "total_members" =>
-"Miembros totales:",
+"Total de Miembros:",
 
-"view_members" =>
-"Ver miembros",
+"admin_members" =>
+"Miembros Admin",
 
 "validate_selected" =>
-"Activar los miembros seleccionados",
+"Activar Miembros Seleccionados",
 
 "delete_selected" =>
-"Borras los miembros seleccionados",
+"Borrar Miembros Seleccionadas",
 
 "send_email_notification" =>
-"Enviar notificación por email a cada persona",
+"Enviar notificacion por correo a cada persona",
 
 "your_account_validated" =>
 "Tu cuenta ha sido activada.",
 
 "your_account_ready" =>
-"Tu cuenta de miembro ha sido activad y está lista para ser usada.",
+"Tu cuenta de membresia ha sido activada y se encuentra lista para uso.",
 
 "thank_you" =>
 "Gracias!",
 
 "no_members_to_validate" =>
-"No hay cuentas de miembros esperando para ser activadas",
+"No hay cuentas de membresia esperando activacion",
 
 "members_are_validated" =>
-"Miembro(s) ha sido activado",
+"Miembro(s) ha(n) sido activado(s)",
 
 "members_are_deleted" =>
-"Miembro(s) ha sido borrado",
+"Miembro(s) ha(n) sido borrado(s)",
 
 "ascending" =>
-"Fecha - el más antiguo primero",
+"Fecha - mas antiguos primero",
 
 "descending" =>
-"Fecha - el más reciente primero",
+"Fecha - mas recientes primero",
 
 "alpha" =>
-"Ascendiente alfabéticamente",
+"Ascendente Alfabeticamente",
 
 "alpha_desc" =>
-"Descendiente alfabéticamente",
+"Descendente Alfabeticamente",
 
 "username_asc" =>
-"Nombre de usuario - ascendiente",
+"Nombre de Usuario - ascendente",
 
 "username_desc" =>
-"Nombre de usuario - descendiente",
+"Nombre de Usuario - descendente",
+
+"screen_name" =>
+"Nombre de Pantalla",
 
 "screen_name_asc" =>
-"Nombre de Pantalla - ascendiente",
+"Nombre de Pantalla - ascendente",
 
 "screen_name_desc" =>
-"Nombre de Pantalla - descendiente",
+"Nombre de Pantalla - descendente",
+
+"mbr_email_address" =>
+"Direccion de Correo Electronico",
+
+"email_address" =>
+"Direccion de Correo Electronico",
 
 "email_asc" =>
-"Email - ascendiente",
+"Correo - ascendente",
 
 "email_desc" =>
-"Email - descendiente",
+"Correo - descendente",
 
 "sort_order" =>
-"Clasificar orden",
+"Orden de Clasificacion",
 
 "join_date" =>
-"Fecha de inicio",
+"Fecha de Registro",
 
 "last_visit" =>
-"Última visita",
+"Ultima Visita",
 
 "member_group" =>
-"Grupo de miembros",
+"Grupo de Miembro",
 
 "group_id" =>
-"ID de grupo",
+"ID de Grupo",
 
 "no_members_matching_that_criteria" =>
-"No hay miembros que se ajusten a los criterios seleccionados",
+"No hay miembros coincidiendo con los criterios que has seleccionado",
 
 "mbrs" =>
 "Miembros",
 
 "edit_profile" =>
-"Editar",
-
-"register_member" =>
-"Registrar un miembro nuevo",
+"Editar Perfil",
 
 "edit_group" =>
 "Editar Grupo",
 
 "group_title" =>
-"Título de Grupo",
+"Titulo de Grupo",
 
 "security_lock" =>
-"Cierre de seguridad",
+"Candado de Seguridad",
 
 "group_lock" =>
-"Cierre de seguridad de Grupo de Miembros",
+"Candado de Seguridad de Grupo de Miembro",
 
 "enable_lock" =>
-"Activar el Cierre de seguridad de grupos",
-
-"locked" =>
-"Cerrado",
+"Habilitar Candado de Seguridad de Grupo",
 
 "lock_description" =>
-"Cuando un grupo está cerrado, sólo un Super Admin puede asignar a un miembro a ese grupo. Si permites que otros usuarios administren cuentas de miembros, se recomienda que sólo reabras grupos que quieras a los que se puedan asignar otros usuarios.",
+"Cuando un grupo tiene candado, solo un Super Admin puede asignar un miembro a ese grupo. Si permites que otros miembros administren cuentas de miembro, es altamente recomendado que solo le quites el candado a grupos que quieres que ellos puedan asignar a miembros.",
+
+"locked" =>
+"Con Candado",
 
 "unlocked" =>
-"Abierto",
+"Sin Candado",
 
 "create_new_member_group" =>
-"Crear un Grupo de Miembros nuevo",
+"Crear un Nuevo Grupo de Miembro",
 
 "member_has_cp_access" =>
-"Puede acceder al panel de control",
+"puede accesar el panel de control",
 
 "edit_member_group" =>
-"Editar Grupo de Miembros",
+"Editar Grupo de Miembro",
 
 "create_member_group" =>
-"Crear un Grupo de Miembros",
+"Crear un Grupo de Miembro",
 
 "delete_member_group" =>
-"Borrar Grupo de Miembros",
+"Borrar Grupo de Miembro",
 
 "member_group_deleted" =>
-"Grupo de Miembros borrado",
+"Grupo de Miembro Borrado",
 
 "delete_member_group_confirm" =>
-"¿Estás seguro que quieres borrar este grupo de miembros?",
+"Estas seguro que deseas borrar este grupo de miembro?",
 
 "delete_member" =>
 "Borrar Miembro",
 
 "delete_member_confirm" =>
-"¿Estás seguro que quieres borrar este miembro?",
+"Estas seguro que deseas borrar este miembro?",
 
 "delete_members_confirm" =>
-"¿Estás seguro que quieres borras estos miembros?",
+"Estas seguro que deseas borrar estos miembros?",
 
 "can_not_delete_superadmin" =>
 "No puedes borrar el miembro primario",
 
 "member_deleted" =>
-"Miembro borrado",
+"Miembro Borrado",
 
 "members_deleted" =>
-"Miembros borrados",
-
-"user_banning" =>
-"Usar exclusión (banning)",
+"Miembros Borrados",
 
 "ban_preferences_updated" =>
-"Preferencias de exclusión actualizadas",
+"Preferencias de Bloqueo Actualizadas",
 
 "ip_address_banning" =>
-"Dirección IP excluida",
+"Direccion IP Bloqueada",
 
 "ip_banning_instructions" =>
-"Pon cada dirección IP en una línea aparte",
+"Coloca cada direccion IP en una linea diferente",
 
 "ip_banning_instructions_cont" =>
-"Usa comodines para direcciones IP parciales. Ejemplo:  123.345.*",
+"Utiliza comodies para direcciones IP parciales. Ejemplo:  123.345.*",
 
 "email_address_banning" =>
-"Dirección de correo excluida",
+"Direccion de Correo Bloqueada",
 
 "email_banning_instructions" =>
-"Pon cada dirección de correo en una línea aparte",
+"Coloca cada direccion de correo en una linea diferente",
 
 "email_banning_instructions_cont" =>
-"Usa comodines para direcciones de correo parciales. Ejemplo:  *@domain.com",
+"Utiliza comodines para direcciones de correo parciales. Ejemplo:  *@dominio.com",
 
 "ban_options" =>
-"Cuando una IP excluida intenta acceder al sitio",
+"Cuando una IP intenta accesar el sitio",
 
 "restrict_to_viewing" =>
-"Sólo restringir el visionado",
+"Restringirlo a solo ver",
 
 "show_this_message" =>
 "Mostrar este mensaje",
 
 "send_to_site" =>
-"Enviarlos a otro sitio",
+"Enviarlo a este sitio",
+
+"ban_message" =>
+"Este sitio no se encuentra disponible",
 
 "username_banning" =>
-"Nombres de usuario restringidos",
+"Nombres de Usuario Restringidos",
 
 "username_banning_instructions" =>
-"Pon cada nombre de usuario en una línea aparte",
+"Coloca cada nombre de usuario en una linea diferente",
 
 "screen_name_banning" =>
-"Nombres de pantalla restringidos",
+"Nombres de Pantalla Restringidos",
 
 "screen_name_banning_instructions" =>
-"Pon cada nombre de pantalla en una línea aparte",
+"Coloca cada nombre de pantalla en una linea diferente",
 
 "only_superadmins_can_admin_groups" =>
-"Sólo los Super Admins pueden acceder a la página de Grupos de Miembros",
+"Solo Super Admins pueden accesar la pagina de Grupos de Miembro",
 
 "create_group_based_on_old" =>
-"Crear un grupo nuevo basado en uno que ya existe",
+"Crear un nuevo grupo basado en uno existente",
 
 "group_name" =>
-"Nombre de Grupo de Miembros",
+"Nombre de Grupo de Miembro",
 
 "missing_group_title" =>
-"Le grupo de miembros debe tener un nombre",
+"El grupo de miembro debe tener un nombre",
 
 "site_access" =>
-"Acceso al Sitio",
+"Acceso del Sitio",
 
 "can_view_online_system" =>
-"Puede ver cuando está online",
+"Puede ver el sitio cuando esta habilitado",
 
 "can_view_offline_system" =>
-"Puede ver cuando está offline",
+"Puede ver el sitio cuando esta inhabilitado",
 
 "mbr_account_privs" =>
-"Privilegios de Cuenta de miembro",
+"Privilegios de Cuenta de Miembro",
+
+"prv_msg_storage_limit" =>
+"Maxima Cantidad de Mensajes Privados que un usuario puede almacenar",
+
+"prv_msg_send_limit" =>
+"Maxima Cantidad de Mensajes Privados que un usuario puede enviar por dia",
 
 "can_view_profiles" =>
-"Se pueden ver los perfiles públicos",
+"Puede ver perfiles publicos",
 
 "can_delete_self" =>
-"Puede borrar una cuenta propia - también borra todos los posts, entradas y comentarios",
+"Puede borrar su propia cuenta - borra todos los mensajes, entradas y comentarios",
 
 "mbr_delete_notify_emails" =>
-"Dirección de correo de los destinatarios de la notificación de borrado",
+"Direccion de Correo de Recipientes para Notificacion de Borrado",
 
 "delete_confirmation_form" =>
-"Confirmación de borrado de cuenta",
+"Formulario de Confirmacion de Borrado de Cuenta",
 
 "commenting_privs" =>
-"Privilegios para dejar comentarios",
+"Privilegios de Posteo de Comentarios",
 
 "can_post_comments" =>
-"Puede introducir comentarios",
+"Puede enviar comentarios",
 
-"cp_weblog_post_privs" =>
-"Asignación de Weblog",
+"cp_channel_post_privs" =>
+"Asignacion de Canal",
 
 "cp_module_access_privs" =>
-"Privilegios del Módulo de Acceso",
+"Privilegios de Acceso de Modulo",
+
+"no_cp_modules_installed" =>
+"No hay Modulos con Acceso de Panel de Control Instalados",
 
 "can_access_mod" =>
-"Puede acceder al módulo:",
+"Puede accesar modulo:",
 
 "global_cp_access" =>
-"Acceso al Panel de Control",
+"Acceso de Panel de Control",
 
 "can_access_cp" =>
-"¿Puede acceder al panel de control?",
+"Puede accesar el panel de control?",
 
-"cp_section_access" =>
-"Acceso al área del Panel de Control",
-
-"can_access_publish" =>
-"Puede acceder a la página PUBLICAR",
-
-"can_access_edit" =>
-"Puede acceder a la página EDITAR",
+"can_access_content" =>
+"Puede accesar seccion de CONTENIDO",
 
 "can_access_design" =>
-"Puede acceder a la página PLANTILLAS",
+"Puede accesar seccion de DISENO",
 
-"can_access_comm" =>
-"Puede acceder a la página COMUNICAR",
+"can_access_addons" =>
+"Puede accesar seccion de ADD-ONS",
 
-"can_access_modules" =>
-"Puede acceder a la página MÓDULOS",
+"can_access_members" =>
+"Puede accesar seccion de MIEMBROS",
 
 "can_access_admin" =>
-"Puede acceder a la página ADMIN",
+"Puede accesar seccion de ADMIN",
+
+"can_access_tools" =>
+"Puede accesar seccion de HERRAMIENTAS",
 
 "can_ban_users" =>
-"Se pueden excluir usuarios",
+"Puede bloquear usuarios",
 
 "cp_admin_privs" =>
-"Administración del Panel de Control",
+"Administracion de Panel de Control",
 
 "cp_comment_privs" =>
-"Administración de comentario",
+"Administracion de Comentarios",
 
 "can_view_other_comments" =>
-"Se pueden ver comentarios en las entradas de weblog creadas por otros",
+"Puede ver comentarios en entradas de canal escritos por otros",
 
 "can_edit_own_comments" =>
-"Se pueden editar comentarios en sus propias entradas de weblog",
+"Puede editar comentarios en sus propias entradas de canal",
 
 "can_delete_own_comments" =>
-"Se pueden borrar comentarios en sus propias entradas de weblog",
+"Puede borrar comentarios en sus propias entradas de canal",
 
 "can_edit_all_comments" =>
-"Puede editar comentarios en CUALQUIER entrada de weblog",
+"Puede editar comentarios en CUALQUIER entrada de canal",
 
 "can_delete_all_comments" =>
-"Puede borrar comentarios en CUALQUIER entrada de weblog",
+"Puede borrar comentarios en CUALQUIER entrada de canal",
 
-"can_admin_weblogs" =>
-"Puede administrar weblog y las preferencias de weblog",
+"can_admin_channels" =>
+"Puede administrar canales y sus preferencias",
 
 "can_admin_members" =>
-"Puede administrar cuentas de miembros",
+"Puede administrar cuentas de miembro",
+
+"can_access_edit" =>
+"Puede accesar CONTENIDO: Editar",
+
+"can_access_publish" =>
+"Puede accesar CONTENIDO: Publicar",
+
+"can_access_files" =>
+"Puede accesar CONTENIDO: Gestor de Archivos",
+
+"can_access_modules" =>
+"Puede accesar: ADD-ONS: Modulos",
+
+"can_access_extensions" =>
+"Puede accesar ADD-ONS: Extensiones",
+
+"can_access_accessories" =>
+"Puede accesar ADD-ONS: Accesorios",
+
+"can_access_plugins" =>
+"Puede accesar ADD-ONS: Plugins",
+
+"can_access_comm" =>
+"Puede accesar HERRAMIENTAS: Comunicacion",
+
+"can_access_utilities" =>
+"Puede accesar HERRAMIENTAS: Utilidades",
+
+"can_access_data" =>
+"Puede accesar HERRAMIENTAS: Datos",
+
+"can_access_logs" =>
+"Puede accesar HERRAMIENTAS: Registros",
+
+"can_access_sys_prefs" =>
+"Puede accesar ADMIN: Preferencias de Sistema",
+
+"can_access_content_prefs" =>
+"Puede accesar ADMIN: Preferencias de Contenido",
 
 "can_delete_members" =>
 "Puede borrar miembros",
 
 "can_admin_mbr_groups" =>
-"Puede cambiar el grupo al que un usuario está asignado ( sólo grupos abiertos )",
+"Puede cambiar el grupo al cual esta asignado un miembro a (Solo grupos sin candado)",
 
 "can_admin_mbr_templates" =>
-"Puede administrar plantillas de perfiles de miembros",
-
-"can_admin_utilities" =>
-"Puede administrar utilidades de sistema",
+"Puede administrar plantillas de perfil de miembro",
 
 "can_admin_templates" =>
-"Puede administrar plantillas y grupos de plantillas",
+"Puede administrar grupos de plantilla y plantillas",
 
-"can_admin_preferences" =>
-"Puede administrar las preferencias generales",
+"can_admin_design" =>
+"Puede administrar preferencias de diseño",
 
 "can_admin_modules" =>
-"Puede instalar o quitar módulos",
+"Puede instalar/remover modulos",
 
 "cp_email_privs" =>
-"Privilegios del Panel de Control de email",
+"Privilegios de Correo de Panel de Control",
 
 "can_send_email" =>
-"Puede enviar emails a través del Panel de Control",
+"Puede enviar correo por el Panel de Control",
 
 "can_email_member_groups" =>
-"Puede enviar emails a Grupos de Miembros",
+"Puede enviar correo a Grupos de Miembro",
 
 "can_email_mailinglist" =>
-"Puede enviar emails a la Lista de Correo",
+"Puede enviar correo a Lista de Correo",
 
 "can_send_cached_email" =>
-"Puede ver/enviar emails en caché",
+"Puede ver/enviar correo en cache",
 
 "search_privs" =>
-"Privilegios de búsqueda",
+"Privilegios de Busqueda",
 
 "can_search" =>
-"Puede usar la utilidad de búsqueda",
+"Puede utilizar utilidad de busqueda",
 
 "search_flood_control" =>
-"Número de segundos entre búsquedas",
+"Numero de segundos entre busquedas",
 
 "warning" =>
 "ADVERTENCIA:",
 
 "super_admin_edit_note" =>
-"Nota: Sólo puedes editar el nombre y descripción para el grupo de Super Admin",
+"Nota: solo puedes editar el nombre y la descripcion de el grupo Super Admin",
 
 "be_careful_assigning_groups" =>
-"Se EXTREM��DAMANENTE cuidados asignando las preferencias de grupo, en especial las que están destacadas",
+"Ten MUCHO cuidado al asignar preferencias de grupo - especialmente los resaltados.",
 
 "member_group_updated" =>
-"Grupo de Miembros Actualizado:",
+"Grupo de Miembro Actualizado:",
 
 "member_group_created" =>
-"Grupo de Miembros Creado:",
+"Grupo de Miembro Creado:",
 
-"cp_weblog_privs" =>
-"Privilegios de Posting en el Weblog",
+"cp_channel_privs" =>
+"Privilegios de Posteado de Canal",
 
 "can_view_other_entries" =>
-"Puede ver entradas de weblog creadas por otros",
+"Puede ver entradas de canal de otros autores",
 
 "can_post_in" =>
 "Puede postear y editar entradas en:",
 
 "can_edit_other_entries" =>
-"Puede editar entradas creadas por otros",
+"Puede editar entradas de otros autores",
 
 "can_assign_post_authors" =>
-"Puede cambiar el nombre de autor cuando crea entradas del weblog",
+"Puede cambiar el nombre de autor cuando postea entradas de canal",
 
 "can_delete_self_entries" =>
-"Puede borrar sus propias entradas de weblog",
+"Puede borrar sus propias entradas de canal",
 
 "can_delete_all_entries" =>
-"Puede borrar entradas de weblog creadas por otros",
+"Puede borrar entradas de canal de otros autores",
 
 "cp_template_access_privs" =>
-"Privilegios de Edición de Plantilla",
+"Privilegios de Edicion de Plantillas",
 
 "can_access_tg" =>
 "Puede editar plantillas en este grupo:",
 
 "can_email_from_profile" =>
-"Puede enviar emails a otros miembros a través de la Consola de Email en el perfil",
+"Puede enviar correos a otros miembros por medio de la consola de correo en el perfil",
 
 "for_profile_page" =>
-"Se mostrará en la página del perfil de miembro",
+"Sera mostrado en la pagina de perfil del miembro",
 
 "custom_member_fields" =>
-"Campos de perfil personalizados",
+"Campos Personalizados de Miembro",
 
 "current_fields" =>
-"Campos de perfil de miembro",
+"Campos de Miembro",
 
 "edit_member_field" =>
-"Editar campo",
+"Editar Campo",
 
 "create_member_field" =>
-"Crear campo",
+"Crear Campo",
 
 "field_updated" =>
-"Actualizar campo",
+"Campo Actualizado",
+
+"field_created" =>
+"Campo Creado",
 
 "create_new_profile_field" =>
-"Crear un campo de Perfil Nuevo",
+"Crear un Nuevo Campo de Miembro",
 
 "is_field_public" =>
-"¿Es este campo visible para los perfiles públicos?",
+"Este campo es visible en los perfiles publicos?",
 
 "is_field_public_cont" =>
-"Si seleccionas no, sólo será visible para los administradores",
+"Si seleccionas no, solo sera visible a admins",
 
 "is_field_reg" =>
-"¿Es este campo visible para el registro de páginas?",
+"Este campo es visible en pagina de registro?",
 
 "field_width" =>
-"Ancho del campo",
+"Ancho de Campo",
 
 "field_width_cont" =>
-"Puede ser en píxeles o porcentaje",
+"Puede ser pixeles o porcentaje",
 
 "fieldname" =>
-"Nombre del campo",
+"Nombre de Campo",
 
 "fieldname_cont" =>
-"Una sola palabra, sin espacios. Guiones y guiones bajos están permitidos",
+"Una palabra, sin espacios. Se permite guion y guion bajo",
 
 "field_format" =>
-"Formato de texto",
+"Formato de Texto",
 
-"max_length" =>
-"Ancho máximo",
+"m_max_length" =>
+"Longitud Maxima",
 
 "max_length_cont" =>
-"Para los campos de texto",
+"Para campos de tipo texto",
 
 "text_area_rows" =>
-"Filas de textarea",
+"Filas de Textarea",
 
 "text_area_rows_cont" =>
-"Para los campos textarea",
+"Para campos de tipo textarea",
 
 "pull_down_items" =>
-"Opciones de Lista de Selección (select list)",
+"Opciones de Lista de Seleccion",
 
 "pull_down_items_cont" =>
-"Para drop-down menús",
+"Para menus desplegables",
 
 "pull_down_instructions" =>
-"Poner cada elemento en una línea separada",
+"Coloca cada articulo en una linea separada",
 
 "invalid_characters" =>
-"El nombre de campo que has introducido contiene caracteres inválidos",
+"El nombre de campo que has enviado contiene caracteres invalidos",
 
 "member_data_will_be_deleted" =>
-"Todos los datos de miembros contenido en este campo se borrará permanentemente",
+"Todos los datos de miembro contenidos en este campo seran borrados permanentemente",
 
 "profile_field_deleted" =>
-"Borrar el campo de perfil:",
+"Campo de Miembro Borrado:",
 
 "no_custom_profile_fields" =>
-"No hay campos de perfil personalizados",
-
-"member_search" =>
-"Búsqueda de Miembro",
+"No existen campos de miembro personalizados",
 
 "member_search_results" =>
-"Resultados de la Búsqueda de Miembro",
+"Resultados de Busqueda de Miembro",
 
 "no_search_results" =>
-"Tu búsqueda no ha dado resultados",
+"Tu busqueda no retorno resultados",
 
 "member_search_instructions" =>
-"Rellena por lo menos un campo. Puedes introducir palabras enteras o parciales",
+"Llena al menos un campo. Puedes enviar palabras parciales o completas.",
 
 "can_not_delete_only_member" =>
-"No puedes borrar el único miembro en la base de datos",
+"No puedes borrar el unico miembro en la base de datos",
 
 "can_not_delete_super_admin" =>
-"No puedes borrar un Super Admin a menos que exista como mínimo otro más",
+"No puedes borrar un Super Admin al menos que exista al menos uno mas",
 
 "must_be_superadmin_to_delete_one" =>
-"Debes ser un Super Admin para borrar otro Super Admin",
+"Debes ser un Super Admin para borrar un Super Admin",
 
 "email_console_log" =>
-"Registros de la Consola de Email",
+"Registros de Consola de Correo",
 
 "no_cached_email" =>
-"No hay mensajes de email en caché.",
+"No hay mensajes de correo en cache",
 
 "email_title" =>
-"Título de Email",
+"Titulo de Correo",
 
 "from" =>
 "De",
@@ -693,196 +735,46 @@ $L = array(
 "Para",
 
 "message_sent_to" =>
-"Mensaje enviado a:",
+"Mensaje Enviado a:",
 
 "email_deleted" =>
-"Mensaje(s) de email borrados",
-
-"template_set_names" =>
-"Sets de Plantillas disponibles",
-
-"unable_to_find_templates" =>
-"No ha sido posible encontrar las plantillas de perfil de miembro.",
-
-"unable_to_find_template_file" =>
-"No ha sido posible encontrar el fichero de plantilla de miembro.",
-
-"template_updated" =>
-"La plantilla ha sido actualizada",
-
-"template_set" =>
-"Set de Plantillas:",
-
-"file_not_writable" =>
-"Nota: Este fichero no tiene permisos de escritura",
-
-"error_opening_template" =>
-"Error: No ha sido posible abrir el fichero de plantilla para escribir el contenido.",
-
-"file_writing_instructions" =>
-"No podrás guardar ningún cambio en esta plantilla hasta que le des permisos 666:",
-
-"aim_console" =>
-"Console AOL Instant Messenger ",
-
-"breadcrumb" =>
-"Rastros",
-
-"copyright" =>
-"Nota de copyright",
-
-"custom_profile_fields" =>
-"Campos de perfil personalizados para la página de edición de perfil",
-
-"edit_profile_form" =>
-"Editar perfil de miembro",
-
-"email_form" =>
-"Console de email",
-
-"email_prefs_form" =>
-"Preferencias de email",
-
-"email_user_message" =>
-"Mensaje de email",
-
-"forgot_form" =>
-"Olvido de Contraseña",
-
-"home_page" =>
-"Página inicial del perfil de miembro",
-
-"icq_console" =>
-"Consola ICQ",
-
-"localization_form" =>
-"Preferencias de localización",
-
-"login_form" =>
-"Inicio de Sesión",
-
-"memberlist" =>
-"Página de lista de miembros",
-
-"memberlist_rows" =>
-"Filas de lista de miembros",
-
-"menu" =>
-"Menú del perfil de miembro",
-
-"notepad_form" =>
-"Bloc de Notas",
-
-"password_change_warning" =>
-"Advertencia del cambio de contraseña",
-
-"public_custom_profile_fields" =>
-"Campos de perfil personalizados para perfil público",
-
-"public_profile" =>
-"Perfil de miembro público",
-
-"registration_form" =>
-"Formulario de registro",
-
-"stylesheet" =>
-"Hoja de estilo CSS",
-
-"success" =>
-"Mensaje de actualización de perfil",
-
-"username_change_disallowed" =>
-"Mensaje de prohibición de cambio de nombre de usuario",
-
-"username_password_form" =>
-"Nombre de usuario y contraseña",
-
-"username_row" =>
-"Fila de formulario de nombre de usuario",
-
-"signature_form" =>
-"Formulario de firma",
-
-"edit_avatar" =>
-"Edita la página de avatares",
-
-"avatar_folder_list" =>
-"Listado de la carpeta de avatares",
-
-"browse_avatars" =>
-"Navegar la página de avatares",
-
-"edit_photo" =>
-"Edita la página de fotos de miembro",
-
-"emoticon_page" =>
-"Página de emoticonos",
-
-"update_un_pw_form" =>
-"Actualizar el formulario de nombre de usuario y contraseña",
-
-"update_and_return" =>
-"Actualizar y terminar",
-
-"submit_and_return" =>
-"Enviar y terminar",
-
-"group_description" =>
-"Descripción del Grupo de Miembros",
+"Mensajes de Correo Borrados",
 
 "can_send_bulletins" =>
-"Puede enviar anuncios",
+"Puede Enviar Boletines",
 
-"login_as_user" =>
-"Inicio de sesión de Super Admin como usuario",
+"group_description" =>
+"Descripcion de Grupo de Miembro",
 
-"control_panel" =>
-"Panel de Control",
+"preferences" =>
+"Preferencias",
 
-"site_homepage" =>
-"Página de inicio",
+"preference" =>
+"Preferencia",
 
-"login_as_member_description" =>
-"Cuando clickes enviar, se iniciará la sesión como miembro  &#39;%screen_name%&#39;  y redirigido a la página inferior.",
-
-"other" =>
-"Otro",
-
-"view" =>
-"Ver",
+"setting" =>
+"Ajuste",
 
 "resend_activation_emails" =>
-"Volver a enviar los emails de activación",
+"Reenviar Correos de Activacion",
 
 "activation_emails_resent" =>
-"Emails de activación reenviados",
+"Correos de Activacion Reenviados",
 
 "resend_activation_email" =>
-"Volver a enviar el email de activación",
+"Reenviar Correo de Activacion",
 
 "activation_email_resent" =>
-"Email de activación reenviado",
-
-"bulletin" =>
-"Anuncio",
-
-"bulletin_form" =>
-"Formulario de anuncio",
-
-"new_member_search" =>
-"Búsqueda de nuevo miembro",
-
-"edit_ignore_list_form" =>
-"Editar Lista de Ignorados",
-
-"edit_ignore_list_rows" =>
-"Filas de Lista de Ignorados",
+"Correo de Activacion Reenviado",
 
 "can_access_site" =>
-"Puede acceder al sitio",
+"Puede Accesar el Sitio",
 
 "include_in_mailinglists" =>
-"Permitir a los miembros entrar en la lista de correo y habilidades relacionadas (p.e. sección de Comunicación de Grupo)",
+"Permitir Miembros en Lista de Correo de Sitio y Habilidades Relacionadas? (ej. Grupo Disponible en seccion Comunicar)",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

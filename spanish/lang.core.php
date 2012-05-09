@@ -1,469 +1,482 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"no" =>
-"No",
+'no' => 
+'No',
 
-"yes" =>
-"Sí",
+'yes' => 
+'Si',
 
-"on" =>
-"encendido",
+'on' => 
+'apagado',
 
-"off" =>
-"apagado",
+'off' => 
+'encendido',
 
-"first" =>
-"Primero",
+'first' => 
+'Primero',
 
-"last" =>
-"Último",
+'last' => 
+'Ultimo',
 
-"enabled" =>
-"activado",
+'enabled' => 
+'habilitado',
 
-"disabled" =>
-"desactivado",
+'disabled' => 
+'deshabilitado',
 
-"back" =>
-"Atrás",
+'back' => 
+'Atras',
 
-"submit" =>
-"Enviar",
+'submit' => 
+'Enviar',
 
-"update" =>
-"Actualizar",
+'update' => 
+'Actualizar',
 
-"thank_you" =>
-"Gracias!",
+'thank_you' => 
+'Gracias!',
 
-"page" =>
-"Página",
+'page' => 
+'Pagina',
 
-"of" =>
-"de",
+'of' => 
+'de',
 
-"by" =>
-"por",
+'by' => 
+'por',
 
-"at" =>
-"arroba",
+'at' => 
+'en',
 
-"dot" =>
-"punto",
+'dot' => 
+'punto',
 
-"encoded_email" =>
-"(JavaScript debe estar activado para ver esta dirección de email)",
+'encoded_email' => 
+'(Javascript debe estar habilitado para ver esta direccion de correo)',
 
-"search" =>
-"Buscar",
+'search' => 
+'Busqueda',
 
-"system_off_msg" =>
-"Está página está inactiva en estos momentos.",
+'system_off_msg' => 
+'Este sitio se encuentra inactivo.',
 
-"not_authorized" =>
-"No estás autorizado para realizar esta acción",
+'not_authorized' => 
+'No tienes autorizacion para llevar a cabo esta accion',
 
-"auto_redirection" =>
-"Esta página será redirigida en %x segundos",
+'auto_redirection' => 
+'Seras redireccionado automaticamente en %x segundos',
 
-"click_if_no_redirect" =>
-"Clicka aquí si no has sido redirigido automáticamente",
+'click_if_no_redirect' => 
+'Haz click aqui si no eres redireccionado automaticamente',
 
-"return_to_previous" =>
-"Volver a la Página Anterior",
+'return_to_previous' => 
+'Retornar a Pagina Anterior',
 
-"error" =>
-"Error",
+'not_available' => 
+'No disponible',
 
-"invalid_url" =>
-"La URL introducida no es válida.",
+'setting' => 
+'Preferencia',
 
-"submission_error" =>
-"El formulario enviado contenía los errores siguientes",
+'preference' => 
+'Preferencia',
 
-"general_error" =>
-"Se encontraron los errores siguientes",
+'error' => 
+'Error',
 
-"invalid_action" =>
-"La acción que has solicitado es inválida.",
+'invalid_url' => 
+'El URL que has enviado no es valido.',
 
-"captcha_required" =>
-"Debes introducir la palabra que aparece en la imagen",
+'submission_error' => 
+'El formulario que has enviado contiene los siguientes errores',
 
-"captcha_incorrect" =>
-"No es introducido la palabra tal y como aparece en la imagen",
+'general_error' => 
+'Los siguientes errores fueron encontrados',
 
-"nonexistant_page" =>
-"No se ha podido encontrar la página solicitada",
+'invalid_action' => 
+'La accion que has solicitado no es valida.',
 
-"banned" =>
-"Denegado",
+'captcha_required' => 
+'Debes enviar la palabra que aparece en la imagen',
 
-"guests" =>
-"Invitados",
+'captcha_incorrect' => 
+'No enviastes la palabra exactamente como aparece en la imagen',
 
-"members" =>
-"Miembros",
+'nonexistent_page' => 
+'La pagina que has solicitado no se encuentra',
 
-"pending" =>
-"Pendiente",
+'banned' => 
+'Blockeado',
 
-"super_admins" =>
-"Super Admins",
+'guests' => 
+'Visitas',
 
-"error_tag_syntax" =>
-"La etiqueta siguiente tiene un error de sintaxis:",
+'members' => 
+'Miembros',
 
-"error_fix_syntax" =>
-"Por favor, corrige la sintaxis de tu plantilla.",
+'pending' => 
+'Pendiente',
 
-"error_tag_module_processing" =>
-"La etiqueta siguiente no se puede procesar:",
+'super_admins' => 
+'Super Admins',
 
-"error_fix_module_processing" =>
-"Por favor, comprueba que el módulo &#39;%x&#39; está instalado y que &#39;%y&#39; es un método disponible para ese módulo",
+'error_tag_syntax' => 
+'La siguiente etiqueta tiene un error de sintaxis:',
 
-"template_loop" =>
-"Has creado un bucle en la plantilla debido a sub-plantillas mal aplicadas",
+'error_fix_syntax' => 
+'Por favor corrige el sintaxis en tu plantilla.',
 
-"forgotten_email_sent" =>
-"Las instrucciones para resetear tu contraseña se acaban de enviar a tu dirección de correo.",
+'error_tag_module_processing' => 
+'La siguiente etiqueta no se puede procesar:',
 
-"error_sending_email" =>
-"No se pueden enviar emails ahora mismo.",
+'error_fix_module_processing' => 
+'Por favor revisa que el modulo %x este instalado y que \'%y\' es un metodo disponible de este modulo',
 
-"no_email_found" =>
-"La dirección correo que has introducido no se encuentra en la base de datos.",
+'template_loop' => 
+'You have caused a template loop due to improperly nested sub-templates (\'%s\' recursively called)',
 
-"your_new_login_info" =>
-"Información de inicio de sesión",
+'forgotten_email_sent' => 
+'Instrucciones sobre como reestablecer tu contraseña han sido enviadas a tu correo.',
 
-"reset_link" =>
-"Para resetear tu contraseña, por favor, ve a la página siguiente:",
+'error_sending_email' => 
+'No se pudo enviar el correo en este momento.',
 
-"password_will_be_reset" =>
-"Tu contraseña se reseteará automáticamente y una contraseña nueva se enviará a tu dirección de correo.",
+'no_email_found' => 
+'Le direccion de correo que has enviado no se encuentra en la base de datos.',
 
-"ignore_password_message" =>
-"Si no quieres resetear tu contraseña, ignora este mensaje. Expirará en 24 horas.",
+'your_new_login_info' => 
+'Informacion de acceso',
 
-"password_has_been_reset" =>
-"Tu contraseña has sido reseteada y una nueva se ha enviado a tu dirección de correo.",
+'reset_link' => 
+'Para reestablecer tu contraseña, por favor ve a la siguiente pagina:',
 
-"new_login_info" =>
-"Aquí tienes tu información para iniciar la sesión:",
+'password_will_be_reset' => 
+'Tu contraseña sera reestablcida automaticamente, y una nueva sera enviada a tu correo.',
 
-"year" =>
-"año",
+'ignore_password_message' => 
+'Si no deseas reestablecer tu contraseña, ignora este mensaje. Expirara en 24 horas.',
 
-"years" =>
-"años",
+'password_has_been_reset' => 
+'Tu contraseña ha sido repuesta y una nueva se te ha sido enviada por correo.',
 
-"month" =>
-"mes",
+'new_login_info' => 
+'Aqui esta tu nueva informacion de acceso:',
 
-"months" =>
-"meses",
+'year' => 
+'año',
 
-"week" =>
-"semana",
+'years' => 
+'años',
 
-"weeks" =>
-"semanas",
+'month' => 
+'mes',
 
-"day" =>
-"día",
+'months' => 
+'meses',
 
-"days" =>
-"días",
+'week' => 
+'semana',
 
-"hour" =>
-"hora",
+'weeks' => 
+'semanas',
 
-"hours" =>
-"horas",
+'day' => 
+'dia',
 
-"minute" =>
-"minuto",
+'days' => 
+'dias',
 
-"minutes" =>
-"minutos",
+'hour' => 
+'hora',
 
-"second" =>
-"segundo",
+'hours' => 
+'horas',
 
-"seconds" =>
-"segundos",
+'minute' => 
+'minuto',
 
-"am" =>
-"am",
+'minutes' => 
+'minutos',
 
-"pm" =>
-"pm",
+'second' => 
+'segundo',
 
-"AM" =>
-"AM",
+'seconds' => 
+'segundos',
 
-"PM" =>
-"PM",
+'am' => 
+'am',
 
-"Sun" =>
-"Dom",
+'pm' => 
+'pm',
 
-"Mon" =>
-"Lun",
+'AM' => 
+'AM',
 
-"Tue" =>
-"Mar",
+'PM' => 
+'PM',
 
-"Wed" =>
-"Mie",
+'Sun' => 
+'Dom',
 
-"Thu" =>
-"Jue",
+'Mon' => 
+'Lun',
 
-"Fri" =>
-"Vie",
+'Tue' => 
+'Mar',
 
-"Sat" =>
-"Sab",
+'Wed' => 
+'Mie',
 
-"Su" =>
-"D",
+'Thu' => 
+'Jue',
 
-"Mo" =>
-"L",
+'Fri' => 
+'Vie',
 
-"Tu" =>
-"M",
+'Sat' => 
+'Sab',
 
-"We" =>
-"X",
+'Su' => 
+'D',
 
-"Th" =>
-"J",
+'Mo' => 
+'L',
 
-"Fr" =>
-"V",
+'Tu' => 
+'M',
 
-"Sa" =>
-"S",
+'We' => 
+'M',
 
-"Sunday" =>
-"Domingo",
+'Th' => 
+'J',
 
-"Monday" =>
-"Lunes",
+'Fr' => 
+'V',
 
-"Tuesday" =>
-"Martes",
+'Sa' => 
+'S',
 
-"Wednesday" =>
-"Miércoles",
+'Sunday' => 
+'Domingo',
 
-"Thursday" =>
-"Jueves",
+'Monday' => 
+'Lunes',
 
-"Friday" =>
-"Viernes",
+'Tuesday' => 
+'Martes',
 
-"Saturday" =>
-"Sábado",
+'Wednesday' => 
+'Miercoles',
 
-"Jan" =>
-"Ene",
+'Thursday' => 
+'Jueves',
 
-"Feb" =>
-"Feb",
+'Friday' => 
+'Viernes',
 
-"Mar" =>
-"Mar",
+'Saturday' => 
+'Sabado',
 
-"Apr" =>
-"Abr",
+'Jan' => 
+'Ene',
 
-"May" =>
-"May",
+'Feb' => 
+'Feb',
 
-"Jun" =>
-"Jun",
+'Mar' => 
+'Mar',
 
-"Jul" =>
-"Jul",
+'Apr' => 
+'Abr',
 
-"Aug" =>
-"Ago",
+'May' => 
+'May',
 
-"Sep" =>
-"Sep",
+'Jun' => 
+'Jun',
 
-"Oct" =>
-"Oct",
+'Jul' => 
+'Jul',
 
-"Nov" =>
-"Nov",
+'Aug' => 
+'Ago',
 
-"Dec" =>
-"Dic",
+'Sep' => 
+'Sep',
 
-"January" =>
-"Enero",
+'Oct' => 
+'Oct',
 
-"February" =>
-"Febrero",
+'Nov' => 
+'Nov',
 
-"March" =>
-"Marzo",
+'Dec' => 
+'Dic',
 
-"April" =>
-"Abril",
+'January' => 
+'Enero',
 
-"May_l" =>
-"Mayo",
+'February' => 
+'Febrero',
 
-"June" =>
-"Junio",
+'March' => 
+'Marzo',
 
-"July" =>
-"Julio",
+'April' => 
+'Abril',
 
-"August" =>
-"Agosto",
+'May_l' => 
+'Mayo',
 
-"September" =>
-"Septiembre",
+'June' => 
+'Junio',
 
-"October" =>
-"Octubre",
+'July' => 
+'Julio',
 
-"November" =>
-"Noviembre",
+'August' => 
+'Agosto',
 
-"December" =>
-"Diciembre",
+'September' => 
+'Septiembre',
 
-"UM12" =>
-"(UTC -12:00) Baker/Howland Island",
+'October' => 
+'Octubre',
 
-"UM11" =>
-"(UTC -11:00) Samoa Time Zone, Niue",
+'November' => 
+'Noviembre',
 
-"UM10" =>
-"(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti",
+'December' => 
+'Diciembre',
 
-"UM95" =>
-"(UTC -9:30) Marquesas Islands",
+'UM12' => 
+'(UTC -12:00) Baker/Howland Island',
 
-"UM9" =>
-"(UTC -9:00) Alaska Standard Time, Gambier Islands",
+'UM11' => 
+'(UTC -11:00) Samoa Time Zone, Niue',
 
-"UM8" =>
-"(UTC -8:00) Pacific Standard Time, Clipperton Island",
+'UM10' => 
+'(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
 
-"UM7" =>
-"(UTC -7:00) Mountain Standard Time",
+'UM95' => 
+'(UTC -9:30) Marquesas Islands',
 
-"UM6" =>
-"(UTC -6:00) Central Standard Time",
+'UM9' => 
+'(UTC -9:00) Alaska Standard Time, Gambier Islands',
 
-"UM5" =>
-"(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time",
+'UM8' => 
+'(UTC -8:00) Pacific Standard Time, Clipperton Island',
 
-"UM45" =>
-"(UTC -4:30) Venezuelan Standard Time",
+'UM7' => 
+'(UTC -7:00) Mountain Standard Time',
 
-"UM4" =>
-"(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time",
+'UM6' => 
+'(UTC -6:00) Central Standard Time',
 
-"UM35" =>
-"(UTC -3:30) Newfoundland Standard Time",
+'UM5' => 
+'(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time',
 
-"UM3" =>
-"(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay",
+'UM45' => 
+'(UTC -4:30) Venezuelan Standard Time',
 
-"UM2" =>
-"(UTC -2:00) South Georgia/South Sandwich Islands",
+'UM4' => 
+'(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time',
 
-"UM1" =>
-"(UTC -1:00) Azores, Cape Verde Islands",
+'UM35' => 
+'(UTC -3:30) Newfoundland Standard Time',
 
-"UTC" =>
-"(UTC) Greenwich Mean Time, Western European Time",
+'UM3' => 
+'(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay',
 
-"UP1" =>
-"(UTC +1:00) Central European Time, West Africa Time",
+'UM2' => 
+'(UTC -2:00) South Georgia/South Sandwich Islands',
 
-"UP2" =>
-"(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time",
+'UM1' => 
+'(UTC -1:00) Azores, Cape Verde Islands',
 
-"UP3" =>
-"(UTC +3:00) Moscow Time, East Africa Time",
+'UTC' => 
+'(UTC) Greenwich Mean Time, Western European Time',
 
-"UP35" =>
-"(UTC +3:30) Iran Standard Time",
+'UP1' => 
+'(UTC +1:00) Central European Time, West Africa Time',
 
-"UP4" =>
-"(UTC +4:00) Azerbaijan Standard Time, Samara Time",
+'UP2' => 
+'(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time',
 
-"UP45" =>
-"(UTC +4:30) Afghanistan",
+'UP3' => 
+'(UTC +3:00) Moscow Time, East Africa Time',
 
-"UP5" =>
-"(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time",
+'UP35' => 
+'(UTC +3:30) Iran Standard Time',
 
-"UP55" =>
-"(UTC +5:30) Indian Standard Time, Sri Lanka Time",
+'UP4' => 
+'(UTC +4:00) Azerbaijan Standard Time, Samara Time',
 
-"UP575" =>
-"(UTC +5:45) Nepal Time",
+'UP45' => 
+'(UTC +4:30) Afghanistan',
 
-"UP6" =>
-"(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time",
+'UP5' => 
+'(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time',
 
-"UP65" =>
-"(UTC +6:30) Cocos Islands, Myanmar",
+'UP55' => 
+'(UTC +5:30) Indian Standard Time, Sri Lanka Time',
 
-"UP7" =>
-"(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam",
+'UP575' => 
+'(UTC +5:45) Nepal Time',
 
-"UP8" =>
-"(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time",
+'UP6' => 
+'(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time',
 
-"UP875" =>
-"(UTC +8:45) Australian Central Western Standard Time",
+'UP65' => 
+'(UTC +6:30) Cocos Islands, Myanmar',
 
-"UP9" =>
-"(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time",
+'UP7' => 
+'(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam',
 
-"UP95" =>
-"(UTC +9:30) Australian Central Standard Time",
+'UP8' => 
+'(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time',
 
-"UP10" =>
-"(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time",
+'UP875' => 
+'(UTC +8:45) Australian Central Western Standard Time',
 
-"UP105" =>
-"(UTC +10:30) Lord Howe Island",
+'UP9' => 
+'(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time',
 
-"UP11" =>
-"(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu",
+'UP95' => 
+'(UTC +9:30) Australian Central Standard Time',
 
-"UP115" =>
-"(UTC +11:30) Norfolk Island",
+'UP10' => 
+'(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time',
 
-"UP12" =>
-"(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time",
+'UP105' => 
+'(UTC +10:30) Lord Howe Island',
 
-"UP1275" =>
-"(UTC +12:45) Chatham Islands Standard Time",
+'UP11' => 
+'(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu',
 
-"UP13" =>
-"(UTC +13:00) Phoenix Islands Time, Tonga",
+'UP115' => 
+'(UTC +11:30) Norfolk Island',
 
-"UP14" =>
-"(UTC +14:00) Line Islands",
+'UP12' => 
+'(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time',
+
+'UP1275' => 
+'(UTC +12:45) Chatham Islands Standard Time',
+
+'UP13' => 
+'(UTC +13:00) Phoenix Islands Time, Tonga',
+
+'UP14' => 
+'(UTC +14:00) Line Islands',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

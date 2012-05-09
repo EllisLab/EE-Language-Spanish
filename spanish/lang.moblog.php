@@ -1,252 +1,252 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "moblog_allow_overrides" =>
-"¿Permitir Anulaciones en Email?",
+"Permitir Anulación en Correos?",
 
 "moblog_allow_overrides_subtext" =>
-"Si se selecciona sí, los ajustes por defecto de arriba se pueden anular en el email.",
+"Si habilitado, la configuración predeterminada puede ser anulada en el correo.",
 
 "moblog_sticky_entry" =>
-"¿Deseas que la entrada esté la primera siempre (sticky)?",
+"Hacer Entrada Pegajosa?",
 
 "moblog_module_name" =>
 "Moblog",
 
 "moblog_module_description" =>
-"Módulo de Moblogging",
+"Moblogging Module",
 
 "moblog_prefs" =>
-"Preferencias ",
+"Preferencias",
 
 "moblog_type" =>
 "Tipo de Moblog",
 
-"weblog" =>
-"Weblog",
+"channel" =>
+"Canal",
 
 "gallery" =>
 "Galería",
 
 "moblog_gallery_settings" =>
-"Ajustes de Galería para Moblog",
+"Preferencias de Galería para Moblog",
 
 "gallery_id" =>
-"Selecciona Galería",
+"Seleccione una Galería",
 
 "gallery_cat" =>
-"Categoría de entrada",
+"Categoría de Entrada",
 
 "gallery_status" =>
-"Estado de entrada",
+"Estatus de Entrada",
 
 "gallery_comments" =>
-"Permitir comentarios",
+"Permitir Comentarios",
 
 "ping_sites" =>
-"Sitios a hacer ping",
+"Sitios a Enviar Pings",
 
 "ping_servers" =>
-"Servidores de ping",
+"Servidor Ping",
 
 "choose_gallery_category" =>
-"Debes seleccionar una categoría para tu entrada de galería",
+"Debes Seleccionar una Categoria para Tu Entrada de Galería",
 
 "choose_gallery" =>
-"Debes seleccionar una galería para la entrada",
+"Debes Seleccionar una Galería para Tu Entrada",
 
 "invalid_gallery" =>
-"La galería seleccionada para las entradas es inválida",
+"Galería Inválida Seleccionada para Entradas",
 
 "invalid_upload_directory" =>
-"Directorio de carga (upload) inválido",
+"Directorio de Cargas Inválido",
 
 "upload_directory_unwriteable" =>
-"No ha sido posible guardar el fichero en el directorio de carga",
+"No se Puede Escribir el Archivo en el Directorio de Cargas",
 
 "gallery_author" =>
-"Autor por defecto",
+"Autor Predeterminado",
 
 "pings_sent" =>
-"Pings enviados:",
+"Pings Enviados",
 
 "moblog_entry_settings" =>
-"Ajustes de entrada de Weblog",
+"Preferencias de Entrada de Canal",
 
 "moblog" =>
 "Moblogging",
 
 "moblog_basis" =>
-"Basar el nuevo Moblog en: ",
+"Basar Nuevo Moblog en:",
 
 "edit_moblog" =>
 "Actualizar Moblog",
 
 "view_moblogs" =>
-"Cuentas Moblog",
+"Cuentas de Moblog",
 
 "create_moblog" =>
-"Crear un Moblog nuevo",
+"Crear Nuevo Moblog",
 
 "check_moblogs" =>
-"Comprobar Moblogs",
+"Revisar Moblogs",
 
 "check_moblog" =>
-"Comprobar Moblog",
+"Revisar Moblog",
 
 "invalid_moblog" =>
 "Selección de Moblog inválida",
 
 "moblog_check_select" =>
-"Selecciona un Moblog para comprobar",
+"Selecciona un Moblog para Revisar",
 
 "moblog_general_settings" =>
-"Ajustes generales",
+"Configuración General",
 
 "moblog_email_settings" =>
-"Ajustes de email",
+"Configuración de Correo",
 
 "moblog_image_settings" =>
-"Ajustes de imagen",
+"Configuración de Imágenes",
 
 "moblog_full_name" =>
-"Nombre completo de Moblog",
+"Nombre Completo de Moblog",
 
 "moblog_short_name" =>
-"Nombre corto",
+"Nombre Corto",
 
 "no_spaces" =>
-"Una sola palabra, sin espacios",
+"Palabra única, sin espacios",
 
-"weblog_id" =>
-"Elegir Weblog",
+"channel_id" =>
+"Selecciona Canal",
 
 "cat_id" =>
-"Categorías por defecto",
+"Categorías Predeterminadas",
 
 "field_id" =>
-"Campo por defecto",
+"Campo Predeterminado",
 
 "status" =>
-"Estado por defecto",
+"Estatus Predeterminado",
 
 "author_id" =>
-"Autor por defecto",
+"Autor Predeterminado",
 
 "none" =>
 "Ninguno",
 
 "all" =>
-"Todo",
+"Todos",
 
 "open" =>
-"Abierto",
+"Abierta",
 
 "closed" =>
-"Cerrado",
+"Cerrada",
 
 "moblog_auth_required" =>
-"¿Se requiere autorización por email?",
+"Autorización Requerida en Correo?",
 
 "moblog_auth_delete" =>
-"¿Desea borrar los emails de Moblog no autorizados?",
+"Borrar Correos No Autorizados de Moblog?",
 
 "moblog_auth_delete_subtext" =>
-"Si se requiere autorización y el email no se autoriza, el email será borrado",
+"Cuando autorización es requerida y falla la autorización de correo, el correo será borrado",
 
 "moblog_upload_directory" =>
-"Directorio de carga (upload) para ficheros",
+"Directorio de Cargas para achivos",
 
 "moblog_image_width" =>
-"Ancho de imagen",
+"Ancho de Mágen",
 
 "moblog_image_height" =>
-"Altura de imagen",
+"Alto de Imágen",
 
 "moblog_resize_image" =>
-"¿Desea redimensionar la imagen al importar?",
+"Cambiar Tamaño de Imágen al Importar?",
 
 "moblog_resize_width" =>
-"Redimensionar ancho",
+"Ancho de Cambio de Tamaño",
 
 "moblog_resize_height" =>
-"Redimensionar altura",
+"Alto de Cambio de Tamaño",
 
 "moblog_create_thumbnail" =>
-"¿Deseas crear Thumbnails al importar",
+"Crear Miniatura al Importar?",
 
 "moblog_thumbnail_width" =>
-"Ancho de Thumbnail",
+"Ancho de Miniatura",
 
 "moblog_thumbnail_height" =>
-"Altura de Thumbnail",
+"Alto de Miniatura",
 
 "set_to_zero" =>
-"El programa intenta determinar el tamaño automáticamente, así que se debe introducir 0 si el tamaño es desconocido",
+"Programa intenta determinar el tamaño automaticamente, entonces establece 0 si no conoces el tamaño de la imágen",
 
 "moblog_email_type" =>
-"Tipo de cuenta de correo",
+"Tipo de Cuenta de Correo",
 
 "moblog_email_address" =>
-"Dirección de correo",
+"Dirección de Correo",
 
 "moblog_email_server" =>
-"Servidor de correo entrante",
+"Servidor de Entrada de Correo",
 
 "server_example" =>
-"Ej: mail.tuweb.com",
+"Ej: mail.yoursite.com",
 
 "moblog_email_login" =>
-"Nombre de usuario de la cuenta de correo",
+"Usuario de Cuenta de Correo",
 
 "moblog_email_password" =>
-"Contraseña de la cuenta de correo",
+"Contraseña de Cuenta de Correo",
 
 "data_encrypted" =>
-"Encryptación de datos al enviar",
+"Datos encriptados al enviar",
 
 "moblog_subject_prefix" =>
-"Prefijo de Asunto de Moblog",
+"Prefijo de Tema de Moblog",
 
 "moblog_subject_subtext" =>
-"Dejar en blanco para aceptar automáticamente todos los emails",
+"Dejar vacio para aceptar todos los correos automaticamente",
 
 "moblog_ignore_text" =>
-"Ingorar texto de email",
+"Ignorar Texto de Correo",
 
 "moblog_valid_from" =>
-"Emails con válido &quot;Desde&quot; para Moblog",
+"Correos &#39;De&#39; Válidos para Moblog",
 
 "valid_from_subtext" =>
-"Las direcciones de correo desde las que enviarás emails de moblg. Déjalo en blanco para aceptar cualquier dirección de correo. Separa cada dirección de correo con un espacio o en una línea nueva.",
+"Las direcciones de correo de las cuales enviarás estos correos de moblog. Dejalo vacio para aceptar de cualquier dirección de correo. Separa cada dirección de correo con un espacio o una linea nueva.",
 
 "moblog_time_interval" =>
-"Tiempo entre comprobaciones",
+"Tiempo Entre Revisiones",
 
 "moblog_enabled" =>
-"¿Activar Moblog?",
+"Moblog Habilitado?",
 
 "moblog_file_archive" =>
-"Modo de Archivación",
+"Modo de Archivado de Archivos",
 
 "file_archive_subtext" =>
-"Si se activa, este moblog no colgará las entradas de weblog. Sólo guardará los ficheros en las carpeta de carga (upload) especificada.",
+"Cuando habilitado, este moblog no enviará entradas de canal. Solo guardará tus archivos en la ubicación de carga especificada.",
 
-"weblog_id_subtext" =>
-"Si no se selecciona un weblog, este moblog no colgará las entradas de weblog. Sólo guardará los ficheros en las carpeta de carga (upload) especificada.",
+"channel_id_subtext" =>
+"Si no se ha seleccionado un canal, este moblog no enviará entradas de canal. Solo guardará tus archivos en la ubicación de carga especificada.",
 
 "moblog_auth_subtext" =>
-"Si se activa, sólo los email que incluyan la información nombre de usuario/contraseña podrán subir ficheros o enviar entradas.",
+"Si habilitado, solo correos con información de usuario/contraseña incluida tendrán archivos cargados o entradas enviadas.",
 
 "subject_prefix_subtext" =>
-"Para incluir todos los emails, no introduzcas un prefijo.",
+"Para incluir todos los correos, deja el prefijo como vacio.",
 
 "ignore_text_subtext" =>
-"Copia aquí el texto que quieres que se borre de tus emails de moblog. Es útil para quitar las firmas de Hotmail y Yahoo.",
+"Copiar el texto aquí que deseas borrar de los correos de moblog. Util para borrar firmas de Yahoo y Hotmail.",
 
 "interval_subtext" =>
-"Afecta a la etiqueta {exp:moblog:check} . El número está puesto en minutos. Se permiten fracciones decimales.",
+"Afecta la etiqueta {exp:moblog:check}. Número establecido en minutos. Tienes permitido utilizar fracciones decimales.",
 
 "moblog_time_interval_subtext" =>
 "Ejemplo: 1.5",
@@ -261,7 +261,7 @@ $L = array(
 "Plantilla Moblog",
 
 "moblog_formatting" =>
-"Formato de Plantilla por defecto",
+"Formato Predeterminado de Plantilla",
 
 "xhtml" =>
 "xhtml",
@@ -270,28 +270,28 @@ $L = array(
 "&lt;br /&gt;",
 
 "invalid_short_name" =>
-"El nombre corto de tu moblog debe contener sólo carácteres alfanuméricos sin espacios",
+"Tu nombre corto de moblog debe contener solo números y letras sin espacios",
 
 "moblog_taken_short_name" =>
-"El nombre corto de este moblog ya ha sido tomado",
+"El nombre corto de moblog ya está siendo utilizado",
 
 "moblog_taken_name" =>
-"El nombre completo de este moblog ya ha sido tomado",
+"Este nombre completo de moblog ya está siendo utilizado",
 
 "moblog_missing_field" =>
-"Un campo requerido está en blanco o tiene un valor inválido: %e",
+"Un campo requerido se encuentra vacio o tiene un valor inválido: %e.",
 
 "moblog_created" =>
 "Moblog Creado",
 
 "moblog_updated" =>
-"Preferencias de Moblog actualizadas",
+"Preferencias de Moblog Actualizadas",
 
 "no_moblogs" =>
-"No existen moblogs actualmente",
+"No existen moblogs",
 
 "total_moblogs" =>
-"Total Moblogs: ",
+"Total de Moblogs:",
 
 "moblog_view" =>
 "Moblogs",
@@ -309,73 +309,76 @@ $L = array(
 "Moblog borrado",
 
 "moblogs_deleted" =>
-"Los Moblogs han sido borrados",
+"Moblogs han sido borrados",
 
 "moblog_delete_confirm" =>
 "Borrar Moblogs",
 
 "moblog_delete_question" =>
-"¿Estás seguro que quieres borrar los moblogs seleccionados?",
+"Estás seguro que deseas borrar los moblogs seleccionados?",
 
 "moblog__deleted" =>
-"El Moblog ha sido borrado",
+"Moblog ha sido borrado",
 
 "moblog_successful_check" =>
-"El Moblog ha sido comprobado correctamente",
+"Moblog fué revisado con éxito",
 
 "emails_done" =>
-"Emails recuperados:",
+"Correos Extraidos:",
 
 "entries_added" =>
-"Entradas añadidas:",
+"Entradas Agregadas:",
 
 "attachments_uploaded" =>
-"Ficheros adjuntos cargados:",
+"Adjuntos Cargados:",
 
 "no_cache" =>
-"No ha sido posible acceder al caché del moblog",
+"No se puede accesar el cache del moblog",
 
 "moblog_current" =>
-"Moblog actual",
+"Moblog está actual",
 
 "no_server_connection" =>
-"No ha sido posible conectar con el servidor de correo",
+"No se puede conectar al servidor de correo",
 
 "invalid_server_response" =>
-"Respuesta del servidor inválida",
+"Respuesta inválida de servidor",
 
 "invalid_username" =>
-"Nombre de Usuario inválido",
+"Nombre de Usuario Inválido",
 
 "invalid_password" =>
-"Contraseña inválida",
+"Contraseña Inválida",
 
 "unable_to_retrieve_emails" =>
-"La información del email no está disponible",
+"La Información de Correo no está disponible",
 
 "no_valid_emails" =>
-"No se han encontrado emails válidos",
+"No se encontraron correos válidos",
 
 "unable_to_parse" =>
-"No se pudo analizar el email.",
+"No se pudo analizar el correo.",
 
 "authorization_failed" =>
-"La autorización de email falló para:",
+"Autorización de Correo fallida por:",
 
 "undeletable_email" =>
-"No se pudo borrar el email",
+"No se pudo borrar el correo",
 
-"invalid_weblog" =>
-"Weblog inválido",
+"invalid_channel" =>
+"Canal inválido",
 
 "invalid_file_data" =>
-"Datos de fichero adjunto inválido",
+"Datos de adjunto inválidos",
 
 "error_writing_attachment" =>
-"Error al guardar los ficheros adjuntos",
+"Error al escribir adjunto",
 
 "unable_to_resize" =>
-"No se pudo redimensionar la imagen",
+"No se puede cambiar el tamaño de la imágen",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

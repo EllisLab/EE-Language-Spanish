@@ -1,178 +1,221 @@
 <?php
-$L = array(
+$lang = array(
 
 
-"wiki_module_name" =>
-"Wiki",
+'wiki_module_name' => 
+'Wiki',
 
-"wiki_module_description" =>
-"Un poderoso e integrado módulo Wiki",
+'wiki_module_description' => 
+'Un Poderoso e Integrado Modulo Wiki ',
 
-"wiki_preferences" =>
-"Preferencias del Módulo Wiki",
+'wiki_preferences' => 
+'Preferencias del Modulo Wiki',
 
-"preference_name" =>
-"Nombre de preferencia",
+'preference_name' => 
+'Nombre de Preferencia',
 
-"preference_value" =>
-"Valor de preferencia",
+'preference_value' => 
+'Valor de Preferencia',
 
-"use_captchas" =>
-"¿Deseas usas CAPTCHAs?",
+'use_captchas' => 
+'Utilizar CAPTCHAs?',
 
-"text_format" =>
-"Formato de texto para los Artículos",
+'text_format' => 
+'Formato de Texto para Artículos',
 
-"html_format" =>
-"Formato HTML para los Artículos",
+'html_format' => 
+'Formato de HTML para Artículos',
 
-"upload_dir" =>
-"Directorio de carga (upload) de ficheros para la Wiki",
+'upload_dir' => 
+'Directorio de Carga de Archivos para Wiki',
 
-"upload_url" =>
-"URL al directorio de carga",
+'upload_url' => 
+'URL para Directorio de Cargas',
 
-"convert_to_entities" =>
-"Convertir HTML en entidades de caracteres",
+'convert_to_entities' => 
+'Convertir HTML en entidades de caracter',
 
-"allow_safe_html" =>
-"Permitir sólo HTML seguro",
+'allow_safe_html' => 
+'Permitir solo HTML seguro',
 
-"allow_all_html" =>
-"Permitir TODO HTML",
+'allow_all_html' => 
+'Permitir TODO HTML',
 
-"auto_br" =>
-"Auto &lt;br /&gt;",
+'auto_br' => 
+'Auto &lt;br /&gt;',
 
-"xhtml" =>
-"XHTML",
+'xhtml' => 
+'XHTML',
 
-"none" =>
-"Ninguno",
+'none' => 
+'Ninguno',
 
-"update_successful" =>
-"Preferencias Actualizadas con éxito!",
+'update_successful' => 
+'Preferencias Actualizadas Exitosamente!',
 
-"revision_limit" =>
-"Número de revisiones a mantener por artículo",
+'revision_limit' => 
+'Número de Revisiones a Mantener Por Artículo',
 
-"author_limit" =>
-"Número de ediciones permitidas por autor por día",
+'author_limit' => 
+'Numero de Ediciones Permitidas Por Autor Por Dia',
 
-"search_min_length" =>
-"Los términos de búsqueda deben tener al menos %x caracteres",
+'search_min_length' => 
+'Turminos de búsqueda debe tener al menos %x caracteres',
 
-"invalid_permissions" =>
-"No tienes los permisos suficientes para realizar esta acción",
+'invalid_permissions' => 
+'No Tienes Permiso Para Llevar A Cabo Esta Acción',
 
-"submission_limit" =>
-"Límite de entradas sobrepasado",
+'submission_limit' => 
+'Límite de Envios Excedido',
 
-"file_exists" =>
-"El fichero ya existe, por favor, inténtalo con otro nombre",
+'file_exists' => 
+'Archivo Ya Existe, Por Favor Intente un Nombre Nuevo',
 
-"moderation_emails" =>
-"Direcciones de correo para las notificaciones de moderación",
+'moderation_emails' => 
+'Direcciones de Correo Electrónico para Notificaciones de Moderación',
 
-"namespaces_list" =>
-"Lista de Namespaces",
+'namespaces_list' => 
+'Lista de Espacios de Nombre',
 
-"namespaces_list_subtext" =>
-"Namespaces se usan para separar el contenido de una wiki en divisiones separadas. For ejemplo, quizá quieras crear una división de una wiki para artículos sólo en castellano. Para cada namespace, crea un etiqueta, que se mostrará en las páginas de la weki, y un nombre corto que se usará internamente y en ciertos formularios para referencia del namespace. El nombre corto debería contener una sóla palabra, sin espacios.",
+'namespaces_list_subtext' => 
+'Espacios de Nombre son utilizados para separar el contenido de un wiki en divisiones separadas. Por ejemplo, puedes querer crear una división en el wiki de artículos solo para el Españ. Para cada espacio de nombre, crea un Rótulo, el cual será mostrado en las páginas del wiki, y un nombre corto, el cual será utilizado internamente y en ciertos formularios para referenciar el espacio de nombre. Tu nombre corto solo debe contener caracteres de nombre como letras, números y guiones bajos.',
 
-"label_name" =>
-"Nombre completo de la Wiki",
+'label_name' => 
+'Nombre Completo del Wiki',
 
-"short_name" =>
-"Nombre corto de la Wiki",
+'short_name' => 
+'Nombre Corto del Wiki',
 
-"name_short_subtext" =>
-"- una sola palabra, sin espacios",
+'name_short_subtext' => 
+' - palabra unica, sin espacios',
 
-"basepath_unset" =>
-"Parámetro de ruta base no introducido",
+'basepath_unset' => 
+'Parametro Base de Ruta No Esta Establecido',
 
-"users" =>
-"Grupos de usuarios",
+'users' => 
+'Grupos de Usuario',
 
-"admins" =>
-"Grupos de administradores",
+'admins' => 
+'Grupos de Administrador',
 
-"wiki_homepage" =>
-"Página de Inicio",
+'wiki_homepage' => 
+'Pagina de Inicio del Wiki',
 
-"create_wiki" =>
-"Crear Wiki",
+'create_wiki' => 
+'Crear Wiki',
 
-"no_wiki" =>
-"No existen wikis actualmente",
+'wiki_created' => 
+'El wiki ha sido creado. Ya puedes modificar las preferencias.',
 
-"wiki_delete_confirm" =>
-"Borrar Wikis",
+'no_wiki' => 
+'No existen wikis actualmente.',
 
-"wiki_delete_question" =>
-"¿Estás seguro que deseas borras la(s) wiki(s) seleccionada(s)?",
+'wiki_delete_confirm' => 
+'Borrar Wikis',
 
-"wiki_deleted" =>
-"Wiki Borrada",
+'wiki_delete_question' => 
+'Estas seguro que quieres borrar los wikis seleccionados?',
 
-"wikis_deleted" =>
-"Wikis Borradas",
+'wiki_deleted' => 
+'Wiki Borrado!',
 
-"duplicate_short_name" =>
-"Otra Wiki con este Nombre Corto ya existe",
+'wikis_deleted' => 
+'Wikis Borrados!',
 
-"default_index_note" =>
-"Creando la primera página",
+'duplicate_short_name' => 
+'Otro Wiki con ese mismo Nombre Corto ya existe.',
 
-"default_index_content" =>
-"Bienvenido a la página principal de tu Wiki EE!",
+'default_index_note' => 
+'Creando la primera pagina',
 
-"namespace_label" =>
-"Etiqueta de Namespace",
+'default_index_content' => 
+'Bienvenido a la pagina de apertura de tu Wiki EE!',
 
-"namespace_short_name" =>
-"Nombre corto de Namespace",
+'namespace_label' => 
+'Rotulo del Espacio de Nombre',
 
-"file_ns" =>
-"Fichero",
+'namespace_short_name' => 
+'Nombre Corto del Espacio de Nombre',
 
-"image_ns" =>
-"Imagen",
+'file_ns' => 
+'Archivo',
 
-"special_ns" =>
-"Especial",
+'image_ns' => 
+'Imagen',
 
-"category_ns" =>
-"Categoría",
+'special_ns' => 
+'Especial',
 
-"invalid_namespace" =>
-"El Namespace introducido es inválido",
+'category_ns' => 
+'Categoria',
 
-"namespaces" =>
-"Namespaces",
+'invalid_namespace' => 
+'Espacio de Nombre Inválido Enviado',
 
-"no_search_terms" =>
-"Debes incluir términos de búsqueda cuando buscas namespaces.",
+'namespaces' => 
+'Espacios de Nombre',
 
-"duplicate_article" =>
-"Ya existe otro artículo con ese nombre.",
+'no_search_terms' => 
+'Debes incluir terminos de búsqueda al buscar espacios de nombre.',
 
-"search_in_wikis" =>
-"Buscar en Wikis",
+'duplicate_article' => 
+'Otro articulo con el mismo nombre ya existe.',
 
-"wikis" =>
-"Wikis",
+'search_in_wikis' => 
+'Buscar en Wikis',
 
-"any_wiki" =>
-"Cualquier Wiki",
+'wikis' => 
+'Wikis',
 
-"any_namespace" =>
-"Cualquier Namespaces",
+'any_wiki' => 
+'Cualquier Wiki',
 
-"main_ns" =>
-"Principal",
+'any_namespace' => 
+'Cualquier Espacio de Nombre',
+
+'main_ns' => 
+'Principal',
+
+'wiki_themes' => 
+'Temas de Wiki',
+
+'unable_to_find_themes' => 
+'No se encontraron temas de wiki',
+
+'invalid_wiki_theme' => 
+'Tema de wiki inválido',
+
+'invalid_wiki_template' => 
+'Nombre de plantilla de wiki inválido',
+
+'wiki_theme_templates' => 
+'Plantillas de Tema de Wiki',
+
+'edit_template' => 
+'Editar Plantilla de Wiki',
+
+'unable_to_find_template_file' => 
+'No se puede encontrar el archivo de plantilla',
+
+'template_updated' => 
+'Plantilla actualizada con éxito',
+
+'update_and_return' => 
+'Actualizar y Terminar',
+
+'file_not_writable' => 
+'Nota: No se puede escribir este archivo',
+
+'error_opening_template' => 
+'Error: No se puede abrir el archivo de plantilla para escribir su contenido.',
+
+'file_writing_instructions' => 
+'No podras guardar cambios a esta plantilla hasta que tenga permisos de escritura para este servidor.',
+
+'translate' => 
+'Update',
 
 ''=>''
 );
-?>
+
+// End of File

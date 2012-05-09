@@ -1,33 +1,36 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "spell_check" =>
-"Corrección ortográfica",
+"Correción de Ortografía",
 
 "check_spelling" =>
-"Corregir ortografía",
+"Corregir Ortografía",
 
 "save_spellcheck" =>
-"Guardar cambios",
+"Guardar Cambios",
 
 "revert_spellcheck" =>
-"Volver al original",
+"Revertir a Original",
 
 "spell_save_edit" =>
-"Guardar edición",
+"Guardar Edición",
 
 "spell_edit_word" =>
-"Editar Word",
+"Editar Palabra",
 
 "unsupported_browser" =>
-"Navegador no soportado",
+"Navegador Sin Soporte",
 
 "no_spelling_errors" =>
-"No se han encontrado errores",
+"No Se Encontraron Errores",
 
 "spellcheck_in_progress" =>
-"Corrección en marcha...",
+"Corrección en Progreso...",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

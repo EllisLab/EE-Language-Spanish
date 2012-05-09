@@ -1,5 +1,5 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "module_name" =>
@@ -9,28 +9,28 @@ $L = array(
 "Descripción",
 
 "data_will_be_lost" =>
-"Toda la información asociada a este módulo será borrada permanentemente!",
+"Todos los datos relacionados con este módulo serán borrados permanentemente!",
 
 "module_access" =>
-"Editar módulo",
+"Editar Módulo",
 
 "module_no_access" =>
-"No tienes permisos para acceder a ningún módulo",
+"No tienes permitido accesar módulos",
 
 "delete_module" =>
-"Desinstalar módulo",
+"Des-instalar Módulo",
 
 "delete_module_confirm" =>
-"¿Estás seguro que quieres desinstalar el siguiente módulo?",
+"Estás seguro que deseas remover el siguiente módulo:",
 
 "module_backend" =>
-"Panel de Control de Usuario",
+"PC de Usuario",
 
 "module_version" =>
 "Versión",
 
 "module_status" =>
-"Estado",
+"Estatus",
 
 "module_action" =>
 "Acción",
@@ -45,16 +45,25 @@ $L = array(
 "Instalar",
 
 "deinstall" =>
-"Quitar",
+"Remover",
 
 "module_can_not_be_found" =>
-"No ha sido posible encontrar los ficheros necesarios para instalar este módulo",
+"No se pueden ubicar los archivos necesarios para instalar este módulo",
 
 "module_has_been_installed" =>
 "Módulo instalado:",
 
 "module_has_been_removed" =>
-"Módulo quitado:",
+"Módulo removido:",
+
+"requested_module_not_installed" =>
+"El módulo solicitado no esta instalado.",
+
+"requested_page_not_found" =>
+"La página del módulo solicitado no puede ser encontrada.",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

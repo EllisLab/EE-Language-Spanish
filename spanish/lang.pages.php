@@ -1,15 +1,15 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "pages_module_name" =>
 "Páginas",
 
 "pages_module_description" =>
-"Usa entradas de weblog para hacer páginas estáticas",
+"Utiliza Entradas de Canal para crear páginas Estaticas",
 
 "pages_homepage" =>
-"Página de inicio de Páginas",
+"Página de Inicio de Páginas",
 
 "page" =>
 "Página",
@@ -18,73 +18,73 @@ $L = array(
 "URI de Páginas",
 
 "no_pages" =>
-"No hay páginas actualmente",
+"No Existen Páginas Actualmente",
 
 "create_page" =>
-"Crear una nueva página",
+"Crear Página Nueva",
 
 "page_name" =>
-"Nombre de página",
+"Nombre de Página",
 
 "edit_page" =>
-"Editar página",
+"Editar Página",
 
 "view_page" =>
-"Ver página",
+"Ver Página",
 
 "page_settings" =>
-"Ajustes de página",
+"Configuración de Páginas",
 
 "none" =>
-"Ninguno",
+"Ninguna",
 
 "template" =>
 "Plantilla",
 
 "parent_page" =>
-"Página superior",
+"Página Padre",
 
-"weblog_entry" =>
-"Entrada de weblog",
+"channel_entry" =>
+"Entrada de Canal",
 
 "choose_entry" =>
-"Seleccionar entrada",
+"Escoge Entrada",
 
 "pages_delete_confirm" =>
-"Borrar páginas",
+"Borrar Páginas",
 
 "pages_delete_question" =>
-"¿Estás seguro que quieres borrar las URI(s) de página seleccionadas?&lt;br /&gt;&lt;em&gt;Nota: Barrar una página sólo borra la URL. No borra la entrada.&lt;/em&gt;",
+"Estas seguro que deseas borrar los URI de Página seleccionados?&lt;br /&gt;&lt;em&gt;Nota: Borrar una Página solo borrar el URL. No borra la entrada.&lt;/em&gt;",
 
 "page_deleted" =>
-"Página borrada",
+"Página Borrada",
 
 "pages_deleted" =>
-"Páginas borradas",
+"Páginas Borradas",
 
 "create_entry" =>
-"Crear entrada",
+"Crear Entrada",
 
 "choose_template" =>
-"Selecciona la  plantilla para mostrar la página",
+"Escoge Plantilla para Mostrar Página",
 
 "invalid_page_name" =>
-"El nombre de página introducido es inválido",
+"Nombre de Página Inválido Enviado",
 
 "invalid_template" =>
-"Debes seleccionar una plantilla válida para  mostras esta página.",
+"Debes seleccionar una plantilla válida para mostrar esta página.",
 
 "page_created" =>
-"Página creada",
+"Página Creada",
 
 "page_updated" =>
-"Página actualizada",
+"Página Actualizada",
 
 "invalid_page_uri" =>
-"URI de página inválida",
+"URI de Página Inválido",
 
 "pages_configuration" =>
-"Confirguración de Módulo",
+"Configuración de Módulo",
 
 "preference_name" =>
 "Nombre de Preferencia",
@@ -93,28 +93,37 @@ $L = array(
 "Valor de Preferencia",
 
 "default_template" =>
-"Plantilla por defecto",
+"Plantilla Predeterminada",
 
 "default_for_page_creation" =>
-"Weblog por defecto para la pestaña &quot;Crear Página Nueva&quot;",
+"Canal Predeterminado para Ficha &#39;Crear Página Nueva&#39;",
 
 "no_default" =>
-"No es por defecto",
+"Sin Predeterminado",
 
 "configuration_updated" =>
-"Configuración actualizada",
+"Configuración Actualizada",
 
 "duplicate_page_uri" =>
-"Duplicar la URI de página",
+"URI de Página Duplicado",
 
 "pages_display_on_homepage" =>
-"Mostrar las URIs en la página de inicio del módulo",
+"Mostrado de URIs en Página de Inicio del Módulo",
 
 "nested" =>
-"Anidado",
+"Anidada",
 
 "not_nested" =>
-"No anidado",
+"No Anidada",
+
+"preference" =>
+"Preferencia",
+
+"setting" =>
+"Configuración",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

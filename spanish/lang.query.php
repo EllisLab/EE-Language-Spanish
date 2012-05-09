@@ -1,12 +1,15 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "query_module_name" =>
-"Query",
+"Consulta",
 
 "query_module_description" =>
-"Módulo SQL query para plantillas",
+"Módulo de consulta SQL para plantillas",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

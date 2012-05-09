@@ -1,30 +1,36 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "remember_me" =>
-"Iniciar sesión automáticamente en el futuro?",
+"Acceder automaticamente en futuras visitas?",
 
 "no_username" =>
-"El nombre de usuario que has introducido no se encuentra en la base de datos",
+"El campo de nombre de usuario es requerido.",
 
 "no_password" =>
-"La contraseña que has introducido es incorrecta.",
+"El campo de contraseña es requerido.",
 
 "no_email" =>
-"Debes introducir tu dirección de correo.",
+"Debes enviar tu dirección de correo electrónico.",
+
+"credential_missmatch" =>
+"Usuario o contraseña invalida.",
 
 "multi_login_warning" =>
-"Alguien ha iniciado la sesión con esta cuenta.",
+"Alguien ya ha accedido con esta cuenta.",
 
 "return_to_login" =>
-"Volver al inicio de sesión",
+"Retornar a formulario de entrada",
 
 "password_lockout_in_effect" =>
-"Sólo puedes realizar cuatro intentos de inicio de sesión cada %x minuto(s)",
+"Solo tiene permitodos cuatro intentos para acceder cada %x minuto(s)",
 
 "unauthorized_request" =>
-"No estás autorizado para realizar esta acción",
+"No estás autorizado para llevar a cabo esta acción",
+
+"translate" =>
+"Update",
 
 ''=>''
 );

@@ -1,123 +1,138 @@
 <?php
-$L = array(
+$lang = array(
 
 
 "updated_sites_module_name" =>
-"Sitios actualizados",
+"Sitios Actualizados",
 
 "updated_sites_module_description" =>
-"Permite a otros sitios hacerte pings.",
+"Permitir que otros sitios me envien pings.",
 
 "updated_sites_home" =>
 "Panel de Control",
 
 "unauthorized_action" =>
-"No estás autorizado para realizar esta acción.",
+"No estás autorizado para llevar a cabo esta acción.",
 
 "too_many_pings" =>
-"No se ha aceptado el ping. Ya has hecho ping en los últimos %X minutos.",
+"Ping no aceptado. Ya has enviado un ping el los últimos %X minutos.",
 
 "invalid_access" =>
-"Acceso inválido",
+"Acceso Inválido",
 
 "updated_sites_configurations" =>
-"Configuraciones de sitios actualizados",
+"Se Actualizaron las Configuraciones de Sitios",
 
 "updated_sites_config_name" =>
 "Nombre",
 
 "updated_sites_short_name" =>
-"Nombre corto",
+"Nombre Corto",
+
+"updated_sites_short_name_taken" =>
+"Este nombre corto ya se está utilizando.",
 
 "single_word_no_spaces" =>
-"Una sola palabra, sin espacios",
+"Palabra única, sin espacios.",
 
 "updated_sites_config_url" =>
 "URL",
 
-"updated_sites_delete_confirm" =>
-"Borra las configuraciones de sitios actualizados",
+"no_ping_configs" =>
+"Actualmente no hay Configuraciones de sitios Actualizados",
 
-"updated_site_deleted" =>
-"Configuración de sitios actualizados borrada",
+"updated_sites_delete_confirm" =>
+"Borrar Configuraciones de sitios Actualizados",
 
 "updated_sites_deleted" =>
-"Configuraciones de sitios actualizados borradas",
+"Configuraciones de sitios Actualizados Borradas",
+
+"updated_site_deleted" =>
+"Configuracion de sitios Actualizados Borrada",
 
 "metaweblogs_deleted" =>
-"Configuraciones de sitios actualizados borradas",
+"Configuraciones de sitios Actualizados Borradas",
 
 "updated_sites_delete_question" =>
-" ¿Estás seguro que quieres borrar las configuraciones de sitios actualizados seleccionadas?",
+"Estás seguro que deseas borrar la(s) configuracion(es) de Sitios Actualizados seleccionada(s)?",
 
 "delete" =>
 "Borrar",
 
 "updated_sites_missing_fields" =>
-"Se dejó un campo en blanco, por favor, rellénalo y envía otra vez.",
+"Un campo fué dejado vacio, por favor llenalo y envia de nuevo.",
 
 "new_config" =>
-"Nueva configuración",
+"Configuración Nueva",
 
 "modify_config" =>
-"Modificar configuración",
+"Modificar Configuración",
 
 "configuration_options" =>
-"Opciones de configuración",
+"Opciones de Configuración",
 
 "updated_sites_pref_name" =>
-"Nombre de configuración",
+"Nombre de Configuración",
 
 "updated_sites_allowed" =>
-"Se permite a los sitios hacer ping",
+"Sitios Permitidos a Enviar Ping",
 
 "updated_sites_allowed_subtext" =>
-"Para que un sitio te pueda hacer ping, parte de su URL, por ejemplo el dominio, debe estar en esta lista. Separa múltiples sitios con un cambio de l�nea, por favor.",
+"Para que un sitio te envie un ping, parte de su URL, por ejemplo el nombre de dominio, debe estar en esta lista. Separa multiples sitios con un quiebre de línea, por favor.",
 
 "updated_sites_prune" =>
-"¿Número máximo de pings para guardar?",
+"Número máximo de pings a guardar?",
 
 "configuration_created" =>
-"Configuración creada",
+"Configuración Creada",
 
 "configuration_updated" =>
-"Configuración actualizada",
+"Configuración Actualizada",
 
 "updated_sites_create_new" =>
-"Crear una nueva configuración",
+"Crear Nueva Configuración",
 
 "successful_ping" =>
-"El ping se recibió con éxito!",
+"Ping Recibido Exitosamente!",
 
 "view_pings" =>
 "Ver Pings",
 
 "no_pings" =>
-"No Pings",
+"Sin Pings",
 
 "total_pings" =>
-"Total Pings",
+"Total de Pings",
 
 "ping_name" =>
-"Nombre del sitio",
+"Nombre de Sitio",
 
 "ping_url" =>
-"URL de sitio",
+"URL de Sitio",
 
 "ping_rss" =>
-"Sitio RSS",
+"RSS de Sitio",
 
 "ping_date" =>
-"Fecha de ping",
+"Fecha de Ping",
 
 "delete_pings_confirm" =>
-"Borrar confirmación de pings",
+"Borrar Confirmación de Pings",
 
 "ping_delete_question" =>
-"¿Estás seguro que quieres borrar los pings seleccionados?",
+"Estás seguro que deseas borrar los pings seleccionados?",
 
 "pings_deleted" =>
-"Pings borrados",
+"Pings Borrados",
+
+"preference" =>
+"Preferencia",
+
+"setting" =>
+"Configuración",
+
+"translate" =>
+"Update",
 
 ''=>''
 );
