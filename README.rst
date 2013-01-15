@@ -3,7 +3,7 @@ Spanish Translation Pack for ExpressionEngine 2.x
 =================================================
 
 | Copyright (C) 2009-2013 EllisLab, Inc.
-| Original Spanish translation provided by: Carlo Laitano (@carlolaitano)
+| Original Spanish translation provided by: Carlo Laitano (@carlolaitano) and Raul Ferrer (info@raulferrer.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
