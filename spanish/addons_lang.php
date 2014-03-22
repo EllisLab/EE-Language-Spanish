@@ -9,7 +9,7 @@ $lang = array(
 'Accesorios',
 
 'modules' => 
-'Modulos',
+'M&oacute;dulos',
 
 'extensions' => 
 'Extensiones',
@@ -21,16 +21,16 @@ $lang = array(
 'Accesorio',
 
 'module' => 
-'Modulo',
+'M&oacute;dulo',
 
 'extension' => 
-'Extension',
+'Extensi&oacute;n',
 
 'addons_accessories' => 
 'Accesorios',
 
 'addons_modules' => 
-'Modulos',
+'M&oacute;dulos',
 
 'addons_plugins' => 
 'Plugins',
@@ -39,13 +39,13 @@ $lang = array(
 'Extensiones',
 
 'addons_fieldtypes' => 
-'Typos de Campo',
+'Tipos de Campo',
 
 'accessory_name' => 
-'Nombre de Accesorio',
+'Nombre del Accesorio',
 
 'fieldtype_name' => 
-'Nombre de Tipo de Campo',
+'Nombre del Tipo de Campo',
 
 'install' => 
 'Instalar',
@@ -63,16 +63,16 @@ $lang = array(
 'Desinstalado',
 
 'remove' => 
-'Remover',
+'Eliminar',
 
 'preferences_updated' => 
 'Preferencias Actualizadas',
 
 'extension_enabled' => 
-'Extension Habiltada',
+'Extensi&oacute;n Habiltada',
 
 'extension_disabled' => 
-'Extension Deshabilitada',
+'Extensi&oacute;n Deshabilitada',
 
 'extensions_enabled' => 
 'Extensiones Habilitadas',
@@ -81,58 +81,58 @@ $lang = array(
 'Extensiones Deshabilitadas',
 
 'delete_fieldtype_confirm' => 
-'Estas seguro que deseas remover este tipo de campo?',
+'¿Est&aacute; seguro(a) que desea eliminar este tipo de campo?',
 
 'delete_fieldtype' => 
-'Remover Tipo de Campo',
+'Eliminar tipo de campo',
 
 'data_will_be_lost' => 
-'Todos los datos relacionados con este tipo de campo, incluyendo datos de canal asociados, seran borrados permanentemente!',
+'¡Todos los datos relacionados con este tipo de campo, incluyendo datos de canal asociados, seran borrados permanentemente!',
 
 'global_settings_saved' => 
-'Configuracion Guardada',
+'Configuraci&oacute;n guardada',
 
 'package_settings' => 
-'Configuracion de Paquete',
+'Configuraci&oacute;n de paquete',
 
 'component' => 
 'Componente',
 
 'current_status' => 
-'Estatus Actual',
+'Estado actual',
 
 'available_to_member_groups' => 
-'Disponible a Grupos de Miembro',
+'Disponible para miembros del grupo',
 
 'specific_page' => 
-'Pagina Espcifica?',
+'¿P&aacute;gina espc&iacute;fica?',
 
 'description' => 
-'Descripcion',
+'Descripci&oacute;n',
 
 'version' => 
-'Version',
+'Versi&oacute;n',
 
 'status' => 
-'Estatus',
+'Estado',
 
 'edit_accessory_preferences' => 
-'Editar Preferencias de Accesorio',
+'Editar preferencias del accesorio',
 
 'member_group_assignment' => 
-'Grupos de Miembro Asignados',
+'Asignaci&oacute;n de miemros de grupo',
 
 'page_assignment' => 
-'Paginas Asignadas',
+'P&aacute;ginas asignadas',
 
 'none' => 
 'Ninguno',
 
 'and_more' => 
-'y %x mas...',
+'y %x m&aacute;s...',
 
 'translate' => 
-'Update',
+'Traducir',
 
 ''=>''
 );
