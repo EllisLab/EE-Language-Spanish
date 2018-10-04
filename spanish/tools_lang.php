@@ -15,7 +15,7 @@ $lang = array(
 "Utilidades",
 
 "communicate" =>
-"Comunicate",
+"Comunicar",
 
 "config_editor" =>
 "Gestor de Archivo de Configuración",
